@@ -1,4 +1,4 @@
-# website-hugo
+# The Good Docs Marketing Site
 
 Hugo based website using the [docsy](https://github.com/google/docsy/) theme.
 
