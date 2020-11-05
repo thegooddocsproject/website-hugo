@@ -1,6 +1,6 @@
 # website-hugo
 
-Hugo based website for the project.
+Hugo based website using the [docsy](https://github.com/google/docsy/) theme.
 
 ## Setup Local Environment
 
