@@ -11,9 +11,12 @@ Quick instructions for getting started if you're on Mac OSX.
 - Brew installed
 - NodeJS installed
 
-```shell
+### CLI Instructions
 
-# Installs the Hugo Binrary that will be used to build and run the Hugo Server
+These are the step-by-step instructions one can execute to configure a local environment.
+
+```shell
+# Installs the Hugo Binary that will be used to build and run the Hugo Server
 brew install hugo
 
 # Clone the repo locally
