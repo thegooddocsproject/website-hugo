@@ -1,6 +1,6 @@
 # The Good Docs Marketing Site
 
-Hugo based website using the [docsy](https://github.com/google/docsy/) theme.
+A preview of the Hugo based website using the [docsy](https://github.com/google/docsy/) theme, can be found at [https://gdp-hugo.netlify.app/](https://gdp-hugo.netlify.app/).
 
 ## Setup Local Environment
 
