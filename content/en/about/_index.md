@@ -19,7 +19,7 @@ The Good Docs Project provides best practice templates and writing instructions 
 
 Multiple doc types are required to achieve a project’s Minimum Viable Docset. Each serves a different purpose and has differing requirements.
 
-![Plotting doc types within a maturity model](DocTypes.png "Doc Types Diagram")
+![Doc Types Diagram](DocTypes.png "Plotting doc types within a maturity model")
 
 For each doc type we expect to build:
 
