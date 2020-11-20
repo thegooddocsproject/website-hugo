@@ -1,5 +1,5 @@
 <figure class="figure">
-  <img class="figure-img img-fluid" src="DocTypes.png" alt="Plotting doc types within a maturity model">
+  <img class="figure-img img-fluid" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }}>
   {{ with .Title}} 
   <figcaption class="figure-caption">
     <p>{{ . }}</p>
