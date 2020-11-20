@@ -33,6 +33,9 @@ blog = "/:section/:year/:month/:day/:slug/"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
+  [markup.highlight]
+    # See a complete list of available styles at https://xyproto.github.io/splash/docs/all.html
+    style = "tango"
   [markup.goldmark]
     [markup.goldmark.extensions]
       definitionList = true
