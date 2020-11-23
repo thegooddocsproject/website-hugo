@@ -6,21 +6,20 @@ menu:
     weight: 10
 ---
 
-{{< blocks/cover title="About The Good Docs Project" image_anchor="center" height="min" color="light" byline="Photo by Марьян Блан | @marjanblan on Unsplash" >}}
+{{< blocks/cover title="About The Good Docs Project" image_anchor="center" height="min" byline="Photo by Марьян Блан | @marjanblan on Unsplash" >}}
 {{< /blocks/cover >}}
 
 {{% blocks/lead %}}
 The Good Docs Project provides best practice templates and writing instructions that empowers people to document Open Source Software, which incidentally will be directly applicable to other domains too.
 {{% /blocks/lead %}}
 
-{{< blocks/section color="white" >}}
-<div class="col-6 mx-auto">
+{{% blocks/section color="white" type="section" %}}
 
-<h1 class="text-center">Doc Types</h1>
+# Doc Types
 
 Multiple doc types are required to achieve a project’s Minimum Viable Docset. Each serves a different purpose and has differing requirements.
 
-{{< figure src="DocTypes.png" caption="Plotting doc types within a maturity model" alt="Plotting doc types within a maturity model" class="mx-auto text-center small font-weight-bold" >}}
+![Doc Types Diagram](DocTypes.png "Plotting doc types within a maturity model")
 
 For each doc type we expect to build:
 
@@ -31,7 +30,7 @@ For each doc type we expect to build:
 
 We are focusing on content, not doc formats or tool chains, at least not yet.
 
-<h1 class="text-center">Governance</h1>
+# Governance
 
 To address quality and capture collaborative wisdom:
 
@@ -39,10 +38,10 @@ To address quality and capture collaborative wisdom:
 *   With just-enough-governance,
 *   Overseen by a Project Steering Committee.
 
-<h1 class="text-center">Quality</h1>
+# Quality
 
 Document quality requirements differs between doc types and project maturity. We plan to describe doc and process characteristics and processes which lead to maturity, to facilitate discussion around quality.
 
-</div>
+{{% /blocks/section %}}
 
-{{< /blocks/section >}}
+
