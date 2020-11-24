@@ -5,13 +5,14 @@ menu:
   main:
     weight: 10
 ---
+{{% blocks/lead color="primary" %}}
+# About The Good Docs Project
 
-{{< blocks/cover title="About The Good Docs Project" image_anchor="center" height="min" byline="Photo by Марьян Блан | @marjanblan on Unsplash" >}}
-{{< /blocks/cover >}}
-
-{{% blocks/lead %}}
 The Good Docs Project provides best practice templates and writing instructions that empowers people to document Open Source Software, which incidentally will be directly applicable to other domains too.
+
 {{% /blocks/lead %}}
+
+{{< blocks/community_links color="200" >}}
 
 {{% blocks/section color="white" type="section" %}}
 
@@ -19,7 +20,7 @@ The Good Docs Project provides best practice templates and writing instructions 
 
 Multiple doc types are required to achieve a project’s Minimum Viable Docset. Each serves a different purpose and has differing requirements.
 
-![Doc Types Diagram](DocTypes.png "Plotting doc types within a maturity model")
+![Doc Types Diagram](doctypes.png "Plotting doc types within a maturity model")
 
 For each doc type we expect to build:
 
