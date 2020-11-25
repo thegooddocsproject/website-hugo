@@ -4,7 +4,6 @@ menu:
   main:
     weight: 40
 aliases:
-    - /community.html
     - /contact.html
     - /contact
 ---
