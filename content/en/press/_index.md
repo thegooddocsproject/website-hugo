@@ -4,8 +4,6 @@ linkTitle: Press
 menu:
   main:
     weight: 20
-aliases:
-    - /press.html
 ---
 {{% blocks/lead color="primary" %}}
 
