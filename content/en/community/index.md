@@ -60,6 +60,7 @@ We are nice to each other, in line with our [Code of Conduct](https://github.com
 
 ## Additional Resources and Information
 
+* [Who We Are](/who-we-are)
 * [How to Contribute](/contribute)
 * [Roles and responsibilities](/roles)
 * Decisions

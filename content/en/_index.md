@@ -5,6 +5,7 @@ linkTitle: "Home"
 ---
 
 {{< blocks/cover title="The Good Docs Project" image_anchor="top" height="max" color="orange" >}}
+
 <div class="mx-auto">
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="/about">
 		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
@@ -15,15 +16,18 @@ linkTitle: "Home"
 	<p class="lead mt-5">Templates to make good docs.</p>
 	{{< blocks/link-down color="info" >}}
 </div>
+
 {{< /blocks/cover >}}
 
 
 {{% blocks/lead color="primary" %}}
+
 Best practice templates and writing instructions for documenting open source software.
+
 {{% /blocks/lead %}}
 
 
-{{< blocks/section type="section" color="white" >}}
+{{% blocks/section type="section" color="white" %}}
 
 ## Why?
 We want to help open source projects be more effective by helping them lift the quality of their documentation.
@@ -41,7 +45,7 @@ Our key target audiences are:
 * Technical writers setting up a documentation framework, who want to make use of established templates and processes, customizing where appropriate to align with the project's goals.
 * Project owners who need to balance project priorities, and want to understand the return-on-effort associated with different documentation strategies.
 
-{{< /blocks/section >}}
+{{% /blocks/section %}}
 
 
 {{% blocks/section type="section" %}}
@@ -50,6 +54,7 @@ Our key target audiences are:
 
 * The latest development version of templates are available from the [github main branch](https://github.com/thegooddocsproject/templates).
 * The [0.1 alpha straw-man release of templates](https://github.com/thegooddocsproject/templates/releases/tag/v0.1) was released at the 2019 Write The Docs - Australia conference.
+
 {{% /blocks/section %}}
 
 
