@@ -158,7 +158,7 @@ Regards,
 
 ## Next steps
 * Wait untill the person accepts the invitation.
-* Add the person's name to the [/who-we-are](/who-we-are) page.
+* Add the person's name to the [Who We Are](/who-we-are) page.
 * Update our decision register, as per our [decisions](/decisions) process.
 * Add person to appropriate teams in [GitHub](https://github.com/orgs/thegooddocsproject/teams).
 
