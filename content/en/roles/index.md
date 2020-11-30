@@ -150,7 +150,7 @@ We, the Project Steering Committee of The Good Docs Project, have been impressed
 To accept, could you please reply publicly to this email list confirming:
 1. You would like to accept the role.
 1. You feel you meet the eligibility criteria, including your intent to continue participating in this project for a while.
-1. You accept the responsibilities associated with the role, as described in https://thegooddocsproject.dev/roles/.
+1. You accept the responsibilities associated with the role, as described on the [Roles](/roles) page.
 
 Regards,
 
