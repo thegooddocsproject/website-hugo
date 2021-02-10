@@ -1,16 +1,17 @@
 {
-  "name": "tech-doc-hugo",
+  "name": "good-docs-project-website",
   "version": "0.0.1",
-  "description": "Hugo theme for technical documentation.",
-  "main": "none.js",
+  "description": "Website for the Good Docs Project.",
+  "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tweego": "bash scripts/tweego_build.sh"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thegooddocsproject/website-hugo.git"
   },
-  "author": "",
+  "author": "The Good Docs Project",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thegooddocsproject/website-hugo/issues"
