@@ -3,9 +3,6 @@ title: Code Of Conduct
 menu:
   main:
     weight: 30
-aliases:
-    - /code-of-conduct.html
-    - /code-of-conduct
 ---
 
 {{% blocks/lead color="primary" %}}
