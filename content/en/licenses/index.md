@@ -3,7 +3,7 @@ title: Licenses
 linkTitle: Licenses
 menu:
   main:
-    weight: 30
+    weight: 25
 ---
 
 {{% blocks/section color="white" type="section" %}}
