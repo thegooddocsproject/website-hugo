@@ -17,7 +17,7 @@ aliases:
 
 {{% blocks/section color="white" type="section" %}}
 
-`Version 0.2 - Last updated February 2021` -- [Original Source](https://raw.githubusercontent.com/thegooddocsproject/governance/master/CODE_OF_CONDUCT.md)
+`Version 0.2 - Last updated February 2021` // [Original Source](https://raw.githubusercontent.com/thegooddocsproject/governance/master/CODE_OF_CONDUCT.md)
 
 The Good Docs Project and its members, contributors, sponsors, and leaders
 pledge to make participation in our community a positive, inclusive, and safe
