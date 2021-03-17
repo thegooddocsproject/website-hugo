@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "bash scripts/tweego_build.sh && hugo --gc --minify"
+command = "git submodule update --init --recursive && bash scripts/tweego_build.sh && hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.81.0"
@@ -8,13 +8,13 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.deploy-preview]
-command = "bash scripts/tweego_build.sh && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+command = "git submodule update --init --recursive && bash scripts/tweego_build.sh && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.81.0"
 
 [context.branch-deploy]
-command = "bash scripts/tweego_build.sh && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+command = "git submodule update --init --recursive && bash scripts/tweego_build.sh && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.81.0"
