@@ -56,7 +56,7 @@ We expect our members, contributors, and leaders to:
   respectful in your word choice, speech, and actions. Show respect with the
   terms you use to address others.
 - Look out for those around you in the community, especially if you are in a
-  position of influence. Alert [community moderators](https://github.com/thegooddocsproject/governance/blob/master/Community_moderators.md)
+  position of influence. Alert [community moderators](https://github.com/thegooddocsproject/governance/blob/master/COMMUNITY_MODERATORS.md)
   if you notice a dangerous situation, someone in distress, or violations of
   this code of conduct, even if they seem inconsequential.
 - Gracefully accept responsibility and apologize to those affected by any
@@ -137,7 +137,7 @@ and impact level, the moderators may respond by requiring:
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to one of the Good Docs Project
-[community moderators](https://github.com/thegooddocsproject/governance/blob/master/Community_moderators.md). If you would like to discuss
+[community moderators](https://github.com/thegooddocsproject/governance/blob/master/COMMUNITY_MODERATORS.md). If you would like to discuss
 your concerns or if you have personally experienced unacceptable behavior,
 please reach out to a community moderator as soon as possible. Please report all
 violations of these guidelines, even if the situation is not happening to you.
@@ -146,7 +146,7 @@ violations of these guidelines, even if the situation is not happening to you.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to one of the Good Docs Project community moderators. See
-[community moderators](https://github.com/thegooddocsproject/governance/blob/master/Community_moderators.md) for a list of the current
+[community moderators](https://github.com/thegooddocsproject/governance/blob/master/COMMUNITY_MODERATORS.md) for a list of the current
 moderators. All complaints will be reviewed and investigated promptly and
 fairly. If possible, community moderators will recuse themselves in cases where
 there is a conflict of interest.
