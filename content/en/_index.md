@@ -13,7 +13,7 @@ linkTitle: "Home"
 	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="/contribute">
 		Contribute <i class="fab fa-github ml-2 "></i>
 	</a>
-	<p class="lead mt-5">Templates to make good docs.</p>
+	<p class="lead mt-5">Best practice templates and writing instructions for documenting open source software.</p>
   <h6>  
     Photo by <a href="https://unsplash.com/@patrickian4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Fore</a> on <a href="https://unsplash.com/s/photos/technical-writer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </h6>
@@ -21,13 +21,6 @@ linkTitle: "Home"
 </div>
 
 {{< /blocks/cover >}}
-
-
-{{% blocks/lead color="primary" %}}
-
-Best practice templates and writing instructions for documenting open source software.
-
-{{% /blocks/lead %}}
 
 
 {{% blocks/section type="section" color="white" %}}
@@ -48,20 +41,10 @@ Our key target audiences are:
 * Technical writers setting up a documentation framework, who want to make use of established templates and processes, customizing where appropriate to align with the project's goals.
 * Project owners who need to balance project priorities, and want to understand the return-on-effort associated with different documentation strategies.
 
-{{% /blocks/section %}}
-
-
-{{% blocks/section type="section" %}}
-
 ## Download
 
 * The latest development version of templates are available from the [github main branch](https://github.com/thegooddocsproject/templates).
 * The [0.1 alpha straw-man release of templates](https://github.com/thegooddocsproject/templates/releases/tag/v0.1) was released at the 2019 Write The Docs - Australia conference.
-
-{{% /blocks/section %}}
-
-
-{{% blocks/section type="section" %}}
 
 ## 2021 Initiatives
 The following initiatives are being worked on in 2021:
@@ -75,11 +58,6 @@ And possibly:
 * Implementing a style guide in tools
 * Integrate doc tool chains
 * Doc format conversion tools
-
-{{% /blocks/section %}}
-
-
-{{< blocks/section >}}
 
 <div class="col-12 text-center">
   <a href="https://www.netlify.com">

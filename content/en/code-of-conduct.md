@@ -1,8 +1,6 @@
 ---
 title: Code Of Conduct
-menu:
-  main:
-    weight: 30
+
 ---
 
 {{% blocks/lead color="primary" %}}
