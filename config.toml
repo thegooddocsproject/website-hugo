@@ -29,7 +29,7 @@ pygmentsStyle = "tango"
 
 # Configure how URLs look like per section.
 [permalinks]
-blog = "/:section/:year/:month/:day/:slug/"
+blog = "/:section/:slug/"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
@@ -160,16 +160,6 @@ enable = false
 	url = "https://thegooddocsproject.groups.io/g/main"
 	icon = "fa fa-envelope"
   desc = "Development Discussion"
-[[params.links.user]]
-	name = "Announcements list"
-	url = "https://thegooddocsproject.groups.io/g/announce"
-	icon = "fa fa-envelope"
-  desc = "Announcements about releases and key events (typically monthly)."
-[[params.links.user]]
-	name = "Season of Docs list"
-	url = "https://thegooddocsproject.groups.io/g/season-of-docs/"
-	icon = "fa fa-envelope"
-  desc = "Questions to our mentors about our Season of Docs involvement"
 [[params.links.user]]
 	name ="Twitter"
 	url = "https://twitter.com/thegooddocs"
