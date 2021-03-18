@@ -45,7 +45,7 @@ Working together, we hope to provide templates that feature the best guidance th
 
 ## Community Governance
 
-We strive to foster a [safe and welcoming community](code-of-conduct) where everyone with an interest in improving documentation can make a meaningful contribution.
+We strive to foster a [safe and welcoming community](/code-of-conduct) where everyone with an interest in improving documentation can make a meaningful contribution.
 Your perspectives and best efforts are welcome regardless of whether you are a developer, technical writer, information architect, UX designer, product manager, or are completely new to open source development.
 
 We govern our community with a democratic, just-enough-governance model that is overseen by a project steering committee.
