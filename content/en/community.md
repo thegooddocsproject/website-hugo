@@ -67,6 +67,6 @@ We are nice to each other, in line with our [Code of Conduct](/code-of-conduct/)
   * [Voting process](/decisions)
   * [Prioritization guidelines and principles](/prioritization)
   * [Proposal selection process](/proposal-selection)
-  * [Decision log](/decisionlog)
+  * [Decision log](/decisions/#project-decision-log-archives)
 
 {{% /blocks/section %}}
