@@ -17,6 +17,7 @@ Read the latest news and headlines regarding The Good Docs Project and how our b
 
 ## Featured Press
 
+* __2020-11-25__ - [Good docs, anyone?](https://medium.com/@viraji/good-docs-anyone-6a795a0751f4) Viraji Ogodapola’s description about how helping the Good Docs helped her.
 * __2020-11-17__ - [Documentation templates and The Good Docs Project](https://idratherbewriting.com/blog/documentation-templates-good-docs-project/): Ankita Tripathi's journey into The Good Docs Project.
 * __2020-09-22__ - "Tech Writing Patterns and Anti-Patterns", and how these are getting tackled by The Good Docs Project. Presented at Write the Docs Australia virtual meetup by Cameron Shorter: [Video](https://www.youtube.com/watch?v=yiGFbXYyCr0&feature=youtu.be) and [slides](https://docs.google.com/presentation/d/1yFJ2WL-l8O1vnNR67bFfmzHu6tyJjtkJD-cSyH3mNes/).
 * __2020-09-18__ - [Google's Open Source Peer Bonus awards for Jared Morgan and Jo Cook](http://cameronshorter.blogspot.com/2020/09/awards-for-open-source-tech-writers.html).
