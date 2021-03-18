@@ -9,7 +9,7 @@ menu:
 
 # About The Good Docs Project
 
-The Good Docs Project provides best practice templates and writing instructions that empowers people to document Open Source Software, which incidentally will be directly applicable to other domains too.
+The goal of the Good Docs Project is to improve open source software documentation by providing high quality [templates and writing instructions](https://github.com/thegooddocsproject/templates) to the open source community and beyond.
 
 {{% /blocks/lead %}}
 
@@ -17,34 +17,38 @@ The Good Docs Project provides best practice templates and writing instructions 
 
 {{% blocks/section color="white" type="section" %}}
 
-# Documentation Types
+## The Minimum Viable Docset
 
-Multiple documentation (doc) types are required to achieve a project’s Minimum Viable Docset. 
-Each serves a different purpose and has differing requirements.
+Similar to a minimum viable product, a minimum viable docset (MVD) is just enough documentation content to be helpful to end users and project contributors at various stages in the project's maturity.
+At the Good Docs Project, our goal is to define what is needed for an MVD and provide templates for the types of core documentation needed at each stage.
+
+Multiple documentation (doc) types are required to achieve a project’s MVD.
+
+Each serves a different purpose and has differing requirements:
 
 ![Doc Types Diagram](/uploads/doctypes.png "Plotting doc types within a maturity model")
 
 For each doc type we expect to build:
 
-*   A template, embedded with concise writing instructions.
-*   Example(s).
-*   Deeper practical tips and explanations and justification for approaches. 
-*   Collated background theory.
+- A template, embedded with concise writing instructions that explain how to implement the template
+- At least one high quality example of that template in action
+- Deeper practical tips and explanations of different possible approaches
+- The necessary theory and context for our recommended best practices
 
-We are focusing on content, not doc formats or tool chains, at least not yet.
+Our primary focus at this phase is on providing content.
 
-# Governance
+## Documentation Quality
 
-To address quality and capture collaborative wisdom:
+The Good Docs Project includes contributions from a vibrant and healthy community of technical writers who are passionate about making high quality templates.
+Each template goes through a rigorous writing, reviewing, and refining process.
+Working together, we hope to provide templates that feature the best guidance that the technical writing community has to offer.
 
-*   We will apply a write/review/refine/reiterate process,
-*   With just-enough-governance,
-*   Overseen by a Project Steering Committee.
+## Community Governance
 
-# Quality
+We strive to foster a [safe and welcoming community](code-of-conduct) where everyone with an interest in improving documentation can make a meaningful contribution.
+Your perspectives and best efforts are welcome regardless of whether you are a developer, technical writer, information architect, UX designer, product manager, or are completely new to open source development.
 
-Document quality requirements differs between doc types and project maturity. We plan to describe doc and process characteristics and processes which lead to maturity, to facilitate discussion around quality.
+We govern our community with a democratic, just-enough-governance model that is overseen by a project steering committee.
+See our [community](/community) page for more information.
 
 {{% /blocks/section %}}
-
-
