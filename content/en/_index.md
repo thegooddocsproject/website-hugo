@@ -14,6 +14,9 @@ linkTitle: "Home"
 		Contribute <i class="fab fa-github ml-2 "></i>
 	</a>
 	<p class="lead mt-5">Templates to make good docs.</p>
+  <h6>  
+    Photo by <a href="https://unsplash.com/@patrickian4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Fore</a> on <a href="https://unsplash.com/s/photos/technical-writer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  </h6>
 	{{< blocks/link-down color="info" >}}
 </div>
 

@@ -1,10 +1,17 @@
 ---
 title: Licenses
-linkTitle: Licenses
 menu:
   main:
-    weight: 25
+    weight: 40
 ---
+
+{{% blocks/lead color="primary" %}}
+
+# Licenses for The Good Docs Project
+
+Templates, documentation, website content and the project Contribution Agreement.
+
+{{% /blocks/lead %}}
 
 {{% blocks/section color="white" type="section" %}}
 

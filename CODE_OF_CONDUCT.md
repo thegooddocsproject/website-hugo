@@ -1,20 +1,6 @@
----
-title: Code Of Conduct
-menu:
-  main:
-    weight: 30
----
+# Code of Conduct - The Good Docs Project
 
-{{% blocks/lead color="primary" %}}
-
-# Code of Conduct
-
-{{% /blocks/lead %}}
-
-
-{{% blocks/section color="white" type="section" %}}
-
-`Version 0.2 - Last updated February 2021` // [Original Source](https://raw.githubusercontent.com/thegooddocsproject/governance/master/CODE_OF_CONDUCT.md)
+`Version 0.2 - Last updated February 2021`
 
 The Good Docs Project and its members, contributors, sponsors, and leaders
 pledge to make participation in our community a positive, inclusive, and safe
@@ -56,7 +42,7 @@ We expect our members, contributors, and leaders to:
   respectful in your word choice, speech, and actions. Show respect with the
   terms you use to address others.
 - Look out for those around you in the community, especially if you are in a
-  position of influence. Alert [community moderators](https://github.com/thegooddocsproject/governance/blob/master/COMMUNITY_MODERATORS.md)
+  position of influence. Alert [community moderators](Community_moderators.md)
   if you notice a dangerous situation, someone in distress, or violations of
   this code of conduct, even if they seem inconsequential.
 - Gracefully accept responsibility and apologize to those affected by any
@@ -137,7 +123,7 @@ and impact level, the moderators may respond by requiring:
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to one of the Good Docs Project
-[community moderators](https://github.com/thegooddocsproject/governance/blob/master/COMMUNITY_MODERATORS.md). If you would like to discuss
+[community moderators](Community_moderators.md). If you would like to discuss
 your concerns or if you have personally experienced unacceptable behavior,
 please reach out to a community moderator as soon as possible. Please report all
 violations of these guidelines, even if the situation is not happening to you.
@@ -146,7 +132,7 @@ violations of these guidelines, even if the situation is not happening to you.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to one of the Good Docs Project community moderators. See
-[community moderators](https://github.com/thegooddocsproject/governance/blob/master/COMMUNITY_MODERATORS.md) for a list of the current
+[community moderators](Community_moderators.md) for a list of the current
 moderators. All complaints will be reviewed and investigated promptly and
 fairly. If possible, community moderators will recuse themselves in cases where
 there is a conflict of interest.
@@ -196,5 +182,3 @@ following resources, listed alphabetically:
 - [No more rock stars: how to stop abuse in tech communities](https://hypatia.ca/2016/06/21/no-more-rock-stars/)
 - [Otter Tech Code of Conduct Enforcement Training](https://otter.technology/code-of-conduct-training/)
 - [Rust Community Code of Conduct](https://www.rust-lang.org/policies/code-of-conduct)
-
-{{% /blocks/section %}}

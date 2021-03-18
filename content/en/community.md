@@ -2,10 +2,10 @@
 title: Community and Contact
 menu:
   main:
-    weight: 40
+    name: Community
+    weight: 20
 aliases:
     - /contact.html
-    - /contact
 ---
 
 {{% blocks/lead color="primary" %}}
@@ -54,9 +54,9 @@ All interested in contributing are welcome.
 
 Minutes from our weekly meetings can be accessed from [here](https://github.com/thegooddocsproject/governance/wiki/Weekly-Meetings). 
 
-### Code of conduct
+### Code of Conduct
 
-We are nice to each other, in line with our [Code of Conduct](https://github.com/thegooddocsproject/governance/blob/master/CodeOfConduct.md).
+We are nice to each other, in line with our [Code of Conduct](/code-of-conduct/).
 
 ## Additional Resources and Information
 

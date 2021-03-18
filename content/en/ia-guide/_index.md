@@ -1,5 +1,9 @@
 ---
 title: Information Architecture Guide
+menu:
+  main:
+    name: IA Guide
+    weight: 80
 ---
 {{% blocks/lead color="primary" %}}
 

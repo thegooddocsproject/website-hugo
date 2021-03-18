@@ -3,7 +3,7 @@ title: Press The Good Docs Project
 linkTitle: Press
 menu:
   main:
-    weight: 20
+    weight: 50
 ---
 {{% blocks/lead color="primary" %}}
 
