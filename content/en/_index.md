@@ -63,10 +63,9 @@ Our key target audiences are:
 
 {{% blocks/section type="section" %}}
 
-## 2020 Initiatives
-The following initiatives are being worked on in 2020:
+## 2021 Initiatives
+The following initiatives are being worked on in 2021:
 * Templates
-* Information architecture guide
 * Cross-domain management of glossaries 
 * How-to for style guides
 * Base template (template for templates)
