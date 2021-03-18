@@ -21,10 +21,10 @@
 </section>
 
 {{ define "community-links-list" }}
-<ul>
+<ul style="list-style:none; padding-left:0;">
  {{ range . }}
  <li title="{{ .name }}">
-   <a target="_blank" href="{{ .url }}"><i class="{{ .icon }}"></i> {{ .name }}:</a> {{ .desc }}
+   <a target="_blank" href="{{ .url }}"><i class="{{ .icon }}"></i>&nbsp;&nbsp;{{ .name }}:</a> {{ .desc }}
  </li>
   {{ end }}
 </ul>
