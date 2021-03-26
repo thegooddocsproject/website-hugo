@@ -44,7 +44,7 @@ Our thanks to previous PSC members:
 -   Jared Morgan
 -   Lana Brindley
 
-PSC members may retire any time. If a PSC member becomes inactive, for multiple quarters, it may time to retire. (Ex-members will typically be welcomed back if they become active again.) An inactive member may be invited to retire. If unresponsive they may be removed by the existing PSC.
+PSC members may retire any time. If a PSC member becomes inactive, for multiple quarters, it may be time to retire. (Ex-members will typically be welcomed back if they become active again.) An inactive member may be invited to retire. If unresponsive they may be removed by the existing PSC.
 
 ## Mentors
 Informal and semi-formal mentoring is a natural part of our community which we encourage and enjoy.
