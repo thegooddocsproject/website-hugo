@@ -26,7 +26,7 @@ Multiple documentation (doc) types are required to achieve a project’s MVD.
 
 Each serves a different purpose and has differing requirements:
 
-![Doc Types Diagram](/uploads/doctypes.png "Plotting doc types within a maturity model")
+![Doc Types Diagram](/uploads/doctypes.svg "Plotting doc types within a maturity model")
 
 For each doc type we expect to build:
 
