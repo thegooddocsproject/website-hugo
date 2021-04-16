@@ -1,0 +1,71 @@
+{{ define "main" }}
+<a class="td-offset-anchor"></a>
+<section class="td-content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1 class="mb-4">Working Group - {{ .Title }}</h1>
+      </div>
+      <div class="col-md-4">
+        <div class="w-100 d-flex flex-wrap justify-content-between">
+          {{ with .Params.notesURL }}
+          <div class="mb-2">
+            <a class="btn btn-primary d-inline-flex justify-content-center align-items-center" href="{{ . }}" target="_blank">
+              <img class="mr-2" src="/icons/Notes.svg" alt="Notes Logo" width="20" height="20">
+              <span>NOTES</span>
+            </a>
+          </div>
+          {{ end }}
+          {{ if .Params.slackID }}
+          <div>
+            <a class="btn btn-primary d-inline-flex justify-content-center align-items-center" href="https://thegooddocs.slack.com/archives/{{ .Params.slackID }}" target="_blank">
+              <img class="mr-2" src="/icons/Slack_Mark.svg" alt="Slack Logo" width="18" height="18">
+              <span>#{{ .Params.slackName }}</span>
+            </a>
+          </div>
+          {{ end }}    
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8 order-2 order-md-1">
+        <h3 class="mb-3">Information</h3>
+        {{ if .Content }}
+          {{ .Content }}
+        {{ else }}
+          <p><i>Project does not have any additional details to share at this time. Please see the information to the right to contact project members for more information.</i></p>
+        {{ end }}
+      </div>
+      <div class="col-md-4 order-1 order-md-2">
+        <h3 class="mb-3">Details</h3>
+        <p>
+        {{ with .Params.status }}
+        <strong>Status:</strong> {{ . | markdownify }}
+        <br>
+        {{ end }}
+        {{ with .Params.poc }}
+        <strong>Point of Contact:</strong> {{ . | markdownify }}
+        <br>
+        {{ end }}
+        {{ with .Params.meeting }}
+        <strong>Meetings:</strong> {{ . | markdownify }}
+        <br>
+        {{ end }}
+        <h3 class="mb-3">Description</h3>
+        {{ with .Description }}
+          {{ . }}
+        {{ end }}
+        {{ with .Params.members }}
+        </p>
+        <h3 class="my-3">Members</h3>
+        <ul class="list-unstyled">
+          {{ range . }}
+          <li>{{ . | markdownify }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
