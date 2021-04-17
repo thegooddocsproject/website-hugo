@@ -17,6 +17,7 @@ members:
 draft: false
 ---
 
-Every open source community should have some core community documentation like a good README, Contributing Guide, PR and issue templates, Code of Conduct, RFCs, and more. This working group is collaborating together to provide high-quality templates and best practices for the types of documentation your project needs to attract and retain active contributors.
+Every open source community should have some core community documentation like a good README, Contributing Guide, PR and issue templates, Code of Conduct, RFCs, and more.
+This working group is collaborating together to provide high-quality templates and best practices for the types of documentation your project needs to attract and retain active contributors.
 
 If you're passionate about creating healthy open source communities and ensuring everyone who joins a community can find a meaningful way to start contributing as soon as possible, then this is the working group for you!
