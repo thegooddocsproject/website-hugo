@@ -13,8 +13,14 @@
         <div class="card-body">
           <p class="card-text">{{ .Description | markdownify }}</p>
         </div>
-        <div class="card-footer text-right">
-          <a href="{{ .RelPermalink }}" class="btn btn-primary">Group Details</a>
+        <div class="card-footer">
+          <div class="w-100 d-flex flex-wrap justify-content-end">
+            <div>
+              <a href="{{ .RelPermalink }}" class="btn btn-primary d-inline-flex justify-content-center align-items-center">
+                <i class="fas fa-info-circle mr-2"></i>
+                <span>Learn More</span></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
