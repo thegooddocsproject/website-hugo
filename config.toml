@@ -156,7 +156,12 @@ enable = false
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-	name = "Primary mailing list"
+	name = "GitHub Organization"
+	url = "https://github.com/thegooddocsproject"
+	icon = "fab fa-github"
+  desc = "All projects for this organization."
+[[params.links.user]]
+	name = "Primary Mailing List"
 	url = "https://thegooddocsproject.groups.io/g/main"
 	icon = "fa fa-envelope"
   desc = "Development Discussion"
@@ -164,20 +169,21 @@ enable = false
 	name ="Twitter"
 	url = "https://twitter.com/thegooddocs"
 	icon = "fab fa-twitter"
-  desc = "Follow us on Twitter to get the latest news!"
+  desc = "Follow us on Twitter to get the latest news."
+
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
-	name = "The Good Docs Project on GitHub"
-	url = "https://github.com/thegooddocsproject"
-	icon = "fab fa-github"
-  desc = "All projects for this organization."
+	name ="Working Groups"
+	url = "/working-group/"
+	icon = "fas fa-users-cog"
+  desc = "Join a Working Group to guide the future of the project."
 [[params.links.developer]]
-	name = "The Good Docs Project Slack Workspace"
+	name = "Slack Workspace"
 	url = "https://thegooddocs.slack.com"
 	icon = "fab fa-slack"
-  desc = "Chat with other project developers"
+  desc = "Chat with other project members."
 [[params.links.developer]]
 	name = "Slack Join Link"
 	url = "https://join.slack.com/t/thegooddocs/shared_invite/enQtODkyNjI5MDc0NjE0LTUyNGFiZmU1MjIzNDMwN2E3NmQwODQwZmRkYWI5MDhlMzdjYzg4Nzg4YjM3ODA0NGE4MTgyYzdkMGViMTI2MDM"
 	icon = "fab fa-slack"
-  desc = "To join The Good Docs Project Slack Workspace"
+  desc = "To join The Good Docs Project Slack Workspace."
