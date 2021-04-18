@@ -1,5 +1,6 @@
 ---
 title: Working Groups
+description: Find and join our Working Groups to help the Good Docs Project progress toward our shared goals.
 draft: false
 ---
 
