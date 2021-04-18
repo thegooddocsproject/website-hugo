@@ -16,28 +16,29 @@ TheGoodDocsProject Project Steering Committee (PSC) is the official managing bod
 
 ## PSC Members
 
--   Cameron Shorter, chair
+-   Alyssa Rock, chair
 -   Aaron Peters
 -   Aidan Doherty
--   Alyssa Rock
 -   Ankita Tripathi
 -   Bryan Klein
--   Clarence Cromwell
+-   Cameron Shorter
 -   Erin McKean
 -   Morgan Craft
 -   Viraji Ogodapola
 
 Our thanks to previous PSC members:
 
--   Jennifer Rondeau
 -   Becky Todd
--   Jo Cook
--   Jared Morgan
+-   Clarence Cromwell
 -   Felicity Brand
+-   Jared Morgan
+-   Jennifer Rondeau
+-   Jo Cook
 
 ## Committers
 
 -   Chris Ward
+-   Clarence Cromwell
 -   Daniel Beck
 -   Derek Ardolf
 -   Felicity Brand
