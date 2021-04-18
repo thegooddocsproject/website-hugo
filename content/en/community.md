@@ -54,7 +54,12 @@ All interested in contributing are welcome.
 
 Minutes from our weekly meetings can be accessed from [here](https://github.com/thegooddocsproject/governance/wiki/Weekly-Meetings). 
 
-### Code of Conduct
+## Working Groups 
+
+Working Groups are established to make progress in many areas of effort related to The Good Docs Project.
+See the current list of [Working Groups](/working-group) to explore the opportunities available to all members.
+
+## Code of Conduct
 
 We are nice to each other, in line with our [Code of Conduct](/code-of-conduct/).
 
@@ -63,6 +68,7 @@ We are nice to each other, in line with our [Code of Conduct](/code-of-conduct/)
 * [Who We Are](/who-we-are)
 * [How to Contribute](/contribute)
 * [Roles and responsibilities](/roles)
+* [Working Groups](/working-group)
 * Decisions
   * [Voting process](/decisions)
   * [Prioritization guidelines and principles](/prioritization)

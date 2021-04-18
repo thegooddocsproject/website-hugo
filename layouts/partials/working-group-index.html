@@ -1,16 +1,26 @@
-<div class="section-index">
+<div class="section-index my-4">
   {{ $pages := (where .Site.Pages "Section" .Section).ByWeight }}
   {{ $parent := .Page }}
   <br>
   <div class="row">
     {{ range $pages }}
     {{ if eq .Parent $parent }}
-    <div class="col-sm-6">
-      <div class="card">
+    <div class="col-sm-6 mb-4 d-flex align-items-stretch">
+      <div class="card flex-fill">
+        <div class="card-header">
+          <strong>{{- .Title -}}</strong>
+        </div>
         <div class="card-body">
-          <h5 class="card-title">{{- .Title -}}</h5>
           <p class="card-text">{{ .Description | markdownify }}</p>
-          <a href="{{ .RelPermalink }}" class="btn btn-primary">More Details</a>
+        </div>
+        <div class="card-footer">
+          <div class="w-100 d-flex flex-wrap justify-content-end">
+            <div>
+              <a href="{{ .RelPermalink }}" class="btn btn-primary d-inline-flex justify-content-center align-items-center">
+                <i class="fas fa-info-circle mr-2"></i>
+                <span>Learn More</span></a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
