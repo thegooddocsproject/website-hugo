@@ -1,6 +1,6 @@
 # The Good Docs Marketing Site
 
-A preview of the Hugo based website using the [docsy](https://github.com/google/docsy/) theme, can be found at [https://gdp-hugo.netlify.app/](https://gdp-hugo.netlify.app/).
+A Hugo based website using the [docsy](https://github.com/google/docsy/) theme for the Good Docs Project.
 
 ## Setup Local Environment
 
@@ -14,6 +14,7 @@ Quick instructions for getting started if you're on Mac OSX.
 ### CLI Instructions
 
 These are the step-by-step instructions one can execute to configure a local environment.
+Note: This does use a git submodule for the Docsy theme, so using the correct git clone command is important.
 
 ```shell
 # Installs the Hugo Binary that will be used to build and run the Hugo Server
