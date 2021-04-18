@@ -1,6 +1,6 @@
 # The Good Docs Marketing Site
 
-A Hugo based website using the [docsy](https://github.com/google/docsy/) theme for the Good Docs Project.
+A Hugo based site using the [docsy](https://github.com/google/docsy/) theme for the [Good Docs Project](https://thegooddocsproject.dev/).
 
 ## Setup Local Environment
 
