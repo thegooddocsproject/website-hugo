@@ -18,7 +18,6 @@ Our group's mission statement: Educating the public on strong documentation phil
 One part of improving docs in open source is getting buy-in from developers about why docs matter.
 Another part is helping people interested in good documentation learn how to create it!
 
-
 Join this group if you’re interested in working on videos, scripts, blog entries, white papers, or any other kind of media that will promote documentation fundamentals and best practices.
 Our group's working model is largely distributed efforts to create content, brought together in review and scheduled by one of the lead publishers.
 We're looking for people who want to offer doc advocacy and practices, or who want to learn those things and be involved with critiquing submitted content.
