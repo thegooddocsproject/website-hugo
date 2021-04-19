@@ -5,7 +5,7 @@ meeting: Once per week (on Google Meet).
 status: Active
 description: Use the base template to create new doctype templates; apply insights from that process to improve the base template.
 slackName: base-template
-slackID: C01T803GT34
+slackID: C01U0A46KN2
 notesURL: https://docs.google.com/document/d/1jKFy7rQ7Rv4nP797cwuLssrbplFQ2ZIM_XewsV0Xj1Q/edit#
 members:
   - "[Aidan Doherty](https://thegooddocs.slack.com/team/U019868JEQ0)"
