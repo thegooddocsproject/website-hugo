@@ -32,3 +32,7 @@ npm install
 # Run the build process/http service
 hugo server
 ```
+
+## Working Groups Content
+
+For guidance on the purpose, operation and creation/maintenance of site content for Working Groups see [Working Group Guidelines](https://github.com/thegooddocsproject/governance/blob/master/Working_Group_Guidelines.md) in the Governance repository.
