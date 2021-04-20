@@ -1,7 +1,6 @@
-<div class="section-index my-4">
+<div class="section-index mb-4">
   {{ $pages := (where .Site.Pages "Section" .Section).ByWeight }}
   {{ $parent := .Page }}
-  <br>
   <div class="row">
     {{ range $pages }}
     {{ if eq .Parent $parent }}
