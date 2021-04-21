@@ -8,7 +8,9 @@ Expand the section below based on how you would like to contribute changes to th
 
 <details><summary>Edit Online with Gitpod</summary>
 <p>
-  
+
+Learn more with the [Gitpod Docs](https://www.gitpod.io/docs)
+
 ### Create a Free Gitpod Account
 
 You only have to do this step the first time, to create a Gitpod account, after that you can just click the green buttons.
