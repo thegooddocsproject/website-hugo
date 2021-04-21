@@ -1,4 +1,15 @@
 image: klakegg/hugo:0.82.0-ext-alpine
+github:
+  prebuilds:
+    # enable for the master/default branch (defaults to true)
+    master: false
+    # enable for all branches in this repo (defaults to false)
+    branches: false
+    # enable for pull requests coming from this repo (defaults to true)
+    pullRequests: true
+    # add a check to pull requests (defaults to true)
+    addCheck: true
+    # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
+    addComment: true
 tasks:
-  - init: git submodule update --init --recursive && npm install
   - command: hugo server --buildDrafts --buildFuture --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false
