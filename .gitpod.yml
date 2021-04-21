@@ -1,0 +1,3 @@
+image: klakegg/hugo:0.82.0-ext-alpine
+tasks:
+  - command: hugo server --buildDrafts --buildFuture --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false
