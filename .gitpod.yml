@@ -1,3 +1,4 @@
 image: klakegg/hugo:0.82.0-ext-alpine
 tasks:
+  - init: git submodule update --init --recursive && npm install
   - command: hugo server --buildDrafts --buildFuture --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false
