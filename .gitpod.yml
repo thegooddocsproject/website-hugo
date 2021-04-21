@@ -11,5 +11,8 @@ github:
     addCheck: true
     # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
     addComment: true
+ports:
+  - port: 1313
+    onOpen: open-preview
 tasks:
   - command: hugo server --buildDrafts --buildFuture --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false
