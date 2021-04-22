@@ -18,6 +18,9 @@ draft: false
 A key initiative for The Good Docs Project is creating doctype templates that can be used to quickly and easily create documentation.
 For this working group, we are looking for technical writers and other interested folks who want to collaborate on creating the ideal page structure for different types of doc pages. 
 
-We plan to use the base template (a "template of templates") that we've created as the starting point for this work. We also take inspiration from the doc types in the Divio Documentation System. Join this group to get your hands dirty on the content/editorial side of the project. We will divide up the remaining tasks to write new templates.
+We plan to use the base template (a "template of templates") that we've created as the starting point for this work.
+We also take inspiration from the doc types in the Divio Documentation System.
+Join this group to get your hands dirty on the content/editorial side of the project.
+We will divide up the remaining tasks to write new templates.
 
 Our primary goal is to finalize enough templates to power a demo at an upcoming conference.
