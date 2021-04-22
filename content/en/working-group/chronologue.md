@@ -17,4 +17,5 @@ draft: false
 Examples are good. They help templateers demonstrate how a template works and they help readers understand a complex concept.
 We want to avoid using 'foo' and 'bar' - the Lorem Ipsum of code placeholders.
 We're working to create a fake software product (and the world it exists in) to allow templateers and documentarians to have a wealth of meaningful contextual examples for use in documentation.
+
 Everyone is welcome to come and play with us. If you've always wanted to create a fake API or design a fake UI, this is the group for you. If you've got a flair for fiction writing, world-building or simply want to come and have some fun, please join us.
