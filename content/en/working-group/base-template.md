@@ -1,7 +1,7 @@
 ---
 title: Base Template
 poc: "[Aidan Doherty](https://thegooddocs.slack.com/team/U019868JEQ0)"
-meeting: Once per week (on Google Meet).
+meeting: Thursdays at 2 p.m. Pacific Time (on Google Meet).
 status: Active
 description: Use the base template to create new doctype templates; apply insights from that process to improve the base template.
 slackName: base-template
