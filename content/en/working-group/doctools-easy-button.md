@@ -20,8 +20,8 @@ members:
 draft: false
 ---
 
-One of the biggest hurdles to creating good documentation is setting up your initial documentation toolchain. Join this group to collaborate with our docs tool experts who are working on creating a Hugo/Docsy repository that can be easily cloned to set up a new documentation system for a project.
-
+One of the biggest hurdles to creating good documentation is setting up your initial documentation toolchain.
+Join this group to collaborate with our docs tool experts who are working on creating a Hugo/Docsy repository that can be easily cloned to set up a new documentation system for a project.
 The example site included in the project will use the templates from the Good Docs Project for each content type.
 
 Our primary goal is to provide a new documentation website starting point for anyone, almost instantly, with a single click of a button.
