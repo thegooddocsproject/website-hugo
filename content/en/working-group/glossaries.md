@@ -19,6 +19,8 @@ draft: false
 
 The goal of our community is to create a template for glossaries that can be easily integrated by anyone creating glossaries for their own project. The pilot will build processes and tools for the generic use case, developing and applying them within the geospatial mapping domain.
 
-We plan to use the base template (a "template of templates") that we've created as the starting point to create a template for glossaries. We will also create a process for a central glossary owner to accept, triage, and refine proposals for new terms from their community.
+* We plan to use the base template (a "template of templates") that we've created as the starting point to create a template for glossaries.
+* We will establish processes for sharing terms between organizations and glossaries.
+* We will create a process for a central glossary owner to accept, triage, and refine proposals for new terms from their community.
 
 Our primary goal is to create glossaries for organizations like OSGeo, ESRI, or GRASS to hold them as examples using tools like Glossarist.
