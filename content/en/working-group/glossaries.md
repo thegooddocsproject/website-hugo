@@ -6,7 +6,7 @@ status: Active
 description: Creating cross-organizational and inter-operable glossaries with a standardised format for terms and definitions.
 slackName: glossaries
 slackID: C019A1EQJMC
-notesURL: https://docs.google.com/document/d/1Fjrl34ErnYammel9WmvXJ3rMWFANjoSiiGyyNSYOXUg/
+notesURL: https://docs.google.com/document/d/1yzncnQB7uYktPnAQ4DqZYVPDdYnqDrWmqHzcpXrjkPg/
 members:
   - "[Ankita Tripathi](https://thegooddocs.slack.com/team/D016LHJPDSR)"
   - "[Cameron Shorter](https://thegooddocs.slack.com/team/UKTGLQNGG)"
