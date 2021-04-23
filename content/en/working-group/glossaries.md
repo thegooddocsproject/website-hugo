@@ -1,7 +1,7 @@
 ---
 title: Glossaries
 poc: "[Cameron Shorter](https://thegooddocs.slack.com/team/UKTGLQNGG)"
-meeting: Monthly on Tuesdays at 7AM UTC(on Google Meet)
+meeting: Monthly on third Tuesdays of the month, at 7AM UTC (on Google Meet)
 status: Active
 description: Creating cross-organizational and inter-operable glossaries with a standardised format for terms and definitions.
 slackName: glossaries
