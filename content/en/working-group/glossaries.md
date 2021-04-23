@@ -17,7 +17,8 @@ members:
 draft: false
 ---
 
-The goal of our community is to create a template for glossaries that can be easily integrated by anyone creating glossaries for their own project. The pilot will build processes and tools for the generic use case, developing and applying them within the geospatial mapping domain.
+The goal of our community is to create a template for glossaries that can be easily integrated by anyone creating glossaries for their own project.
+The pilot will build processes and tools for the generic use case, developing and applying them within the geospatial mapping domain.
 
 * We plan to use the base template (a "template of templates") that we've created as the starting point to create a template for glossaries.
 * We will establish processes for sharing terms between organizations and glossaries.
