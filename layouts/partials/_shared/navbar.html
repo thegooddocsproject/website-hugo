@@ -11,7 +11,7 @@
                 {{ end }}
               {{ end }}
             </span>
-            <span class="text-uppercase font-weight-bold">{{ .Site.Title }}</span>
+            <span class="ml-3 text-uppercase font-weight-bold d-none d-lg-inline-block">{{ .Site.Title }}</span>
         </a>
         <!-- End Logo -->
 
@@ -22,6 +22,7 @@
 
         <!-- Begin Menu -->
         <div class="collapse navbar-collapse" id="navbarMediumish">
+          <div class="text-uppercase text-center font-weight-bold d-lg-none">{{ .Site.Title }}</div>
             {{ $currentPage := . }}
             <ul class="navbar-nav ml-auto">
                 {{ range .Site.Menus.main }} 
