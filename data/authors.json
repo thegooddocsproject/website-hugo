@@ -1,0 +1,28 @@
+{
+  "bryan_klein": {
+    "name": "Bryan Klein",
+    "image": "/uploads/bryan_klein.jpg",
+    "description": "Bryan is a technical fellow.",
+    "social": {
+      "github": "",
+      "gitlab": "",
+      "linkedin": "",
+      "medium": "",
+      "twitter": "",
+      "instagram": ""
+    }
+  },
+  "ryan_macklin": {
+    "name": "Ryan Macklin",
+    "image": "/uploads/ryan_macklin.jpg",
+    "description": "empathy evangelist, mentor",
+    "social": {
+      "github": "",
+      "gitlab": "",
+      "linkedin": "",
+      "medium": "",
+      "twitter": "",
+      "instagram": ""
+    }
+  }
+}

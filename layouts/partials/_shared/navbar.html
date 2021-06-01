@@ -1,0 +1,38 @@
+<!-- Begin Menu Navigation
+================================================== -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mediumnavigation nav-down">
+    <div class="container pr-0">
+        <!-- Begin Logo -->
+        <a class="navbar-brand" href="{{ .Site.BaseURL }}/">
+            <span class="navbar-logo">
+              {{ if .Site.Params.ui.navbar_logo }}
+                {{ with resources.Get "icons/logo.svg" }}
+                  {{ ( . | minify).Content | safeHTML }}
+                {{ end }}
+              {{ end }}
+            </span>
+            <span class="text-uppercase font-weight-bold">{{ .Site.Title }}</span>
+        </a>
+        <!-- End Logo -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Begin Menu -->
+        <div class="collapse navbar-collapse" id="navbarMediumish">
+            {{ $currentPage := . }}
+            <ul class="navbar-nav ml-auto">
+                {{ range .Site.Menus.main }} 
+                <li class="nav-item {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                    <a class="nav-link" href="{{ .URL }}">{{ .Name | title }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        <!-- End Menu -->
+    </div>
+</nav>
+<!-- End Navigation
+================================================== -->

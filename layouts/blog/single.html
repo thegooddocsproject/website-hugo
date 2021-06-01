@@ -1,0 +1,101 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    <div class="main-content">
+        <!-- Begin Article
+        ================================================== -->
+        <div class="container">
+            <div class="row">
+                <!-- Post Share -->
+                <div class="col-md-2 pl-0">      
+                    {{- partial "single-partials/share.html" . -}}
+                </div>
+                <!-- Post -->                
+                <div class="col-md-9 flex-first flex-md-unordered">
+                    <div class="mainheading">                  
+                        <!-- Post Title -->
+                        <h1 class="posttitle">{{ .Title }}</h1> 
+                        <!-- Author Box -->	
+                        {{ if .Params.author }}
+                        {{ $author_name := .Params.author }}                    
+                        <div class="row post-top-meta">
+                            <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
+                                <img class="author-thumb" src="/uploads/{{ $author_name }}.jpg" title="{{ (index .Site.Data.authors $author_name).name }}" alt="{{ (index .Site.Data.authors $author_name).name }}">
+                            </div>
+                            <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
+                                <a target="_blank" class="link-dark">{{ (index .Site.Data.authors $author_name).name }}</a><br>
+                                <span class="author-description">
+                                    {{ (index .Site.Data.authors $author_name).description }}<br>
+                                    <i class="far fa-calendar"></i>
+                                    {{ dateFormat "Jan 2, 2006" .PublishDate }}
+                                    <i class="far fa-clock clock"></i>
+                                    {{ .ReadingTime }} min read
+                                </span>					
+                            </div>
+                        </div>
+                        {{ else }}
+                        <div class="row post-top-meta">
+                          <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                              <span class="author-description">
+                                  <i class="far fa-calendar"></i>
+                                  {{ dateFormat "Jan 2, 2006" .PublishDate }}
+                                  <i class="far fa-clock clock"></i>
+                                  {{ .ReadingTime }} min read
+                              </span>					
+                          </div>
+                        </div>		
+                        {{end}}
+                    </div>
+                    <!-- Post Featured Image -->
+                    {{with .Params.image}}
+                    <img class="featured-image img-fluid" src="/uploads/{{ . }}" alt="Thumbnail for this post">
+                    {{end}}
+                    <!-- End Featured Image -->
+
+                    <!-- Post Content -->
+                    <div class="article-post">
+                        {{ .Content}}
+                    </div>
+                    
+                    <!-- Post Tags -->
+                    <div class="after-post-tags">
+                        <ul class="tags">
+                        {{ range .Params.tags }}
+                        <li>
+                        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
+                        </li>
+                        {{ end }}
+                        </ul>
+                    </div>
+                    <!-- End Tags -->
+                    
+                    <!-- Next and PrevPage inside current section -->
+                    <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+                    {{with .NextInSection}}
+                        <a class="d-block col-md-6" href="{{.Permalink}}"> &laquo; {{.Title}}</a>
+                    {{end}}
+                    {{with .PrevInSection}}
+                        <a class="d-block col-md-6 text-lg-right" href="{{.Permalink}}">{{.Title}} &raquo;</a>
+                    {{end}}
+                    <div class="clearfix"></div>
+                    </div>
+                    <!-- End Next and PrevPage -->
+                </div>
+                <!-- End Post -->
+            </div>
+        </div>
+        <!-- End Article
+        ================================================== -->
+        {{ if .Params.comments }}
+          {{ partial "single-partials/comments" . }}
+        {{ end }}
+    </div>
+    {{- partial "_shared/alertbar" . -}}
+{{ end }}
+
+{{ define "footer"}}
+    {{- partial "_shared/jumbotron" . -}}
+    {{- partial "_shared/footer" . -}}
+{{ end }}

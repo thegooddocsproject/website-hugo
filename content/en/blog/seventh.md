@@ -1,10 +1,11 @@
-
 ---
-title: "The second blog post"
-linkTitle: "Second blog post"
-date: 2018-10-06
-description: >
-  A short lead description about this content page. Text here can also be **bold** or _italic_ and can even be split over multiple paragraphs.
+title: "Seventh"
+date: 2018-10-07T11:39:29+02:00
+publishdate: 2018-10-07T11:39:29+02:00
+image: "7.jpg"
+tags: ["interesting"]
+comments: true
+author: "ryan_macklin"
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).
@@ -65,6 +66,7 @@ This is a code block following a header.
 | A table   | A header        |
 | A table   | A header        |
 | A table   | A header        |
+{.table}
 
 ----------------
 
@@ -134,6 +136,7 @@ Tables should have bold headings and alternating shaded rows.
 | Michael Jackson   | Thriller        | 1982 |
 | Prince            | Purple Rain     | 1984 |
 | Beastie Boys      | License to Ill  | 1986 |
+{class = "table table-sm table-striped table-hover"}
 
 If a table is too wide, it should scroll horizontally.
 
@@ -142,6 +145,7 @@ If a table is too wide, it should scroll horizontally.
 | Michael Jackson   | Thriller        | 1982 | Epic Records | Grammy Award for Album of the Year, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Selling Album, Grammy Award for Best Engineered Album, Non-Classical | Wanna Be Startin' Somethin', Baby Be Mine, The Girl Is Mine, Thriller, Beat It, Billie Jean, Human Nature, P.Y.T. (Pretty Young Thing), The Lady in My Life |
 | Prince            | Purple Rain     | 1984 | Warner Brothers Records | Grammy Award for Best Score Soundtrack for Visual Media, American Music Award for Favorite Pop/Rock Album, American Music Award for Favorite Soul/R&B Album, Brit Award for Best Soundtrack/Cast Recording, Grammy Award for Best Rock Performance by a Duo or Group with Vocal | Let's Go Crazy, Take Me With U, The Beautiful Ones, Computer Blue, Darling Nikki, When Doves Cry, I Would Die 4 U, Baby I'm a Star, Purple Rain |
 | Beastie Boys      | License to Ill  | 1986 | Mercury Records | noawardsbutthistablecelliswide | Rhymin & Stealin, The New Style, She's Crafty, Posse in Effect, Slow Ride, Girls, (You Gotta) Fight for Your Right, No Sleep Till Brooklyn, Paul Revere, Hold It Now, Hit It, Brass Monkey, Slow and Low, Time to Get Ill |
+{class="table table-striped table-bordered table-responsive"}
 
 ----------------
 
@@ -201,9 +205,9 @@ Large images should always scale down and fit in the content container.
 
 {{< alert >}}This is an alert.{{< /alert >}}
 {{< alert title="Note:" >}}This is an alert with a title.{{< /alert >}}
-{{< alert type="success" >}}This is a successful alert.{{< /alert >}}
-{{< alert type="warning" >}}This is a warning!{{< /alert >}}
-{{< alert type="warning" title="Warning!" >}}This is a warning with a title!{{< /alert >}}
+{{< alert color="success" >}}This is a successful alert.{{< /alert >}}
+{{< alert color="warning" >}}This is a warning!{{< /alert >}}
+{{< alert color="warning" title="Warning!" >}}This is a warning with a title!{{< /alert >}}
 
 
 ## Sizing
@@ -243,3 +247,5 @@ Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta ch
 ```
 This is the final element on the page and there should be no margin below this.
 ```
+ 
+
