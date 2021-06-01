@@ -16,7 +16,7 @@
                 <div class="col-md-9 flex-first flex-md-unordered">
                     <div class="mainheading">                  
                         <!-- Post Title -->
-                        <h1 class="posttitle">{{ .Title }}</h1> 
+                        <h1 class="posttitle text-center text-md-left">{{ .Title }}</h1> 
                         <!-- Author Box -->	
                         {{ if .Params.author }}
                         {{ $author_name := .Params.author }}                    
@@ -27,12 +27,13 @@
                             <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
                                 <a target="_blank" class="link-dark">{{ (index .Site.Data.authors $author_name).name }}</a><br>
                                 <span class="author-description">
-                                    {{ (index .Site.Data.authors $author_name).description }}<br>
-                                    <i class="far fa-calendar"></i>
-                                    {{ dateFormat "Jan 2, 2006" .PublishDate }}
-                                    <i class="far fa-clock clock"></i>
-                                    {{ .ReadingTime }} min read
-                                </span>					
+                                  {{ (index .Site.Data.authors $author_name).description }}
+                                </span>
+                                <br>
+                                <span>
+                                  <i class="far fa-calendar pr-2"></i> {{ dateFormat "Jan 2, 2006" .PublishDate }}
+                                  <i class="far fa-clock clock pr-2"></i> {{ .ReadingTime }} min read
+                                </span>
                             </div>
                         </div>
                         {{ else }}
