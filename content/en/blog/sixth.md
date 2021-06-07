@@ -3,7 +3,7 @@ title: "Sixth"
 date: 2018-10-07T11:39:25+02:00
 publishdate: 2018-10-07T11:39:25+02:00
 image: "6.jpg"
-tags: ["interesting", "drink"]
+tags: ["interesting", "drink", "on-location", "STEM"]
 comments: true
 author: "bryan_klein"
 ---
