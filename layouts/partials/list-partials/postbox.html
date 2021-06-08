@@ -21,7 +21,7 @@
       {{ with .Params.tags }}
       <div class="mb-3 card-tags">
         {{ range . }}
-          <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{.}}</a>
+          <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{. | humanize}}</a>
         {{ end }}
       </div>
       {{ end }}

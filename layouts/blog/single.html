@@ -39,7 +39,7 @@
         <h4 class="mb-2">Tags:</h4>
         <div class="mb-5 card-tags">
           {{ range . }}
-            <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{.}}</a>
+            <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{. | humanize}}</a>
           {{ end }}
         </div>
         {{ end }}
