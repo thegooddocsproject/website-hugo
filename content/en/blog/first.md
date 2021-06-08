@@ -5,6 +5,7 @@ publishdate: 2018-10-07T11:17:14+02:00
 image: "1.jpg"
 tags: ["interesting"]
 comments: false
+author: "bryan_klein"
 ---
 
 # This is another post

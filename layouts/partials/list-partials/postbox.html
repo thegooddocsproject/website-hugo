@@ -1,28 +1,44 @@
 <!-- begin post -->
 <div class="col-lg-4 col-md-6 mb-30px card-group">
   <div class="card h-100">
-    <a href="{{ .Permalink }}">
       <div class="maxthumb">  
-        {{with .Params.image}}
-        <img class="img-fluid" src="/uploads/{{ . }}" alt="A thumbnail image">
+        {{if .Params.image}}
+        <a href="{{ .Permalink }}">
+        <img class="img-fluid" src="/uploads/{{ .Params.image }}" alt="A thumbnail image">
+        </a>
         {{end}}
       </div>
       <div class="card-body">
-        <h2 class="card-title text-dark">{{ .Title }}</h2>
-        <p class="card-text text-secondary">{{ .Summary }}</p>
+        <a href="{{ .Permalink }}">
+          <h2 class="card-title text-dark">{{ .Title }}</h2>
+          <p class="card-text text-secondary">{{ .Summary }}</p>
+        </a>      
       </div>
     </a>
+    
     <div class="card-footer bg-white">
+      <!-- Post Tags -->
+      {{ with .Params.tags }}
+      <div class="mb-3 card-tags">
+        {{ range . }}
+          <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{.}}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+      <!-- End Tags -->
       <div class="wrapfooter">
         <!-- Author Box -->	
         {{ if .Params.author }}
         {{ $author_name := .Params.author }}
+        {{ $author_page := add "/authors/" $author_name }}
         <span class="meta-footer-thumb">
-          <img class="author-thumb mr-2" src="/uploads/{{ $author_name }}.jpg"
-            alt="{{ (index .Site.Data.authors $author_name).name }}">
+          <a href="{{$author_page}}">
+            <img class="author-thumb mr-2" src="/uploads/{{ $author_name }}.jpg"
+            title='{{ with .Site.GetPage $author_page }}{{ .Title }}{{ end }}'>  
+          </a>
         </span>
         <span class="author-meta">
-          <span class="post-name">{{ (index .Site.Data.authors $author_name).name }}</a></span><br />
+          <span class="post-name"><a href="{{$author_page}}">{{ with .Site.GetPage $author_page }}{{ .Title }}{{ end }}</a></span><br />
           <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} - {{ .ReadingTime }} min read </span>
         </span>
         {{ else }}

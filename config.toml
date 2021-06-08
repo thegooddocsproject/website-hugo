@@ -3,9 +3,6 @@ title = "The Good Docs Project"
 enableRobotsTXT = true
 summaryLength = 25
 
-# Not needed as the code is added manually for internal/dev filtering.
-# googleAnalytics = "G-6RHK84SZXW"
-
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
 

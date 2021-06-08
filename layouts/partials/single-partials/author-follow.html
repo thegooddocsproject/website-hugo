@@ -1,0 +1,8 @@
+{{ if .Params.author }}
+  {{ $author_name := .Params.author }}
+  {{ with .Site.GetPage $author_name }}
+  <div class="article-post mb-4">
+    {{ .Params.follow | markdownify }}
+  </div>
+  {{ end }}
+{{ end }}
