@@ -33,17 +33,14 @@
 
         {{ partial "single-partials/author-follow" . }}
 
+
         <!-- Post Tags -->
-        {{ if .Params.tags }}
-        <div class="after-post-tags">
-          <h4 class="mb-3">Tags:</h4>
-          <ul class="tags">
-            {{ range .Params.tags }}
-            <li class="mr-2 mb-3">
-              <a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{.}}</a>
-            </li>
-            {{ end }}
-          </ul>
+        {{ with .Params.tags }}
+        <h4 class="mb-2">Tags:</h4>
+        <div class="mb-5 card-tags">
+          {{ range . }}
+            <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{.}}</a>
+          {{ end }}
         </div>
         {{ end }}
         <!-- End Tags -->
