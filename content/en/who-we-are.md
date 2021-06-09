@@ -22,8 +22,10 @@ TheGoodDocsProject Project Steering Committee (PSC) is the official managing bod
 -   Ankita Tripathi
 -   Bryan Klein
 -   Cameron Shorter
+-   Carrie Crowe
 -   Erin McKean
 -   Morgan Craft
+-   Ryan Macklin
 -   Viraji Ogodapola
 
 Our thanks to previous PSC members:
