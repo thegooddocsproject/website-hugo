@@ -200,7 +200,6 @@ section.recent-posts {
 .post-top-meta .author-description {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-size: 0.95rem;
 }
 
 .toc ul {
@@ -305,7 +304,7 @@ span.post-read-more a:hover {
 
 .mainheading h1.posttitle {
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .footer {

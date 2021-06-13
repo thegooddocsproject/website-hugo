@@ -5,7 +5,8 @@ publishdate: 2018-10-07T11:39:29+02:00
 image: "7.jpg"
 tags: ["interesting"]
 comments: true
-author: "ryan_macklin"
+author:
+  - "ryan_macklin"
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).

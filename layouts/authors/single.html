@@ -1,64 +1,59 @@
 {{ define "header"}}
-    {{- partial "_shared/navbar.html" . -}}
+{{- partial "_shared/navbar.html" . -}}
 {{ end }}
 
 {{ define "main" }}
-  <div class="mainheading">
-    <header class="text-center">
-      {{ with .Params.image }}
-          <img src="{{ . }}" class="rounded-circle text-center index-image">
-      {{ end }}
-      <h1 class="index-title">{{ .Title }}</h1>
-    </header>
+<div class="mainheading">
+  <header class="text-center">
+    {{ with .Params.image }}
+    <img src="{{ . }}" class="rounded-circle text-center index-image">
+    {{ end }}
+    <h1 class="index-title">{{ .Title }}</h1>
+  </header>
 
-    <section class="text-center">
-        {{ with .Site.Params.index.subtitle }}
-        <h3 class="index-sub">{{ . }}</h3>
-        {{ end }}
-        {{ with .Site.Params.index.mdtext }}
-        <h6 class="index-text">{{ . | markdownify }}</h6>
-        {{ end }}
-    </section>
-    <p class="lead text-center">
-        {{ .Description }}
-    </p>
-  </div>
-  <div class="main-content">
-      <div class="container">
-          <div class="row">
-              <!-- Post -->                
-              <div class="flex-first flex-md-unordered">
-                <div class="main-content">
-                  <div class="col-lg-10 mx-auto mb-5">
-                    {{.Content}}
-                  </div>
-                  <!-- Posts Index
-                  ================================================== -->
-                  <section class="recent-posts">            
-                      <div class="section-title">                
-                          <h2><span>Posts by {{.Title}}</span></h2>                
-                      </div>            
-                      <div class="row listrecent">
-                        {{ range where .Site.Pages "Params.author" .File.BaseFileName }}
-                            {{- partial "list-partials/postbox.html" . -}}
-                        {{end}}
-                      </div>
-                  </section>
-              </div>
-              </div>
-              <!-- End Post -->
+  <section class="text-center">
+    {{ with .Site.Params.index.subtitle }}
+    <h3 class="index-sub">{{ . }}</h3>
+    {{ end }}
+    {{ with .Site.Params.index.mdtext }}
+    <h6 class="index-text">{{ . | markdownify }}</h6>
+    {{ end }}
+  </section>
+  <p class="lead text-center">
+    {{ .Description }}
+  </p>
+</div>
+<div class="main-content">
+  <div class="container">
+    <div class="row">
+      <!-- Post -->
+      <div class="flex-first flex-md-unordered">
+        <div class="main-content">
+          <div class="col-lg-10 mx-auto mb-5">
+            {{.Content}}
           </div>
+          <!-- Posts Index
+                  ================================================== -->
+          <section class="recent-posts">
+            <div class="section-title">
+              <h2><span>Posts by {{.Title}}</span></h2>
+            </div>
+            <div class="row listrecent">
+              {{ range where .Site.Pages "Params.author" .File.BaseFileName }}
+              {{- partial "list-partials/postbox.html" . -}}
+              {{end}}
+            </div>
+          </section>
+        </div>
       </div>
-      <!-- End Article
-      ================================================== -->
-      {{ if .Params.comments }}
-        {{ partial "single-partials/comments" . }}
-      {{ end }}
+      <!-- End Post -->
+    </div>
   </div>
-  {{- partial "_shared/alertbar" . -}}
+</div>
+{{- partial "_shared/alertbar" . -}}
 {{ end }}
 
 {{ define "footer"}}
-    {{- partial "_shared/jumbotron" . -}}
-    {{- partial "_shared/footer" . -}}
+{{- partial "_shared/jumbotron" . -}}
+{{- partial "_shared/footer" . -}}
 {{ end }}

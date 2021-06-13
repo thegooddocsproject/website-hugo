@@ -2,10 +2,12 @@
 title: "First"
 date: 2018-10-07T11:17:14+02:00
 publishdate: 2018-10-07T11:17:14+02:00
+corrected_date: 2020-06-12
 image: "1.jpg"
 tags: ["interesting"]
 comments: false
-author: "bryan_klein"
+author:
+  - "bryan_klein"
 ---
 
 # This is another post

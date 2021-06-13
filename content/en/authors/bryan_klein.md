@@ -1,7 +1,7 @@
 ---
 title: "Bryan Klein"
 image: "/uploads/bryan_klein.jpg"
-description: "Bryan is a technical fellow."
+description: "Bryan is a technical fellow"
 follow: "You can find Bryan musing about other things at [bryanklein.com](https://bryanklein.com) or on [LinkedIn](https://www.linkedin.com)"
 web: "https://bryanklein.com"
 email: "bryan@bryanklein.com"

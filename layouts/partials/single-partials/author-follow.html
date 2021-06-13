@@ -1,8 +1,13 @@
 {{ if .Params.author }}
-  {{ $author_name := .Params.author }}
-  {{ with .Site.GetPage $author_name }}
-  <div class="article-post mb-4">
-    {{ .Params.follow | markdownify }}
-  </div>
+  <hr class="w-25 pt-4">
+  {{ range .Params.author }}
+    {{ $author_name := . }}
+    {{ $author_url := add "/authors/" $author_name }}
+    {{ $author_page := $.Site.GetPage $author_url}}
+    {{ with $author_page }}
+    <div class="article-post mb-4">
+      {{ .Params.follow | markdownify }}
+    </div>
+    {{ end }}
   {{ end }}
 {{ end }}

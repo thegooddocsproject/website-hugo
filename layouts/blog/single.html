@@ -16,7 +16,7 @@
       <div class="col-md-9 flex-first flex-md-unordered">
         <div class="mainheading">
           <!-- Post Title -->
-          <h1 class="posttitle text-center text-md-left">{{ .Title }}</h1>
+          <h1 class="posttitle">{{ .Title }}</h1>
           <!-- Author Box -->
           {{ partial "_shared/author-info" . }}
         </div>
@@ -33,11 +33,16 @@
 
         {{ partial "single-partials/author-follow" . }}
 
-
+        
+        <!-- Article Copyright/License -->
+        <div class="mb-4">
+          {{ partial "single-partials/article-copyright-license" . }}
+        </div>
+        
         <!-- Post Tags -->
         {{ with .Params.tags }}
-        <h4 class="mb-2">Tags:</h4>
         <div class="mb-5 card-tags">
+          <h4 class="mb-2">Tags</h4>
           {{ range . }}
             <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{. | humanize}}</a>
           {{ end }}

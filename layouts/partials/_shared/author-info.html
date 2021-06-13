@@ -1,31 +1,35 @@
-{{ if .Params.author }}
-{{ $author_name := .Params.author }}
-{{ $author_page := add "/authors/" $author_name }}
 <div class="row post-top-meta">
-    <div class="col-xs-12 col-md-3 col-lg-2 text-center text-md-left mb-4 mb-md-0 md-nopad-right">
-      <a href="{{$author_page}}" class="link-dark"><img class="author-thumb" src="/uploads/{{ $author_name }}.jpg" title='{{ with .Site.GetPage $author_page }}{{ .Title }}{{ end }}' alt='{{ with .Site.GetPage $author_page }}{{ .Title }}{{ end }}'></a>
-    </div>
-    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left md-nopad-left">
-        <a href="{{$author_page}}" class="link-dark">{{ with .Site.GetPage $author_page }}{{ .Title }}{{ end }}</a><br>
-        <span class="author-description">
-          {{ with .Site.GetPage $author_page }}{{ .Description }}{{ end }}
-        </span>
-        <br>
-        <span>
-          <i class="far fa-calendar pr-2"></i> {{ dateFormat "Jan 2, 2006" .PublishDate }}
-          <i class="far fa-clock clock pr-2"></i> {{ .ReadingTime }} min read
-        </span>
-    </div>
-</div>
-{{ else }}
-<div class="row post-top-meta">
-  <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-      <span class="author-description">
-          <i class="far fa-calendar"></i>
-          {{ dateFormat "Jan 2, 2006" .PublishDate }}
-          <i class="far fa-clock clock"></i>
-          {{ .ReadingTime }} min read
-      </span>					
+  <div class="col">
+    <span>
+      {{- if .Params.author -}}
+      {{- $post := . -}}
+      {{- $mult_authors := gt (len .Params.author) 1 -}}
+      {{- range $i, $e := .Params.author -}}
+        {{- $author_name := . -}}
+        {{- $author_url := add "/authors/" $author_name -}}
+        {{- $author_page := $.Site.GetPage $author_url -}}
+        {{- if $i -}},&nbsp;{{- end -}}<span class="post-name"><a href="{{$author_url}}">{{ with $author_page }}{{ .Title }}{{ end }}</a></span>
+        {{- if not $mult_authors -}}<span class="d-none d-sm-inline">&nbsp;&ndash;</span>
+          <span class="author-description d-none d-sm-inline">
+            {{- with $author_page }}{{ .Description }}{{ end -}}
+          </span>
+        {{- end -}}
+      {{ end }}
+    </span>
+    <br>
+  {{end}}
+    <span class="pr-4">
+      <span class="text-nowrap">
+        <i class="far fa-calendar pr-2"></i>
+        {{- dateFormat "Jan 2, 2006" .PublishDate -}}
+      </span>
+      {{- if .Params.corrected_date -}}
+      , <span class="text-nowrap">updated {{ dateFormat "Jan 2, 2006" .Params.corrected_date  -}}</span>
+      {{- end -}}
+    </span>
+    <span class="text-nowrap">
+      <i class="far fa-clock clock pr-2"></i>
+      {{- .WordCount }} words
+    </span>
   </div>
-</div>		
-{{end}}
+</div>
