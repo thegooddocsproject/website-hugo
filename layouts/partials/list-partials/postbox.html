@@ -37,11 +37,11 @@
               {{- if $i -}},&nbsp;{{- end -}}<span class="post-name"><a href="{{$author_url}}">{{ with $author_page }}{{ .Title }}{{ end }}</a></span>
             {{- end -}}
             <br />
-            <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} - {{ .ReadingTime }} min read </span>
+            <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} - {{- .WordCount }} words </span>
           </span>
           {{ else }}
           <span class="author-meta">
-            <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} - {{ .ReadingTime }} min read </span>
+            <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }} - {{- .WordCount }} words </span>
           </span>
           {{ end }}
           <span class="post-read-more">
