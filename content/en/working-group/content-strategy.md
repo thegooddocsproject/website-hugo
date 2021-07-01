@@ -3,7 +3,7 @@ title: Content Strategy
 poc: "[Carrie Crowe](https://thegooddocs.slack.com/team/U01QS8YAHHN)"
 meeting: TBD
 status: Active
-description: Creating
+description: Collaborating to create the overall content strategy for the Good Docs project.
 slackName: content-strategy
 slackID: C023G344YAJ
 notesURL: https://docs.google.com/document/d/1x6SExdCncsbRb3XMUYyshXcPo5OIFxT81fvComNJjkc/edit?usp=sharing
