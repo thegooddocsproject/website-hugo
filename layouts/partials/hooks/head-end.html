@@ -1,0 +1,20 @@
+{{ with .Site.Params.algolia_docsearch }}
+<!-- stylesheet for algolia docsearch -->
+{{ end }}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6RHK84SZXW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  {{ if .Site.IsServer -}}
+  gtag('config', 'G-6RHK84SZXW', {
+    'traffic_type': 'internal',
+    'debug_mode': true  
+  });
+  {{- else -}}
+  gtag('config', 'G-6RHK84SZXW');
+  {{- end -}}
+  
+</script>

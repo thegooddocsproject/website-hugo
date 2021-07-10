@@ -1,0 +1,65 @@
+<div class="card post author text-center mt-5 mb-2">
+  <div class="card-body">
+    <a href="{{.Permalink}}">
+      <img alt="{{.Title}}" 
+        src="{{.Params.image}}" 
+        class="avatar avatar-90 photo"
+        width="90"
+      >
+    </a>
+    {{ $authorPosts := where .Site.Pages "Params.author" .File.BaseFileName }}
+    <h2 class="card-title">
+      <a href="{{.Permalink}}" class="contributor-link">
+        {{ .Title }}<br>
+        <small>{{len $authorPosts}}&nbsp;{{if gt $authorPosts 1}}posts{{else}}post{{end}}</small>
+      </a>
+    </h2>
+        
+    <div class="card-text d-block">{{ .Params.description | markdownify }}</div>
+
+    {{ with .Params.web }}
+      <div class="card-text d-block mt-1">
+        <a target="_blank" href="{{ . }}">{{ . }}</a>
+      </div>  
+    {{ end }}
+  
+    <div class="profile-icons pt-2">
+      <a target="_blank" href="https://www.themepush.com/demo-mediumish/author/sununderthesky/feed">
+        <i class="fa fa-rss"></i>
+      </a>&nbsp;
+      <a href="mailto:{{.Params.email}}">
+        <i class="fa fa-envelope"></i>
+      </a>&nbsp;
+      {{ with index .Params.social "github" }}
+      <a target="_blank" href="https://github.com/{{.}}">
+        <i class="fab fa-github"></i>
+      </a>&nbsp;
+      {{ end }}
+      {{ with index .Params.social "gitlab" }}
+      <a target="_blank" href="https://gitlab.com/{{.}}">
+        <i class="fab fa-gitlab"></i>
+      </a>&nbsp;
+      {{end}}
+      {{ with index .Params.social "linkedin" }}
+      <a target="_blank" href="https://www.linkedin.com/in/{{.}}">
+        <i class="fab fa-linkedin"></i>
+      </a>&nbsp;
+      {{ end }}
+      {{ with index .Params.social "medium" }}
+      <a target="_blank" href="https://medium.com/{{.}}">
+        <i class="fab fa-medium"></i>
+      </a>&nbsp;
+      {{ end }}
+      {{ with index .Params.social "twitter" }}
+      <a target="_blank" href="https://www.twitter.com/{{.}}">
+        <i class="fab fa-twitter"></i>
+      </a>&nbsp;
+      {{ end }}
+      {{ with index .Params.social "instagram" }}
+      <a target="_blank" href="https://www.instagram.com/{{.}}">
+        <i class="fab fa-instagram"></i>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</div>
