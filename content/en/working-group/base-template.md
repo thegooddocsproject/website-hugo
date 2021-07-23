@@ -3,7 +3,7 @@ title: Base Template
 poc: "[Cameron Shorter](https://thegooddocs.slack.com/team/UKTGLQNGG)"
 meeting: Sundays at 4:30 p.m. Pacific Time (on Google Meet).
 status: Active
-description: Use the base template to create new doctype templates; apply insights from that process to improve the base template.
+description: Refine the template writing contributor process, using the base template as a starting point.
 slackName: base-template
 slackID: C01U0A46KN2
 notesURL: https://docs.google.com/document/d/1jKFy7rQ7Rv4nP797cwuLssrbplFQ2ZIM_XewsV0Xj1Q/edit#
