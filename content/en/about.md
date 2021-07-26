@@ -9,7 +9,8 @@ menu:
 
 # About The Good Docs Project
 
-This page introduces the concepts used by [The Good Docs Project](https://thegooddocsproject.dev) for creating, customizing, and using documentation templates. It is designed to help document authors, docset owners, and template authors to get started with The Good Docs Project.
+This page introduces the concepts used by [The Good Docs Project](https://thegooddocsproject.dev) for creating, customizing, and using documentation templates.
+It is designed to help document authors, docset owners, and template authors to get started with The Good Docs Project.
 
 {{% /blocks/lead %}}
 
@@ -19,7 +20,8 @@ This page introduces the concepts used by [The Good Docs Project](https://thegoo
 
 ## Goals of The Good Docs Project
 
-Within The Good Docs Project we are building best practice templates and writing instructions for documenting open source software. (Which incidentally are useful for all software and related domains.)
+Within The Good Docs Project we are building best practice templates and writing instructions for documenting open source software. 
+(Which incidentally are useful for all software and related domains.)
 
 ## Focus on what you’re best at
 
@@ -31,7 +33,8 @@ Templates enable significant efficiencies by allowing experts to focus only on t
 
 ## Various doctypes
 
-There is no one thing called “Good Docs”; there are multiple doctypes, each with different purposes and needs. Targeting your writing to the purpose will improve the quality and impact of your project’s documentation, often significantly.
+There is no one thing called “Good Docs”; there are multiple doctypes, each with different purposes and needs.
+Targeting your writing to the purpose will improve the quality and impact of your project’s documentation, often significantly.
 
 ![Doc Types Diagram](/uploads/doctypes.svg "Plotting doc types within a maturity model")
 
@@ -44,7 +47,8 @@ For instance:
 
 ## Doctype template set
 
-For each doctype, we provide a set of supporting documents, which we call a template-set. These documents are based on our [base-template-set](https://github.com/thegooddocsproject/templates/tree/dev/base), which is effectively our template for templates.
+For each doctype, we provide a set of supporting documents, which we call a template-set.
+These documents are based on our [base-template-set](https://github.com/thegooddocsproject/templates/tree/dev/base), which is effectively our template for templates.
 
 ![doctype template-set](/uploads/template-set.svg "doctype template-set")
 
