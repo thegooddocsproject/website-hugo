@@ -1,18 +1,17 @@
 ---
 title: Community Docs
 poc: "[Alyssa Rock](https://thegooddocs.slack.com/team/U012KCMPP0V)"
-meeting: Thursdays at 5:00p Mountain time (UTC-6)
+meeting: Thursdays at 4:00p Mountain time (UTC-6)
 status: Active
 description: Creating high-quality templates for the core sets of community docs that are necessary for the health, productivity, and cross-coordination of open source communities.
 slackName: community-docs
 slackID: C01R89CRWCR
 notesURL: https://docs.google.com/document/d/1iRxB0T7FoVjIeG_LawbCzcLfXCILlpFdzn-4BPDGR9Y/edit?usp=sharing
 members:
+  - "[Aidan Doherty](https://thegooddocs.slack.com/team/U019868JEQ0)"
   - "[Alyssa Rock](https://thegooddocs.slack.com/team/U012KCMPP0V)"
   - "[Carrie Crowe](https://thegooddocs.slack.com/team/U01QS8YAHHN)"
-  - "[Daniel Beck](https://thegooddocs.slack.com/team/U011GCVJFQF)"
-  - "[Erin McKean](https://thegooddocs.slack.com/team/UL2AA1FF1)"
-  - "[Felicity Brand](https://thegooddocs.slack.com/team/UKV4ZPEFQ)"
+  - "[Deanna](https://thegooddocs.slack.com/team/U01SXR5TKA6)"
   - "[Sachin Karol](https://thegooddocs.slack.com/team/U015ZA95M7S)"
 draft: false
 ---
