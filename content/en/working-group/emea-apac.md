@@ -1,7 +1,7 @@
 ---
 title: EMEA-APAC Templateers
 poc: "[Cameron Shorter](https://thegooddocs.slack.com/team/UKTGLQNGG)"
-meeting: Every Tuesday
+meeting: Tuesday, 07:00 [UTC](https://www.timeanddate.com/time/aboututc.html)
 status: Active
 description: Templateers in EMEA and APAC timezones, supporting each other to create Good Doc templates.
 slackName: emea-apac
