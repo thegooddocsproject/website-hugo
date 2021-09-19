@@ -1,4 +1,4 @@
-image: klakegg/hugo:0.82.0-ext-alpine
+image: klakegg/hugo:0.88.0-ext-asciidoctor-ci
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
