@@ -9,7 +9,8 @@ menu:
 
 # About The Good Docs Project
 
-The goal of the Good Docs Project is to improve open source software documentation by providing high quality [templates and writing instructions](https://github.com/thegooddocsproject/templates) to the open source community and beyond.
+This page introduces the concepts used by [The Good Docs Project](https://thegooddocsproject.dev) for creating, customizing, and using documentation templates.
+It is designed to help document authors, docset owners, and template authors to get started with The Good Docs Project.
 
 {{% /blocks/lead %}}
 
@@ -17,38 +18,81 @@ The goal of the Good Docs Project is to improve open source software documentati
 
 {{% blocks/section color="white" type="section" %}}
 
-## The Minimum Viable Docset
+## Goals of The Good Docs Project
 
-Similar to a minimum viable product, a minimum viable docset (MVD) is just enough documentation content to be helpful to end users and project contributors at various stages in the project's maturity.
-At the Good Docs Project, our goal is to define what is needed for an MVD and provide templates for the types of core documentation needed at each stage.
+Within The Good Docs Project we are building best practice templates and writing instructions for documenting open source software. 
+(Which incidentally are useful for all software and related domains.)
 
-Multiple documentation (doc) types are required to achieve a project’s MVD.
+## Focus on what you’re best at
 
-Each serves a different purpose and has differing requirements:
+Templates enable significant efficiencies by allowing experts to focus only on the bits they do best.
+
+1. Various writing experts can embed best practices into a **template**.
+2. **Domain experts can write** better content, more efficiently, when they have a template to work against.
+3. Writers can polish the content by **reviewing** for compliance against the template.
+
+## Various doctypes
+
+There is no one thing called “Good Docs”; there are multiple doctypes, each with different purposes and needs.
+Targeting your writing to the purpose will improve the quality and impact of your project’s documentation, often significantly.
 
 ![Doc Types Diagram](/uploads/doctypes.svg "Plotting doc types within a maturity model")
 
-For each doc type we expect to build:
+Our templates provide tailored guidance with different priorities for each doctype.
 
-- A template, embedded with concise writing instructions that explain how to implement the template
-- At least one high quality example of that template in action
-- Deeper practical tips and explanations of different possible approaches
-- The necessary theory and context for our recommended best practices
+For instance:
 
-Our primary focus at this phase is on providing content.
+* Reference documents need to be current, but it is okay if sentence structure is not polished.
+* Tutorials should be polished, but they don’t need to cover the latest features.
 
-## Documentation Quality
+## Doctype template set
 
-The Good Docs Project includes contributions from a vibrant and healthy community of technical writers who are passionate about making high quality templates.
-Each template goes through a rigorous writing, reviewing, and refining process.
-Working together, we hope to provide templates that feature the best guidance that the technical writing community has to offer.
+For each doctype, we provide a set of supporting documents, which we call a template-set.
+These documents are based on our [base-template-set](https://github.com/thegooddocsproject/templates/tree/dev/base), which is effectively our template for templates.
 
-## Community Governance
+![doctype template-set](/uploads/template-set.svg "doctype template-set")
 
-We strive to foster a [safe and welcoming community](/code-of-conduct) where everyone with an interest in improving documentation can make a meaningful contribution.
-Your perspectives and best efforts are welcome regardless of whether you are a developer, technical writer, information architect, UX designer, product manager, or are completely new to open source development.
+### Raw template (what - structural): 
 
-We govern our community with a democratic, just-enough-governance model that is overseen by a project steering committee.
-See our [community](/community) page for more information.
+* Layout of headings and sample text with embedded writing tips.
 
+### Template guide (how):
+
+* Provides guidance on how to fill out each section in the template.
+
+### Template theory (why - conceptual):
+
+* Provides background theory which supports authors making documentation decisions.
+* Empowers an author to “think like a tech writer”.
+
+### Template checklist (how):
+
+* Checklist to confirm you have covered everything.
+
+### Template example (what)
+
+* Filled-in template which describes a fake project.
+
+## Roles
+
+We consider the following primary roles when creating templates:
+
+![Roles in the doc development workflow](/uploads/workflow.svg "Roles in the doc development workflow")
+
+### Template author
+
+* Creates a {doctype}-template set, based on the [base template-set](https://github.com/thegooddocsproject/templates/tree/dev/base).
+
+### Docset owner
+
+* Establish a content strategy.
+* Selects a set of doctype templates for a project, and tailors them for the project’s needs.
+
+### Doc author
+
+* Follows the `Quickstart for Document Authors` and the {doctype}-guide to write a document.
+
+### Doc Reader
+
+* Reads intuitive documentation, tailored for this reader’s needs, presented when the reader needs it. 
 {{% /blocks/section %}}
