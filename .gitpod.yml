@@ -15,4 +15,9 @@ ports:
   - port: 1313
     onOpen: open-preview
 tasks:
-  - command: hugo server --buildDrafts --buildFuture --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false
+  - name: Setup environment and run Hugo server.
+    init: |
+      git submodule update --init --recursive
+      npm install
+      bash scripts/tweego_build.sh
+    command: hugo server --buildDrafts --buildFuture --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false
