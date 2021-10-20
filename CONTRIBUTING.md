@@ -25,7 +25,7 @@ By contributing to this project we expect you to agree to the [Developer Certifi
 
 You can improve our documentation by submitting a pull request to our [Github templates repo](https://github.com/thegooddocsproject/templates). Here is [how](https://guides.github.com/activities/hello-world/).
 
-For all but minor typos, it is s a good idea to discuss your proposed changes with us before submitting a pull request.
+For all but minor typos, it's a good idea to discuss your proposed changes with us before submitting a pull request.
 
 1. Create an issue in the [github  tracker](https://github.com/thegooddocsproject/templates/issues).
 2. Be as specific as you can in the scope of work within the issue. Be sure to include the "why" for considering the work.
