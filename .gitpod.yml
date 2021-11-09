@@ -1,4 +1,14 @@
-image: klakegg/hugo:0.88.0-ext-ubuntu-ci
+tasks:
+  - name: Install Hugo and Dependencies
+    before: brew install hugo && npm install
+    init: echo "Your version of Hugo is `hugo version`"
+    command: hugo server -D -F --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
+ports:
+  - port: 1313
+    onOpen: open-browser
+vscode:
+  extensions:
+    - bungcip.better-toml
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
@@ -11,13 +21,4 @@ github:
     addCheck: true
     # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
     addComment: true
-ports:
-  - port: 1313
-    onOpen: open-preview
-tasks:
-  - name: Setup environment and run Hugo server.
-    init: |
-      git submodule update --init --recursive
-      npm install
-      bash scripts/tweego_build.sh
-    command: hugo server --buildDrafts --buildFuture --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false
+    
