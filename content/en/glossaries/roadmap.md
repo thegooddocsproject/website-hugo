@@ -85,6 +85,8 @@ Provide a compelling reason for all technical websites to create a glossary for 
 **Challenge**  
 Building and maintaining a non-trivial glossary is difficult. It typically requires rallying and continued engagement from many stakeholders. However, if we have a sharable glossary framework, and access to an authoritative glossary, we can search our website for glossary terms.
 
+Example use of a script to build a glossary:
+
 ```
 build-glossary
   --source https://my-standards.org/glossary \
@@ -93,13 +95,9 @@ build-glossary
   --out my-glossary.json
 ```
 
-_Figure: Example use of a script to build a glossary_
-
 For the simple use case, the created glossary need only be stored as a file in the root directory of the website and viewed as a table, or as in-line popup help.
 
-![image](insert_image_url_here)
-
-_Figure: Adding a glossary file to a website._
+![Glossary stored in a machine readable .json file in website.](../images/glossaries-machine-readable.svg "Glossary stored in a machine readable .json file in website.")
 
 **How**
 

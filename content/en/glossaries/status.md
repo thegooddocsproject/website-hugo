@@ -111,7 +111,7 @@ Target 2022/23.</td>
 </tbody>
 </table>
 
-Prior status reports:
+**Prior status reports:**
 
-*   [December 2020](http://cameronshorter.blogspot.com/2020/12/halfway-status-glossary-pilot.html)
-*   [August 2020](http://cameronshorter.blogspot.com/2020/12/halfway-status-glossary-pilot.html)
+*   [2020-12](http://cameronshorter.blogspot.com/2020/12/halfway-status-glossary-pilot.html)
+*   [2020-08](http://cameronshorter.blogspot.com/2020/12/halfway-status-glossary-pilot.html)

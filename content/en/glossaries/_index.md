@@ -13,9 +13,9 @@ draft: true
 
 # Sharable glossaries
 
-![image](insert_image_url_here)
+The _sharable glossaries project_ is developing standards, tools and processes to help establish interoperable glossaries between organizations and projects.
 
-_Figure: Glossaries inheriting terms from authoritative glossaries, and suggesting terms to the source._
+![Glossaries inheriting terms from authoritative glossaries, and suggesting terms to the source.](images/glossaries-inherited-terms.svg "Glossary inheriting terms.")
 
 ## About sharable glossaries
 
@@ -25,7 +25,7 @@ Unfortunately, in 2022, the world is yet to:
 1.  Agree on a common glossary format.
 1.  See the format widely adopted.
 
-We aim to change this by breaking down technical barriers, raising awareness of solutions, and supporting widespread adoption of _sharable glossaries_.
+This project aims to change this by breaking down technical barriers, raising awareness of solutions, and supporting widespread adoption of _sharable glossaries_.
 
 ## Use cases
 
@@ -39,7 +39,7 @@ Refer to [glossary use cases](https://docs.google.com/document/d/1k-vRxjMUUsqc5X
 
 ## Maturity levels
 
-Investing in a project's sharable glossary infrastructure will unlock glossary based use cases.
+A glossary should start small, with minimal metadata fields. As the glossary matures, more metadata fields can be added to address advanced use cases. 
 
 <style>
 table {
@@ -103,16 +103,15 @@ td {
 </tr>
 <tr>
 <td class="style5">4 Governed</td>
-<td class="style5">Manage glossary maintenance</td>
+<td class="style5">Manage glossary maintenance.</td>
 </tr>
 <tr>
 <td class="style6">5 Extra metadata</td>
-<td class="style6">Support power use cases</td>
+<td class="style6">Support power use cases.</td>
 </tr>
 </tbody>
 </table>
 
-_Shared glossary maturity levels_  
 More details at [sharable glossary maturity levels](https://docs.google.com/document/d/1S7wfpf7ofdgz4v7BoVNT5uSkmWD9wcdZm0wopEXIO5M/).
 
 ## Roadmap to sharable glossaries
@@ -133,6 +132,6 @@ Refer to our [detailed roadmap](https://docs.google.com/document/d/1kPK5VgCX01Q5
 
 ## Further reading
 
-+   [Rules for making a vocabulary Findable Accessible Interoperable and Reusable (FAIR)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041)
++   [Rules for making a vocabulary Findable Accessible Interoperable and Reusable (FAIR)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041).
 
 

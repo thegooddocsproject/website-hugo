@@ -93,14 +93,13 @@ td {
 
 _Shared glossary maturity levels_
 
-
 ## Level 1: Non-sharable
 
 **What**
 
 A non-sharable glossary may be included as a table within a document or website.
 
-![alt_text](images/image1.png "image_tooltip")
+![Non-sharable glossary table embedded in a document.](../images/glossaries-not-shared.svg "Non-sharable glossary.")
 
 **Value added**
 
@@ -133,7 +132,7 @@ Copy domain-specific terms from your documentation into a glossary table. Includ
 
 * Store terms in a standard, machine readable format. Typically the glossary is stored as a static file, accessible via a URL, such as: [https://mywebsite.org/glossary.json](https://mywebsite.org/glossary.json).
 
-![alt_text](images/image2.png "image_tooltip")
+![Glossary stored in a machine readable .json file in website.](../images/glossaries-machine-readable.svg "Glossary stored in a machine readable .json file in website.")
 
 **Value added**
 
@@ -176,7 +175,7 @@ Fields from higher maturity levels may optionally be included.
 * Source terms from upstream glossaries and retain hyperlink to the source.
 * Assign a license which allows repurposing of the glossary by downstream users, such as [Creative Commons By Attribution (CC-By)](https://creativecommons.org/licenses/by/4.0/). 
 
-![alt_text](images/image3.png "image_tooltip")
+![Machine readable glossary file referncing terms from source glossary.](../images/glossaries-ref-source.svg "Glossary terms referencing source.")
 
 **Value added**
 
@@ -217,7 +216,7 @@ Adding a reference to the source glossary enables:
 * Periodically release a baselined version of the glossary (skos:Collection).
 * Publish glossary license information.
 
-![alt_text](images/image4.png "image_tooltip")
+![Process for sourcing and reviewing glossary terms.](../images/glossaries-governed.svg "Possible glossary governance process.")
 
 **Value added**
 
