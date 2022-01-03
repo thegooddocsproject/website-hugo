@@ -2,22 +2,15 @@
 title: "Glossary Maturity Levels"
 linkTitle: "Maturity Levels"
 menu:
-  glossary:
+  glossaries:
     weight: 110
 draft: true
 ---
-## Spacer 1
-
-## Spacer 2
-
-# Glossary maturity levels
 
 This page proposes maturity levels for _sharable glossary_ use cases, along with expected fields for each level's schema profile.
+
 ## Maturity levels
-
-A glossary should start small, with minimal metadata fields. As the glossary matures, more metadata fields can be added to address advanced use cases. 
-
-## Glossary maturity levels
+A glossary should start small, minimizing barriers to implementation. As the glossary matures, more metadata fields can be added to address advanced use cases. 
 
 <style>
 table {
@@ -28,7 +21,6 @@ tbody, tr, td {
   border:inherit;
   border-collapse:inherit;
   vertical-align: text-top;
-
 }
 td {
   padding:5px;
@@ -91,9 +83,7 @@ td {
 </tbody>
 </table>
 
-_Shared glossary maturity levels_
-
-## Level 1: Non-sharable
+### Level 1: Non-sharable
 
 **What**
 
@@ -126,7 +116,7 @@ Copy domain-specific terms from your documentation into a glossary table. Includ
   </tr>
 </table>
 
-## Level 2: Machine readable and reusable
+### Level 2: Machine readable and reusable
 
 **What**
 
@@ -168,7 +158,7 @@ Fields from higher maturity levels may optionally be included.
 }
 ```
 
-## Level 3 Reference source glossaries
+### Level 3 Reference source glossaries
 
 **What**
 
@@ -207,7 +197,7 @@ Adding a reference to the source glossary enables:
   }
 }
 ```
-## Level 4 Governed and versioned
+### Level 4 Governed and versioned
 
 **What**
 
@@ -247,6 +237,6 @@ Adding a reference to the source glossary enables:
 }
 ```
 
-## Level 5 Extra metadata
+### Level 5 Extra metadata
 
 More extensive use cases may involve adding extra metadata fields to the ConceptCollection and Concepts.

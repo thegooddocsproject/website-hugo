@@ -1,17 +1,11 @@
 ---
-title: "Glossaries Status"
+title: "Sharable glossaries status"
 linkTitle: "Status"
 menu:
-  glossary:
+  glossaries:
     weight: 130
 draft: true
 ---
-
-## Spacer 1
-
-## Spacer 2
-
-# Status of sharable glossaries
 
 We kicked off the sharable glossary project in mid-2020, and by January 2022 we have:
 

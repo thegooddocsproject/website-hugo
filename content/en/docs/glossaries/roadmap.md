@@ -1,17 +1,11 @@
 ---
-title: "Glossaries Roadmap"
+title: "Sharable glossaries Roadmap"
 linkTitle: "Roadmap"
 menu:
-  glossary:
+  glossaries:
     weight: 120
 draft: true
 ---
-
-## Spacer 1
-
-## Spacer 2
-
-# Sharable glossaries roadmap
 
 This roadmap describes steps planned by open source collaborators to realize the potential for large-scale sharing of glossary terms between disparate organizations and projects.  
 It is designed to help collaborators understand how they can join and benefit from the initiative.

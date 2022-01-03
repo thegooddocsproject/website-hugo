@@ -1,16 +1,11 @@
 ---
-title: "Glossary Use Cases"
-linkTitle: "Use Cases"
+title: "Sharable glossary use cases"
+linkTitle: "Use cases"
 menu:
-  glossary:
-    weight: 100
+  glossaries:
+    weight: 140
 draft: true
 ---
-## Spacer 1
-
-## Spacer 2
-
-# Glossary use cases
 
 This page lists the various use cases enabled by glossaries.
 
