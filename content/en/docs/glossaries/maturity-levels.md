@@ -1,6 +1,6 @@
 ---
-title: "Glossary Maturity Levels"
-linkTitle: "Maturity Levels"
+title: "Glossary maturity levels"
+linkTitle: "Maturity levels"
 menu:
   glossaries:
     weight: 110

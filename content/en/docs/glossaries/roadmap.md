@@ -1,5 +1,5 @@
 ---
-title: "Sharable glossaries Roadmap"
+title: "Sharable glossaries roadmap"
 linkTitle: "Roadmap"
 menu:
   glossaries:
