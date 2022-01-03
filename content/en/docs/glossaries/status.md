@@ -1,8 +1,8 @@
 ---
 title: "Glossaries Status"
-linkTitle: "Glossaries Status"
+linkTitle: "Status"
 menu:
-  main:
+  glossary:
     weight: 130
 draft: true
 ---

@@ -1,8 +1,8 @@
 ---
 title: "Glossaries Roadmap"
-linkTitle: "Glossaries Roadmap"
+linkTitle: "Roadmap"
 menu:
-  main:
+  glossary:
     weight: 120
 draft: true
 ---

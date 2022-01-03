@@ -1,6 +1,5 @@
 ---
 title: "Glossaries"
-linkTitle: "Glossaries"
 menu:
   main:
     weight: 100

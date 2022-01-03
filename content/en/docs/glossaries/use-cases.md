@@ -1,8 +1,8 @@
 ---
 title: "Glossary Use Cases"
-linkTitle: "Glossary Use Cases"
+linkTitle: "Use Cases"
 menu:
-  main:
+  glossary:
     weight: 100
 draft: true
 ---

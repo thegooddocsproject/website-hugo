@@ -1,8 +1,8 @@
 ---
 title: "Glossary Maturity Levels"
-linkTitle: "Glossary Maturity Levels"
+linkTitle: "Maturity Levels"
 menu:
-  main:
+  glossary:
     weight: 110
 draft: true
 ---
