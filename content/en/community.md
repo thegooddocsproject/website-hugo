@@ -43,12 +43,15 @@ The main channels are:
 * #general: General development discussion
 * #random: Non-work-related stuff
 
-### Real-time conference calls
+### Group virtual meetings
 
-As of 2019/2020 we have been holding weekly half-hour video conference calls. 
-The timeslot often changes. 
-Reach out to us to get an invitation. 
-All interested in contributing are welcome.
+<iframe src="https://calendar.google.com/calendar/embed?src=gooddocsproject%40gmail.com&ctz=Australia%2FSydney" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+Everyone is welcome to join our working group video conference calls. Details for joining are in the calendar above.
+
+Reach out in our #welcome slack channel to get a personal calendar invitation which means you can:
+* Log in without approval from the meeting lead.
+* Have the invite added to your personal calendar.
 
 ### Weekly meeting minutes
 
