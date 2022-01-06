@@ -28,7 +28,7 @@ As projects and their teams grow, documentation becomes increasingly important t
 
 While there are mature standards and supporting tools for publishing and maintaining controlled vocabularies, there is currently a high technical barrier to learning these - something we hope to help simplify.
 
-More details in the [modelling primer](primer).
+More details in the [modeling primer](primer).
 
 ## Use cases
 
