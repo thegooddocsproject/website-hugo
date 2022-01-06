@@ -8,6 +8,7 @@ draft: true
 ---
 
 This roadmap describes steps planned by open source collaborators to realize the potential for large-scale sharing of glossary terms between disparate organizations and projects.  
+
 It is designed to help collaborators understand how they can join and benefit from the initiative.
 
 ## How can we bootstrap sharable glossaries?
@@ -60,6 +61,7 @@ To bootstrap a sharable glossary network, we want to stand up large, authoritati
 
 **How**  
 The authors of the open source [Paneron](https://github.com/paneron/paneron) glossary have committed to publishing glossaries via the _common glossary_ format, once developed.  
+
 This software is used by large glossary publishers, such as:
 
 +   The 180,000+ entries in the [IEC Electropedia](https://www.electropedia.org/),  the world's authoritative electrotechnical terminology-set.
@@ -111,9 +113,9 @@ Once a sharable glossary framework is established, and a critical mass of websit
 ### Phase 6 Glossary management processes and tooling
 
 As projects mature, glossary owners will adopt tools and processes to support the maintenance, versioning, and cross-domain management of terms.  
+
 This will typically involve moving glossary terms from a glossary file into a specialized hosting tool such as the [Paneron](https://github.com/paneron/paneron) open source glossary management tool.  
+
 This will be supported by documented best practice processes.
 
-![image](insert_image_url_here)
-
-_Figure: A possible governance model._
+![Process for sourcing and reviewing glossary terms.](../images/glossaries-governed.svg "Possible glossary governance process.")
