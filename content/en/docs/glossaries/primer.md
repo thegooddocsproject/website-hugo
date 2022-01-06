@@ -1,5 +1,5 @@
 ---
-title: "Modelling Primer"
+title: "Modeling Primer"
 linkTitle: "Primer"
 menu:
   glossaries:
@@ -7,7 +7,7 @@ menu:
 draft: true
 ---
 
-This page includes background information about data modelling, to help future implementers.
+This page includes background information about data modeling, to help future implementers.
 
 **Version:** 0.1
 
