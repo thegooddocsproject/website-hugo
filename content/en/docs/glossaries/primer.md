@@ -9,11 +9,9 @@ draft: true
 
 This page includes background information about data modelling, to help future implementers.
 
-As at January 2022, this page still needs to be fleshed out.
-
 **Version:** 0.1
 
-**Status:** Incomplete and unreviewed.
+**Status:** Incomplete and unreviewed. (This page still needs to be fleshed out.)
 
 ## Vocabulary formats
 
