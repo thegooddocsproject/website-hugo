@@ -33,6 +33,6 @@ Active participants, as at January 2022:
 * Michael Jastram
 * Erik Stubkaer
 
-### Licenses
+## Licenses
 
 By contributing to this project we expect you to agree to the [Developer Certificate of Origin](https://developercertificate.org/) (DCO). This document was created by the Linux Kernel community and is a simple statement that you, as a contributor, have the legal right to make the contribution, and agree to do so under the [open licenses](https://thegooddocsproject.dev/licenses/) we use.
