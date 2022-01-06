@@ -13,13 +13,48 @@ The _sharable glossaries project_ is developing standards, tools and processes t
 
 ## About sharable glossaries
 
-Glossaries are easy to set up for simple examples but very hard to scale - especially when you try to scale across use cases, across domains and across different organizations.  
+Glossaries are easy to set up for simple examples but very hard to scale - especially when you try to scale across use cases, across domains and across different organizations.
+
 Unfortunately, in 2022, the world is yet to:
 
-1.  Agree on a common glossary format.
-1.  See the format widely adopted.
 
-This project aims to change this by breaking down technical barriers, raising awareness of solutions, and supporting widespread adoption of _sharable glossaries_.
+
+1. Agree on a common glossary format.
+2. See the format widely adopted.
+
+We aim to change this by breaking down technical barriers, raising awareness of solutions, and supporting widespread adoption of _sharable glossaries_.
+
+### Why are glossaries hard?
+
+As projects and their teams grow, documentation becomes increasingly important to enable clear communication. At the same time, it becomes harder to maintain unambiguous terminology due to competing source material and team priorities.
+
+### Vocabulary formats
+
+Glossaries are a specific instance of Knowledge Organization Systems (KOS). These vocabulary formats provide models for:
+
+* Thesauri
+* Classification schemes
+* Taxonomies
+* Folksonomies, and
+* Other controlled vocabularies.
+
+There are mature standards and supporting tools for publishing and maintaining controlled vocabularies.
+
+* [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/)
+* [Resource Description Framework (RDF)](https://www.w3.org/RDF/)
+* [Dublin Core Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
+* [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-2/)
+* [JSON for Linking Data (JSON-LD)](https://json-ld.org/)
+* [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/)
+* [Web Ontology Language (OWL)](https://www.w3.org/TR/skos-primer/#OWL-REFERENCE)
+* [schema.org](https://schema.org/)
+
+Our _sharable glossary_ schema aggregates fields from these standards.
+
+More details at:
+* [Sharable glossary maturity levels](maturity-levels).
+* [Rules for making a vocabulary Findable Accessible Interoperable and Reusable (FAIR)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041).
+* [SKOS Primer](https://www.w3.org/TR/skos-primer/).
 
 ## Use cases
 
@@ -29,7 +64,7 @@ Initial high value use cases to target include:
 +   Enable popup descriptions for your project's acronyms.
 +   Personalize spell checking tooling.
 
-Refer to [glossary use cases](https://docs.google.com/document/d/1k-vRxjMUUsqc5XuxcVdmtKEsm7iOeHZWFArRnNQiLoU/edit#heading=h.frroqlwgaa8o) for more use cases and more details.
+Refer to [glossary use cases](use-cases) for more use cases and more details.
 
 ## Maturity levels
 
@@ -106,7 +141,7 @@ td {
 </tbody>
 </table>
 
-More details at [sharable glossary maturity levels](https://docs.google.com/document/d/1S7wfpf7ofdgz4v7BoVNT5uSkmWD9wcdZm0wopEXIO5M/).
+More details at [sharable glossary maturity levels](maturity-levels).
 
 ## Roadmap to sharable glossaries
 
@@ -122,10 +157,10 @@ These components include:
 +   Introduce governance best practices.
 +   Provide user, and implementation guides.
 
-Refer to our [detailed roadmap](https://docs.google.com/document/d/1kPK5VgCX01Q5EKdN0zvRM-7ua0KiF-BfDZ9POQJXgrA/) and [current status](#heading=h.12kckmkaup3e) for more details.
+Refer to our [detailed roadmap](roadmap) and [current status](status) for more details.
 
 ## Further reading
 
-+   [Rules for making a vocabulary Findable Accessible Interoperable and Reusable (FAIR)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041).
-
+* [Rules for making a vocabulary Findable Accessible Interoperable and Reusable (FAIR)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041).
+* [SKOS Primer](https://www.w3.org/TR/skos-primer/).
 
