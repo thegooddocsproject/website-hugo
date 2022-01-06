@@ -17,8 +17,6 @@ Glossaries are easy to set up for simple examples but very hard to scale - espec
 
 Unfortunately, in 2022, the world is yet to:
 
-
-
 1. Agree on a common glossary format.
 2. See the format widely adopted.
 
@@ -28,33 +26,9 @@ We aim to change this by breaking down technical barriers, raising awareness of 
 
 As projects and their teams grow, documentation becomes increasingly important to enable clear communication. At the same time, it becomes harder to maintain unambiguous terminology due to competing source material and team priorities.
 
-### Vocabulary formats
+While there are mature standards and supporting tools for publishing and maintaining controlled vocabularies, there is currently a high technical barrier to learning these - something we hope to help simplify.
 
-Glossaries are a specific instance of Knowledge Organization Systems (KOS). These vocabulary formats provide models for:
-
-* Thesauri
-* Classification schemes
-* Taxonomies
-* Folksonomies, and
-* Other controlled vocabularies.
-
-There are mature standards and supporting tools for publishing and maintaining controlled vocabularies.
-
-* [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/)
-* [Resource Description Framework (RDF)](https://www.w3.org/RDF/)
-* [Dublin Core Terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/)
-* [Data Catalog Vocabulary (DCAT)](https://www.w3.org/TR/vocab-dcat-2/)
-* [JSON for Linking Data (JSON-LD)](https://json-ld.org/)
-* [Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/)
-* [Web Ontology Language (OWL)](https://www.w3.org/TR/skos-primer/#OWL-REFERENCE)
-* [schema.org](https://schema.org/)
-
-Our _sharable glossary_ schema aggregates fields from these standards.
-
-More details at:
-* [Sharable glossary maturity levels](maturity-levels).
-* [Rules for making a vocabulary Findable Accessible Interoperable and Reusable (FAIR)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041).
-* [SKOS Primer](https://www.w3.org/TR/skos-primer/).
+More details in the [modelling primer](primer).
 
 ## Use cases
 
