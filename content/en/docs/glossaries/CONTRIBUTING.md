@@ -17,7 +17,7 @@ Please do reach out to us with your ideas, on list, or to one of our participant
 ## Contact us
 
 * Slack: [https://thegooddocs.slack.com/ #General](https://thegooddocs.slack.com/archives/C019A1EQJMC)
-* Email list: [https://groups.io/g/thegooddocsproject/](https://groups.io/g/thegooddocsproject/)
+* Email list: [https://lists.osgeo.org/mailman/listinfo/lexicon](https://lists.osgeo.org/mailman/listinfo/lexicon)
 
 ## Participants
 
