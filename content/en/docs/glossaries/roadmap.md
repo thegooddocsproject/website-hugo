@@ -4,7 +4,7 @@ linkTitle: "Roadmap"
 menu:
   glossaries:
     weight: 120
-draft: true
+draft: false
 ---
 
 This roadmap describes steps planned by open source collaborators to realize the potential for large-scale sharing of glossary terms between disparate organizations and projects.  

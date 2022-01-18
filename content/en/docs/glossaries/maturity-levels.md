@@ -4,7 +4,7 @@ linkTitle: "Maturity levels"
 menu:
   glossaries:
     weight: 110
-draft: true
+draft: false
 ---
 
 This page proposes maturity levels for _sharable glossary_ use cases, along with expected fields for each level's schema profile.
@@ -237,7 +237,6 @@ Adding a reference to the source glossary enables:
 
 ```
 {
-{
   ex:chemistry rdf:type skos:Collection : {
     dcterms:license “https://creativecommons.org/licenses/by/4.0/”;
     ex:collectionVersion rdf:type owl:versionInfo “1.2.1”;
@@ -260,23 +259,23 @@ More extensive use cases may involve adding extra metadata fields to the Concept
 As at January 2022, this section requires further definition.
 
 Possible extra fields for level 5
-skos:note # Comments about the term.
-skos:scopeNote # Clarifications on usage.
-dcterms:creator
-dcterms:created
-dcterms:modified
-dcterms:source
-dcterms:replaces
-rdfs:seeAlso
-skos:broader
-skos:narrower
-skos:related
-skos:broadMatch
-skos:closeMatch
-skos:exactMatch
-skos:narrowMatch
-skos:relatedMatch
-skos:ConceptScheme
+* skos:note # Comments about the term.
+* skos:scopeNote # Clarifications on usage.
+* dcterms:creator
+* dcterms:created
+* dcterms:modified
+* dcterms:source
+* dcterms:replaces
+* rdfs:seeAlso
+* skos:broader
+* skos:narrower
+* skos:related
+* skos:broadMatch
+* skos:closeMatch
+* skos:exactMatch
+* skos:narrowMatch
+* skos:relatedMatch
+* skos:ConceptScheme
 
 **Further reading**
 
