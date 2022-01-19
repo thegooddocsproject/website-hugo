@@ -4,7 +4,7 @@ linkTitle: "Primer"
 menu:
   glossaries:
     weight: 150
-draft: true
+draft: false
 ---
 
 This page includes background information about data modeling, to help future implementers.

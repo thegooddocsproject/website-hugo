@@ -4,7 +4,7 @@ linkTitle: "Contributing"
 menu:
   glossaries:
     weight: 200
-draft: true
+draft: false
 ---
 
 We’d love your help.

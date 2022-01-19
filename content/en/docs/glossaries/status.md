@@ -4,7 +4,7 @@ linkTitle: "Status"
 menu:
   glossaries:
     weight: 130
-draft: true
+draft: false
 ---
 
 We kicked off the sharable glossary project in mid-2020, and by January 2022 we have:

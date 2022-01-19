@@ -4,7 +4,7 @@ linkTitle: "Use cases"
 menu:
   glossaries:
     weight: 140
-draft: true
+draft: false
 ---
 
 This page lists the various use cases enabled by glossaries.

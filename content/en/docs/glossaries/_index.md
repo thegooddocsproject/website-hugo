@@ -4,7 +4,7 @@ linkTitle: "Glossaries"
 menu:
   main:
     weight: 100
-draft: true
+draft: false
 ---
 
 The _sharable glossaries project_ is developing standards, tools and processes to help establish interoperable glossaries between organizations and projects.
