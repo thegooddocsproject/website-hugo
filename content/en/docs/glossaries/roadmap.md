@@ -31,7 +31,7 @@ Define the problem and attract collaborators.
 **How**
 
 +   Within this website, we describe the business, architecture, collaboration and technical challenges that require addressing.
-+   We have broken problems into modular components, are engaging domain experts to focus on their area, and coordinating contributions into a holistic solution.
++   We have broken problems into modular components, engaged with domain experts to focus on their area, and coordinated contributions into a holistic solution.
 
 ### Phase 2 Establish a defacto glossary standard
 
