@@ -12,9 +12,7 @@ aliases:
 # The Good Docs Project Community
 
 We are a community of technical writers, developers, UX designers, and more who work together to make software documentation better.
-Whether you are new to documentation or a seasoned technical writer, joining our community will give you opportunities to mentor and be mentored by others, improve your documentation skills, and help make software documentation better.
-
-Our [who are we](/who-we-are) page lists our active members who have taken up official roles.
+Whether you are new to documentation or a seasoned technical writer, joining our community will give you opportunities to mentor and be mentored by others, build your professional network, improve your documentation skills, and help make software documentation better.
 
 {{% /blocks/lead %}}
 
@@ -59,23 +57,23 @@ Why do we use email lists?
 
 ### Joining a meeting
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.7/jstz.js"></script>
-
-<iframe id="calendar_container" src="https://calendar.google.com/calendar/embed?src=gooddocsproject%40gmail.com&ctz=Australia%2FSydney" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-<script type="text/javascript">
-  var timezone = jstz.determine();
-  var pref = 'https://www.google.com/calendar/embed?showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=gooddocsproject%40gmail.com&amp;color=%23AB8B00&amp;ctz=';
-  var iframe_src = pref + encodeURIComponent(timezone.name().replace(' ' ,''));
-  document.getElementById('calendar_container').src = iframe_src;
-</script>
-
 Everyone is welcome to join our working group video conference calls.
 Details for joining are in the calendar above.
 
 Reach out to the working group leaders in our #welcome slack channel to get a personal calendar invitation which means you can:
 * Log in without approval from the meeting lead.
 * Have the invite added to your personal calendar.
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.7/jstz.js"></script>
+
+<iframe id="calendar_container" src="https://calendar.google.com/calendar/embed?src=gooddocsproject%40gmail.com&ctz=Australia%2FSydney" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+<script type="text/javascript">
+  var timezone = jstz.determine();
+  var pref = 'https://www.google.com/calendar/embed?src=gooddocsproject%40gmail.com&ctz=';
+  var iframe_src = pref + encodeURIComponent(timezone.name().replace(' ' ,''));
+  document.getElementById('calendar_container').src = iframe_src;
+</script>
 
 
 ## Additional resources and information
