@@ -76,7 +76,7 @@ td {
 </tr>
 <tr>
 <td class="style4">3 Traced to source</td>
-<td class="style4">Know which glossaries terms come from.</td>
+<td class="style4">Know where do the glossary terms come from.</td>
 </tr>
 <tr>
 <td class="style5">4 Governed</td>
@@ -99,11 +99,11 @@ A non-sharable glossary may be included as a table within a document or website.
 
 **Value added**
 
-A glossary is relatively straightforward to establish for a document or small website. It help readers understand terms used.
+A glossary is relatively straightforward to establish for a document or small website. It helps readers understand the terms used.
 
 **How**
 
-Copy domain-specific terms from your documentation into a glossary table. Include columns for Term and Definition. Ideally, source definitions from a more authoritative glossary.
+Copy domain-specific terms from your documentation into a glossary table. Include columns for Terms and Definitions. Ideally, source definitions from a more authoritative glossary.
 
 **Example**
 
@@ -117,7 +117,7 @@ Copy domain-specific terms from your documentation into a glossary table. Includ
   <tr>
    <td>mercury
    </td>
-   <td>metal element which is liquid standard temperatures
+   <td>metal element which is liquid's standard temperature
    </td>
   </tr>
 </table>

@@ -9,8 +9,8 @@ draft: false
 
 We’d love your help.
 
-* Check out or [roadmap](roadmap) for tasks we know need to be worked on.
-* You may have more ideas, research, or implementations which you can help with?
+* Check out our [roadmap](roadmap) for tasks we know need to work on.
+* You may have more ideas, strategies, or implementations which you can help with?
 
 Please do reach out to us with your ideas, on list, or to one of our participants.
 
