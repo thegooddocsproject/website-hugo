@@ -67,7 +67,7 @@ Why do we use email lists?
   var timezone = jstz.determine();
   var pref = 'https://www.google.com/calendar/embed?showPrint=0&amp;showCalendars=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=somecalendaridentifier%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=';
   var iframe_src = pref + encodeURIComponent(timezone.name().replace(' ' ,''));
-  document.getElementById('calendar-container').src = iframe_src;
+  document.getElementById('calendar_container').src = iframe_src;
 </script>
 
 Everyone is welcome to join our working group video conference calls.
