@@ -64,6 +64,14 @@ Reach out to the working group leaders in our #welcome slack channel to get a pe
 * Log in without approval from the meeting lead.
 * Have the invite added to your personal calendar.
 
+You can view Good Docs Project meetings and events on your personal calendar by subscribing to the Good Docs calendar.
+To subscribe to our calendar:
+
+1. Click the **+** symbol in the Good Docs calendar.
+2. When your personal Google loads, you'll see the **Add calendar** dialog box. Click **Add**.
+
+Once you have subscribed to the calendar, you'll be able to see the details for how to join the meeting.
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jstimezonedetect/1.0.7/jstz.js"></script>
 
 <iframe id="calendar_container" src="https://calendar.google.com/calendar/embed?src=gooddocsproject%40gmail.com&ctz=Australia%2FSydney" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
