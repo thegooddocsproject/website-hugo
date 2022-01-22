@@ -38,7 +38,7 @@ When engaging with members of our project, we ask that you follow our [Code of C
 
 ### Slack
 
-We often chat in slack, you can join [here](https://join.slack.com/t/thegooddocs/shared_invite/enQtODkyNjI5MDc0NjE0LTUyNGFiZmU1MjIzNDMwN2E3NmQwODQwZmRkYWI5MDhlMzdjYzg4Nzg4YjM3ODA0NGE4MTgyYzdkMGViMTI2MDM).
+We often chat in Slack. You can join [our Slack workspace](https://join.slack.com/t/thegooddocs/shared_invite/enQtODkyNjI5MDc0NjE0LTUyNGFiZmU1MjIzNDMwN2E3NmQwODQwZmRkYWI5MDhlMzdjYzg4Nzg4YjM3ODA0NGE4MTgyYzdkMGViMTI2MDM).
 
 The main channels are:
 
