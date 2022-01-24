@@ -160,8 +160,8 @@ Fields from higher maturity levels may optionally be included.
     ex:mercury rdf:type skos:Concept : {
       skos:prefLabel "mercury"@en;
       skos:prefLabel "mercure"@fr; # Optionally support multiple languages
-      skos:altLabel "he"@en; # altLabel is optional
-      skos:definition "metal element which is liquid standard temperatures"@en;
+      skos:altLabel "hg"@en; # altLabel is optional
+      skos:definition "metal element which is liquid at standard temperatures"@en;
   }
 }
 ```
@@ -198,9 +198,9 @@ Adding a reference to the source glossary enables:
     dcterms:license “https://creativecommons.org/licenses/by/4.0/”;
     ex:mercury rdf:type skos:Concept : {
       skos:prefLabel "mercury"@en;
-      skos:prefLabel "helio"@es; # Optionally support multiple languages
-      skos:altLabel "he"@en;
-      skos:definition "metal element which is liquid standard temperatures"@en;
+      skos:prefLabel "mercure"@es; # Optionally support multiple languages
+      skos:altLabel "hg"@en;
+      skos:definition "metal element which is liquid at standard temperatures"@en;
       dcterm:identifier “mercury”; #unique identifier
       skos:inScheme “https://authoritative1.org/glossary.json”
       # If term doesn’t have a source, then skos:inScheme isn’t mentioned
@@ -243,8 +243,8 @@ Adding a reference to the source glossary enables:
     ex: priorVersion rdf:type owl:priorVersion “1.2.0”;
     ex:mercury rdf:type skos:Concept : {
       skos:prefLabel "mercury"@en;
-      skos:altLabel "he"@en;
-      skos:definition "inert gas"@en;
+      skos:altLabel "hg"@en;
+      skos:definition "metal element which is liquid at standard temperatures"@en;
       dcterm:identifier “mercury”; #unique identifier within Collection
       skos:inScheme “https://authoritative1.org/glossary.json”
       ex:sourceGlossaryVersion rdf:type owl:versionInfo “2.0”;
