@@ -22,8 +22,11 @@ TheGoodDocsProject Project Steering Committee (PSC) is the official managing bod
 -   Bryan Klein
 -   Cameron Shorter
 -   Carrie Crowe
+-   Deanna Thompson
 -   Erin McKean
+-   Gayathri Krishnaswamy
 -   Morgan Craft
+-   Nelson Guya
 -   Ryan Macklin
 -   Viraji Ogodapola
 
