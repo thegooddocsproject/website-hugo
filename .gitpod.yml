@@ -1,24 +1,24 @@
 tasks:
   - name: Install Hugo and Dependencies
-    before: brew install hugo && npm install
-    init: echo "Your version of Hugo is `hugo version`"
+    before: brew install hugo && npm install && sudo apt install git-restore-mtime
+    init: git restore-mtime --force
     command: hugo server -D -F --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
 ports:
   - port: 1313
     onOpen: open-browser
-vscode:
-  extensions:
-    - bungcip.better-toml
 github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
     master: true
-    # enable for all branches in this repo (defaults to false)
+# enable for all branches in this repo (defaults to false)
     branches: false
-    # enable for pull requests coming from this repo (defaults to true)
+# enable for pull requests coming from this repo (defaults to true)
     pullRequests: true
-    # add a check to pull requests (defaults to true)
+# add a check to pull requests (defaults to true)
     addCheck: true
-    # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
+# add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
     addComment: true
-    
+vscode:
+  extensions:
+    - bungcip.better-toml
+    - budparr.language-hugo-vscode

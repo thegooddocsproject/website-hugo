@@ -18,18 +18,21 @@ TheGoodDocsProject Project Steering Committee (PSC) is the official managing bod
 
 -   Alyssa Rock, chair
 -   Aaron Peters
--   Aidan Doherty
 -   Ankita Tripathi
 -   Bryan Klein
 -   Cameron Shorter
 -   Carrie Crowe
+-   Deanna Thompson
 -   Erin McKean
+-   Gayathri Krishnaswamy
 -   Morgan Craft
+-   Nelson Guya
 -   Ryan Macklin
 -   Viraji Ogodapola
 
 Our thanks to previous PSC members:
 
+-   Aidan Doherty
 -   Becky Todd
 -   Clarence Cromwell
 -   Felicity Brand

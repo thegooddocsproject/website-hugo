@@ -17,6 +17,10 @@ You only have to do this step the first time, to create a Gitpod account, after 
 For more information on setting up an account, see https://gitpod.io/plans
 
 NOTE: Authenticate with the Github account you use in the Good Docs Project.
+  
+### Install the GitPod Browser Extension
+
+The [Browser Extension](https://www.gitpod.io/docs/browser-extension) will add GitPod buttons to the GitHub UI to make it easier to launch GitPod from appropriate contexts in the project.
 
 ### Click the green Gitpod Button
 
