@@ -1,0 +1,104 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/content",
+      "excludeSubdir": true
+    },
+    {
+      "title": "Authors",
+      "path": "[[workspace]]/content/en/authors"
+    },
+    {
+      "title": "Blog",
+      "path": "[[workspace]]/content/en/blog"
+    },
+    {
+      "title": "Working Groups",
+      "path": "[[workspace]]/content/en/working-group"
+    },
+    {
+      "title": "Docs",
+      "path": "[[workspace]]/content/en/docs"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "blog",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Created date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Published Date",
+          "name": "publishDate",
+          "type": "datetime"
+        },
+        {
+          "title": "Last Modified Date",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "Featured Image",
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Author(s)",
+          "name": "author",
+          "type": "choice",
+          "choices": [
+            { "id": "bryan_klein", "title": "Bryan Klein" },
+            { "id": "ryan_macklin", "title": "Ryan Macklin" }
+          ],
+          "multiple": true
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Allow Comments?",
+          "name": "comments",
+          "type": "boolean"
+        },
+        {
+          "title": "Custom Copyright",
+          "name": "custom_copyright",
+          "type": "string"
+        },
+        {
+          "title": "Custom License",
+          "name": "custom_license",
+          "type": "string"
+        },
+        {
+          "title": "Content Type",
+          "name": "type",
+          "type": "string",
+          "default": "blog",
+          "hidden": true
+        }
+      ]
+    }
+  ]
+}

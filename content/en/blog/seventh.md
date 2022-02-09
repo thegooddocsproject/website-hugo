@@ -1,12 +1,17 @@
 ---
-title: "Seventh"
-date: 2018-10-07T11:39:29+02:00
-publishdate: 2018-10-07T11:39:29+02:00
-image: "7.jpg"
-tags: ["interesting"]
+title: Seventh
+date: '2018-10-07T09:39:29.000Z'
+publishDate: '2018-10-07T09:39:29.000Z'
+image: /uploads/7.jpg
+tags:
+  - interesting
 comments: true
 author:
-  - "ryan_macklin"
+  - ryan_macklin
+lastmod: '2022-02-09T01:08:25.162Z'
+type: blog
+custom_copyright: ''
+custom_license: ''
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~. [Links](https://github.com) should be blue with no underlines (unless hovered over).

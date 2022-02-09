@@ -1,13 +1,17 @@
 ---
-title: "First"
-date: 2018-10-07T11:17:14+02:00
-publishdate: 2018-10-07T11:17:14+02:00
-corrected_date: 2020-06-12
-image: "1.jpg"
-tags: ["interesting"]
+title: First
+date: 2018-10-07T09:17:14.000Z
+publishDate: 2018-10-07T09:17:14.000Z
+image: /uploads/1.jpg
+tags:
+  - interesting
 comments: false
 author:
-  - "bryan_klein"
+  - bryan_klein
+type: blog
+lastmod: '2022-02-09T01:08:25.170Z'
+custom_copyright: ''
+custom_license: ''
 ---
 
 # This is the first post
