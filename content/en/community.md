@@ -20,7 +20,7 @@ Whether you are new to documentation or a seasoned technical writer, joining our
 
 {{% blocks/section color="white" type="section" %}}
 
-## How to join us and start contributing
+## How to join us and contribute
 
 Our project is organized into small working groups of about 2-10 people who collaborate together to work on key project initiatives and tasks.
 For that reason, one of the best ways you can get started is to look at our [list of working groups](/working-group/) and decide which group(s) you might want to join and contribute to.
