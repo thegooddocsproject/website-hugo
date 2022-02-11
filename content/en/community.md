@@ -32,7 +32,7 @@ Once you find a group that is working on a project that interests you:
 
 We also have general meetings where you can come and meet the project leaders and learn more about the project.
 
-## Communicating with other members of the project
+## Communicate with other members of the project
 
 When engaging with members of our project, we ask that you follow our [Code of Conduct](/code-of-conduct/).
 
