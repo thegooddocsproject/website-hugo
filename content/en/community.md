@@ -55,7 +55,7 @@ Why do we use email lists?
 * They are archived.
 * They work well for people working across multiple time zones and work patterns.
 
-### Joining a meeting
+### Join a meeting
 
 Everyone is welcome to join our working group video conference calls.
 Details for joining are in the calendar above.
