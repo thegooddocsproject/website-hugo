@@ -3,7 +3,7 @@ title: Business Case Working Group
 poc: "[Cameron Shorter](https://thegooddocs.slack.com/team/UKTGLQNGG)"
 meeting: Mondays at 12:00 p.m. Pacific Time, California (on Google Meet).
 status: Active
-description: Discover the optimal information for a documentation business case, and provide materials that help people make their own and succeed. For great justice.
+description: Discover the optimal information for a documentation business case, and provide materials that help people make their own and succeed.
 slackName: business-case
 slackID: C02PQLCCFS6
 notesURL: https://docs.google.com/document/d/1MKWdkbRmofahq884WjsopMCao-IA51ZcqrF_NwLDkDQ/edit#
