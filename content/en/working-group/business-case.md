@@ -25,4 +25,4 @@ In industry, we often find ourselves arguing for greater investment in documenta
 
 We aim to discover the optimal information that could be used for a documentation business case, then create materials that help people make their own business case supporting documentation investment.
 
-We are currently identifying key statistics and metrics used by business decision makers, that could be used to support a proposal for increasing docs investment. 
+We are identifying key statistics and metrics used by business decision makers, that could be used to support a proposal for increasing docs investment. 
