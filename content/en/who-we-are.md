@@ -12,7 +12,8 @@ Here we list the people behind this project, as defined by the project's [roles]
 
 {{% blocks/section color="white" type="section" %}}
 
-TheGoodDocsProject Project Steering Committee (PSC) is the official managing body of TheGoodDocsProject and is responsible for setting overall project direction. The committee is drawn from TheGoodDocsProject community and is based on merit and interest.
+The Good Docs Project Project Steering Committee (PSC) is the official managing body of The Good Docs Project and is responsible for setting overall project direction.
+The committee is drawn from The Good Docs Project community and is based on merit and interest.
 
 ## PSC Members
 
@@ -24,6 +25,7 @@ TheGoodDocsProject Project Steering Committee (PSC) is the official managing bod
 -   Carrie Crowe
 -   Deanna Thompson
 -   Erin McKean
+-   Felicity Brand
 -   Gayathri Krishnaswamy
 -   Morgan Craft
 -   Nelson Guya
@@ -35,7 +37,6 @@ Our thanks to previous PSC members:
 -   Aidan Doherty
 -   Becky Todd
 -   Clarence Cromwell
--   Felicity Brand
 -   Jared Morgan
 -   Jennifer Rondeau
 -   Jo Cook
