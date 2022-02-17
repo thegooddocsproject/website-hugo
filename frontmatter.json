@@ -66,8 +66,18 @@
           "name": "author",
           "type": "choice",
           "choices": [
-            { "id": "bryan_klein", "title": "Bryan Klein" },
-            { "id": "ryan_macklin", "title": "Ryan Macklin" }
+            {
+              "id": "bryan_klein",
+              "title": "Bryan Klein"
+            },
+            {
+              "id": "ryan_macklin",
+              "title": "Ryan Macklin"
+            },
+            {
+              "id": "felicity_brand",
+              "title": "Felicity Brand"
+            }
           ],
           "multiple": true
         },
@@ -100,5 +110,10 @@
         }
       ]
     }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "sunset",
+    "sunshine",
+    "moonlight"
   ]
 }
