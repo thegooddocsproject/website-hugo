@@ -39,8 +39,8 @@
               <h2><span>Posts by {{.Title}}</span></h2>
             </div>
             <div class="row listrecent">
-              {{ range where .Site.Pages "Params.author" .File.BaseFileName }}
-              {{- partial "list-partials/postbox.html" . -}}
+              {{ range where (where .Site.Pages "Type" "blog") "Params.author" "intersect" (slice .File.BaseFileName) }}
+                {{- partial "list-partials/postbox.html" . -}}
               {{end}}
             </div>
           </section>

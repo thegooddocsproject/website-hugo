@@ -9,7 +9,4 @@ lastmod: '2022-02-09T01:09:40.082Z'
 type: page
 ---
 
-This is the **blog** section.
-
-Files in these directories will be listed in reverse chronological order.
-
+Text 'About' the blog here.
