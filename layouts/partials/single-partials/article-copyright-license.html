@@ -7,7 +7,7 @@
       &copy; {{ .Date.Format "2006"}}
       {{ range $i, $e := .Params.author -}}
         {{- $author_name := $e -}}
-        {{- $author_url := add "/authors/" $author_name -}}
+        {{- $author_url := add "/author/" $author_name -}}
         {{- $author_page := $.Site.GetPage $author_url -}}
         {{- if $i -}},&nbsp;{{- end -}}<span class="post-name"><a href="{{$author_url}}">{{ with $author_page }}{{ .Title }}{{ end }}</a></span>
       {{- end }}

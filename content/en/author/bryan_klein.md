@@ -12,6 +12,7 @@ social:
   medium: ""
   twitter: "bryanwklein"
   instagram: ""
+type: author
 ---
 
 A bit of history and a bio as needed.

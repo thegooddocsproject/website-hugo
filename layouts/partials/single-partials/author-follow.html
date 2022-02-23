@@ -2,7 +2,7 @@
   <hr class="w-25 pt-4">
   {{ range .Params.author }}
     {{ $author_name := . }}
-    {{ $author_url := add "/authors/" $author_name }}
+    {{ $author_url := add "/author/" $author_name }}
     {{ $author_page := $.Site.GetPage $author_url}}
     {{ with $author_page }}
     <div class="article-post mb-4">

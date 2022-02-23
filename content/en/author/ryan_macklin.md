@@ -12,6 +12,7 @@ social:
   medium: ""
   twitter: ""
   instagram: ""
+type: author
 ---
 
 A bit of history and a bio as needed. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.

@@ -12,6 +12,7 @@ social:
   medium: ""
   twitter: "flicstar_"
   instagram: ""
+type: author
 ---
 
 Felicity Brand (aka flicstar) creates and edits a variety of technical content and loves to speak about the craft of writing and editing for technical audiences. She is passionate about open source, and is based in Melbourne, Australia.

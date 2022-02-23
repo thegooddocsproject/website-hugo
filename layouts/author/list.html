@@ -5,7 +5,7 @@
 {{ define "main" }}
   {{- partial "_shared/title.html" . -}}
   <div class="row listrecent listrecent listauthor card-deck">
-    {{ range .Pages }}
+    {{ range where .Pages "Type" "author" }}
       {{- partial "list-partials/authorbox.html" . -}}
     {{end}}
   </div>
