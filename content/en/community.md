@@ -20,7 +20,7 @@ Whether you are new to documentation or a seasoned technical writer, joining our
 
 {{% blocks/section color="white" type="section" %}}
 
-## How to join us and start contributing
+## How to join and contribute
 
 Our project is organized into small working groups of about 2-10 people who collaborate together to work on key project initiatives and tasks.
 For that reason, one of the best ways you can get started is to look at our [list of working groups](/working-group/) and decide which group(s) you might want to join and contribute to.
@@ -32,7 +32,7 @@ Once you find a group that is working on a project that interests you:
 
 We also have general meetings where you can come and meet the project leaders and learn more about the project.
 
-## Communicating with other members of the project
+## Communicate with other members of the project
 
 When engaging with members of our project, we ask that you follow our [Code of Conduct](/code-of-conduct/).
 
@@ -55,7 +55,7 @@ Why do we use email lists?
 * They are archived.
 * They work well for people working across multiple time zones and work patterns.
 
-### Joining a meeting
+### Join a meeting
 
 Everyone is welcome to join our working group video conference calls.
 Details for joining are in the calendar above.
