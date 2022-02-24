@@ -4,7 +4,7 @@
     <br>
   {{ else }}
     {{ if .Params.author }}
-      &copy; {{ .Date.Format "2006"}}
+      Text of article &copy; {{ .Date.Format "2006"}}
       {{ range $i, $e := .Params.author -}}
         {{- $author_name := $e -}}
         {{- $author_url := add "/author/" $author_name -}}
