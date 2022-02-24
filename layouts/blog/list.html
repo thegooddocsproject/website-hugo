@@ -23,12 +23,12 @@
         </section>
         {{- partial "list-partials/pagination.html" $post_paginator -}}
         <section style="margin-top: 3em;">
-            {{ $authors := where .Site.Pages "Type" "author" }}
+            {{ $authors := sort (where .Site.Pages "Type" "author") "Title" "asc" }}
             <div class="section-title">
                 <h2><span>Our Authors <small>({{ len $authors }} total)</small></span></h2>
             </div>
             <div class="row listrecent listrecent listauthor card-deck">
-                {{ range $authors}}
+                {{ range $authors }}
                     {{- partial "list-partials/authorbox.html" . -}}
                 {{end}}
             </div>
