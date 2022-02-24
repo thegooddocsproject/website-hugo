@@ -1,18 +1,19 @@
 ---
-title: "Ryan Macklin"
-image: "/uploads/ryan_macklin.jpg"
-description: "empathy evangelist, mentor"
-follow: "Need more Ryan? Visit [LinkedIn](https://www.linkedin.com)"
-web: ""
-email: ""
+title: Ryan Macklin
+image: /uploads/ryan_macklin.jpg
+description: 'empathy evangelist, mentor'
+follow: 'Need more Ryan? Visit [LinkedIn](https://www.linkedin.com)'
+web: ''
+email: ''
 social:
-  github: ""
-  gitlab: ""
-  linkedin: ""
-  medium: ""
-  twitter: ""
-  instagram: ""
+  github: ''
+  gitlab: ''
+  linkedin: ''
+  medium: ''
+  twitter: ''
+  instagram: ''
 type: author
+lastmod: '2022-02-24T01:30:08.158Z'
 ---
 
 A bit of history and a bio as needed. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
