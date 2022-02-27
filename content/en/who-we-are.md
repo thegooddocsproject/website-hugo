@@ -12,24 +12,24 @@ Here we list the people behind this project, as defined by the project's [roles]
 
 {{% blocks/section color="white" type="section" %}}
 
-The Good Docs Project Project Steering Committee (PSC) is the official managing body of The Good Docs Project and is responsible for setting overall project direction.
+The Good Docs Project Steering Committee (PSC) is the official managing body of The Good Docs Project and is responsible for setting overall project direction.
 The committee is drawn from The Good Docs Project community and is based on merit and interest.
 
 ## PSC Members
 
--   Alyssa Rock, chair
+-   Alyssa Rock, co-chair
+-   Carrie Crowe, co-chair
+-   Ryan Macklin, co-chair
 -   Aaron Peters
 -   Ankita Tripathi
 -   Bryan Klein
 -   Cameron Shorter
--   Carrie Crowe
 -   Deanna Thompson
 -   Erin McKean
 -   Felicity Brand
 -   Gayathri Krishnaswamy
 -   Morgan Craft
 -   Nelson Guya
--   Ryan Macklin
 -   Viraji Ogodapola
 
 Our thanks to previous PSC members:
@@ -47,7 +47,6 @@ Our thanks to previous PSC members:
 -   Clarence Cromwell
 -   Daniel Beck
 -   Derek Ardolf
--   Felicity Brand
 -   Jared Morgan
 -   Lana Brindley
 
