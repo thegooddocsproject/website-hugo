@@ -11,10 +11,10 @@ members:
   - "[Alyssa Rock](https://thegooddocs.slack.com/team/U012KCMPP0V)"
   - "[Carrie Crowe](https://thegooddocs.slack.com/team/U01QS8YAHHN)"
   - "[Deanna](https://thegooddocs.slack.com/team/U01SXR5TKA6)"
-  - "[Joanne Fung]()"
-  - "[Kayla Morales]()"
-  - "[Rob] ()"
-  - "[Sameera] ()"
+  - "[Joanne Fung](https://thegooddocs.slack.com/team/U02PXJYC747)"
+  - "[Kayla Morales](https://thegooddocs.slack.com/team/U02F7ECFCDQ)"
+  - "[Rob] (https://thegooddocs.slack.com/team/U02FPRE1STA)"
+  - "[Sameera] (https://thegooddocs.slack.com/team/U031XUE6KQC)"
 draft: false
 ---
 
