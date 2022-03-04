@@ -15,7 +15,7 @@ Terms for how to use and reuse our project's templates, code & informational con
 
 {{% blocks/section color="white" type="section" %}}
 
-# Using and repurposing our templates & code
+# Use and repurpose our templates & code
 
 In order to facilitate maximum reusability, the reusable material (templates and code), are released under very permission licenses (such as the [Zero-Clause BSD license](https://opensource.org/licenses/0BSD)).
 Each sub-project and repo contains license information for that part of *The Good Docs Project* where applicable.
@@ -25,14 +25,14 @@ Hopefully you will help others find our project using a statement like:
 
 **This documentation is based on templates from [The Good Docs Project](https://thegooddocsproject.dev/).**
 
-That way, others can also benefit from our project as you are. :)
+That way, others can also benefit from our project as you are. :smile:
 
-## Extending our templates & code
+## Extend our templates & code
 
 As an open source project, we naturally encourage people to fork and extend our repos!
 If you'd like to share what you've built with us, please feel free to [contact us](/community/) so we can check out your work and possibly share it ourselves on social media.
 
-# Repurposing our blog posts & other supporting materials
+# Repurpose our blog posts & other supporting materials
 
 As part of global community efforts to raise the visibility and understanding of good documentation practices, authors of various *The Good Docs Project* publications release their contributions for public reuse.
 Each blog post, white paper, and other document have their license attached to that material or in the repo containing it.
