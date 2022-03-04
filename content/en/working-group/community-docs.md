@@ -14,7 +14,7 @@ members:
   - "[Joanne Fung](https://thegooddocs.slack.com/team/U02PXJYC747)"
   - "[Kayla Morales](https://thegooddocs.slack.com/team/U02F7ECFCDQ)"
   - "[Rob](https://thegooddocs.slack.com/team/U02FPRE1STA)"
-  - "[Sameera] (https://thegooddocs.slack.com/team/U031XUE6KQC)"
+  - "[Sameera](https://thegooddocs.slack.com/team/U031XUE6KQC)"
 draft: false
 ---
 
