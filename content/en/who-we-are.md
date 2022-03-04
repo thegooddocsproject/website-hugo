@@ -44,22 +44,12 @@ Our thanks to previous PSC members:
 
 ## Committers
 
-<<<<<<< HEAD
 -   Chris Ward
 -   Clarence Cromwell
 -   Daniel Beck
 -   Derek Ardolf
 -   Jared Morgan
 -   Lana Brindley
-=======
-- Chris Ward
-- Clarence Cromwell
-- Daniel Beck
-- Derek Ardolf
-- Felicity Brand
-- Jared Morgan
-- Lana Brindley
->>>>>>> 14c8d206f6015182bbaa0cd6aba4f0c497037c4a
 
 PSC members may retire any time. If a PSC member becomes inactive, for multiple quarters, it may be time to retire. (Ex-members will typically be welcomed back if they become active again.) An inactive member may be invited to retire. If unresponsive they may be removed by the existing PSC.
 
