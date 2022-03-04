@@ -25,7 +25,7 @@ Hopefully you will help others find our project using a statement like:
 
 **This documentation is based on templates from [The Good Docs Project](https://thegooddocsproject.dev/).**
 
-That way, others can also benefit from our project as you are. :smile:
+That way, others can also benefit from our project as you are. :)
 
 ## Extend our templates & code
 
