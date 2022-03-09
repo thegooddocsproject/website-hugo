@@ -35,7 +35,7 @@ If you'd like to share what you've built with us, please feel free to [contact u
 # Repurpose our blog posts & other supporting materials
 
 As part of global community efforts to raise the visibility and understanding of good documentation practices, authors of various *The Good Docs Project* publications release their contributions for public reuse.
-Each blog post, white paper, and other document have their license attached to that material or in the repo containing it.
+Each blog post, white paper, and other document have their license attached to that material or in the repo containing it (when the authors involved in a given piece are in a position to grant a license to the content provided).
 
 If you're using blog content released under [Creative Commons Attribution 4.0 Internation](https://creativecommons.org/licenses/by/4.0/) (a.k.a "CC BY 4.0") in your own publications (beyond fair use of quoting for purposes of commentary), we ask you use the following attribution:
 
