@@ -32,9 +32,9 @@ Read the latest news and headlines regarding The Good Docs Project and how our b
 * __2019-11-25__ - Launching TheGoodDocsProject at WriteTheDocs - Australia conference (and conference highlights) [Cameron Shorter's blog post](http://cameronshorter.blogspot.com/2019/11/launching-thegooddocsproject.html).
 * __2019-11-11__ - [Announcement-1](https://github.com/thegooddocsproject/governance/wiki/Announcement-1) Fixit Workshop, at WriteTheDocs - Australia conference.
 * __2021-04-20__ - Alyssa Rock provided an overview of The Good Docs Project at the Microsoft Open Source meetup.
-* __2021-04-27__ - Deanna Thompson mentioned The Good Docs Project prominently in her Write the Docs Portland conference talk entitled "Building a style guide from the ground up: lessons learned from a lone writer." In the talk, she mentioned she used one of our templates to build her company's style guide. Here's a link to the talk: https://www.youtube.com/watch?v=PkK1lowfeFU&list=PLZAeFn6dfHpkCk5Fw5yLFGTqd1OJoaXhR
-* __2021-08-20__ - Alyssa Rock participated in a roundtable discussion for new technical writers entering the field for the Write the Docs Bay Area chapter meetup. She talked about how contributing to open source projects like The Good Docs Project can help boost a new writer's career. Here's a link to the discussion: https://www.youtube.com/watch?v=SKQkgH_6Ex8
-* __2021-08-20__ - Jared Bhatti, et. al. published the new book Docs for Developer in which they endorsed The Good Docs Project as a resource for creating great documentation.
+* __2021-04-27__ - Deanna Thompson mentioned The Good Docs Project prominently in her Write the Docs Portland conference talk entitled "[Building a style guide from the ground up: lessons learned from a lone writer.](https://www.youtube.com/watch?v=PkK1lowfeFU)" In the talk, she mentioned she used one of our templates to build her company's style guide.
+* __2021-08-20__ - Alyssa Rock participated in a [roundtable discussion for new technical writers entering the field for the Write the Docs Bay Area chapter meetup](https://www.youtube.com/watch?v=SKQkgH_6Ex8). She talked about how contributing to open source projects like The Good Docs Project can help boost a new writer's career.
+* __2021-08-20__ - Jared Bhatti, et. al. published the new book [Docs for Developers](https://docsfordevelopers.com/) in which they endorsed The Good Docs Project as a resource for creating great documentation.
 
 
 {{% /blocks/section %}}
