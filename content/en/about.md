@@ -20,7 +20,7 @@ It is designed to help document authors, docset owners, and template authors to 
 
 ## Goals of The Good Docs Project
 
-Within The Good Docs Project we are building best practice templates and writing instructions for documenting open source software. 
+Within The Good Docs Project, we build best practice templates and writing instructions for documenting open source software. 
 (Which incidentally are useful for all software and related domains.)
 
 ## Focus on what you’re best at
