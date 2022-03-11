@@ -87,7 +87,6 @@ Once you have subscribed to the Good Docs Project calendar, you'll be able to vi
 ## Additional resources and information
 
 * [Who We Are](/who-we-are)
-* [How to Contribute](/contribute)
 * [Roles and responsibilities](/roles)
 * [Working Groups](/working-group)
 * Decisions
