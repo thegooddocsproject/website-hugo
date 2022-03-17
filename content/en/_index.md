@@ -30,17 +30,16 @@ We want to help open source projects be more effective by helping them lift the 
 
 ## How?
 We create processes, templates, and guides covering the numerous aspects of writing good documentation.
-We describe our reasoning, referencing available research, to help writers decide when to deviate from suggestions.
+We describe our reasoning and provide research to empower writers and non-writers alike to understand the deeper concepts and principles of effective technical writing.
 
 ## What?
-Every project deserves a minimum level of Good Docs, but it can be hard to know where to start or write.
-Our open-source suite of templates will help you create a baseline documentation set.
+Every project deserves a minimum level of good docs, but it can be hard to know where to start or write. Our open-source suite of templates will help you create a baseline documentation set.
 
 ## Who?
 Our key target audiences are:
 
 * Software developers who want to use guides and templates to create documentation for their projects.
-* Technical writers setting up a documentation framework, who want to make use of established templates and processes, customizing where appropriate, to align with the project’s goals.
+* Technical writers setting up a documentation framework who want to use established templates and processes, customizing where appropriate, to align with the project’s goals.
 * Project owners who need to balance project priorities and want to understand the return-on-effort associated with different documentation strategies.
 
 ## Download
