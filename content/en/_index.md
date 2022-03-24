@@ -29,24 +29,23 @@ linkTitle: "Home"
 We want to help open source projects be more effective by helping them lift the quality of their documentation.
 
 ## How?
-We are creating processes, templates, and guides covering the numerous aspects of writing good documentation.
-We describe our reasoning, referencing research where available, to help writers decide when they should deviate from suggestions.
+We create processes, templates, and guides covering the numerous aspects of writing good documentation.
+We describe our reasoning and provide research to empower writers and non-writers alike to understand the deeper concepts and principles of effective technical writing.
 
 ## What?
-Every project deserves a minimum level of Good Docs, but it can be really hard to know where to start or what to write.
-Our open source suite of templates will help you create a baseline set of documentation.
+Every project deserves a minimum level of good docs, but it can be hard to know where to start or write. Our open-source suite of templates will help you create a baseline documentation set.
 
 ## Who?
 Our key target audiences are:
 
-* Software developers who want to use guides and templates to create documentation for their project.
-* Technical writers setting up a documentation framework, who want to make use of established templates and processes, customizing where appropriate to align with the project's goals.
-* Project owners who need to balance project priorities, and want to understand the return-on-effort associated with different documentation strategies.
+* Software developers who want to use guides and templates to create documentation for their projects.
+* Technical writers setting up a documentation framework who want to use established templates and processes, customizing where appropriate, to align with the project’s goals.
+* Project owners who need to balance project priorities and want to understand the return-on-effort associated with different documentation strategies.
 
 ## Download
 
-* The latest development version of templates are available from the [github main branch](https://github.com/thegooddocsproject/templates).
-* The [0.1 alpha straw-man release of templates](https://github.com/thegooddocsproject/templates/releases/tag/v0.1) was released at the 2019 Write The Docs - Australia conference.
+* The latest development version of templates is available from the [github main branch](https://github.com/thegooddocsproject/templates).
+* The [0.1 alpha straw-man release of templates](https://github.com/thegooddocsproject/templates/releases/tag/v0.1) was released at 2019 Write The Docs - Australia conference.
 
 ## 2021 Initiatives
 The following initiatives are being worked on in 2021:
