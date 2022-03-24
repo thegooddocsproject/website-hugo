@@ -1,0 +1,23 @@
+<span class="mb-5">
+  {{ if .Params.custom_copyright }}
+    {{ .Params.custom_copyright | markdownify }}
+    <br>
+  {{ else }}
+    {{ if .Params.author }}
+      Text of article &copy; {{ .Date.Format "2006"}}
+      {{ range $i, $e := .Params.author -}}
+        {{- $author_name := $e -}}
+        {{- $author_url := add "/author/" $author_name -}}
+        {{- $author_page := $.Site.GetPage $author_url -}}
+        {{- if $i -}},&nbsp;{{- end -}}<span class="post-name"><a href="{{$author_url}}">{{ with $author_page }}{{ .Title }}{{ end }}</a></span>
+      {{- end }}
+    <br>
+    {{ end }}
+  {{ end }}
+  {{ if .Params.custom_license }}
+    <span>{{ .Params.custom_license | markdownify }}</span>
+  {{ else }}
+    <span>Released under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a></span>
+  {{ end }}
+  
+</span>

@@ -1,7 +1,9 @@
 baseURL = "/"
 title = "The Good Docs Project"
-
 enableRobotsTXT = true
+summaryLength = 25
+navigateToChanged = true
+enableEmoji = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
 theme = ["docsy"]
@@ -15,8 +17,6 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
-
-disableKinds = ["taxonomy", "taxonomyTerm"]
 
 # Highlighting config
 pygmentsCodeFences = true
@@ -46,9 +46,11 @@ blog = "/:section/:slug/"
       taskList = true
       typographer = true
     [markup.goldmark.parser]
-      attribute = true
       autoHeadingID = true
       autoHeadingIDType = "github"
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
     [markup.goldmark.renderer]
       hardWraps = false
       unsafe = true
@@ -59,11 +61,6 @@ blog = "/:section/:slug/"
 resampleFilter = "CatmullRom"
 quality = 75
 anchor = "smart"
-
-[services]
-[services.googleAnalytics]
-# Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
-# id = "UA-00000000-0"
 
 # Language configuration
 
@@ -81,6 +78,7 @@ time_format_blog = "02.01.2006"
 
 [params]
 copyright = "The Good Docs Project"
+logo = "/images/logo.png"
 # privacy_policy = ""
 
 # First one is picked as the Twitter card image if not set on page.
@@ -108,6 +106,7 @@ url_latest_version = "https://example.com"
 github_repo = "https://github.com/thegooddocsproject/website-hugo"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
 github_project_repo = "https://github.com/thegooddocsproject/templates"
+github_branch = "main"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""

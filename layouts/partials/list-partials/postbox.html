@@ -1,0 +1,59 @@
+<!-- begin post -->
+<div class="col-lg-4 col-md-6 mb-30px card-group">
+  <div class="card h-100">
+      <div class="maxthumb">  
+        {{if .Params.image}}
+        <a href="{{ .Permalink }}">
+        <img class="img-fluid" src="{{ .Params.image }}" alt="A thumbnail image">
+        </a>
+        {{end}}
+      </div>
+      <div class="card-body">
+        <a href="{{ .Permalink }}">
+          <h2 class="card-title text-dark">{{ .Title }}</h2>
+          <p class="card-text text-secondary">{{ .Summary }}</p>
+        </a>      
+      </div>
+    </a>
+    
+    <div class="card-footer bg-white">
+      <!-- Post Tags -->
+      {{ with .Params.tags }}
+      <div class="mb-3 card-tags">
+        {{ range . }}
+          <a href='{{ "/tags/" | relLangURL }}{{ . | urlize }}'>{{. | humanize}}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+      <!-- End Tags -->
+      <div class="wrapfooter">
+        <!-- Author Box -->	
+        {{ if .Params.author }}
+          <span class="author-meta">
+            {{- range $i, $e := .Params.author -}}
+              {{- $author_name := $e -}}
+              {{- $author_url := add "/author/" $author_name -}}
+              {{- $author_page := $.Site.GetPage $author_url -}}
+              {{- if $i -}},&nbsp;{{- end -}}<span class="post-name"><a href="{{$author_url}}">{{ with $author_page }}{{ .Title }}{{ end }}</a></span>
+            {{- end -}}
+            <br />
+            <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }}&nbsp;&mdash;&nbsp;{{- .WordCount }} words </span>
+          </span>
+          {{ else }}
+          <span class="author-meta">
+            <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }}&nbsp;&mdash;&nbsp;{{- .WordCount }} words </span>
+          </span>
+          {{ end }}
+          <span class="post-read-more">
+            <a href="{{ .Permalink }}" title="Read Story">
+              <svg class="svgIcon-use" width="25" height="25" viewbox="0 0 25 25">
+                <path d="M19 6c0-1.1-.9-2-2-2H8c-1.1 0-2 .9-2 2v14.66h.012c.01.103.045.204.12.285a.5.5 0 0 0 .706.03L12.5 16.85l5.662 4.126a.508.508 0 0 0 .708-.03.5.5 0 0 0 .118-.285H19V6zm-6.838 9.97L7 19.636V6c0-.55.45-1 1-1h9c.55 0 1 .45 1 1v13.637l-5.162-3.668a.49.49 0 0 0-.676 0z" fill-rule="evenodd"></path>
+              </svg>
+            </a>
+          </span>
+          <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end post -->

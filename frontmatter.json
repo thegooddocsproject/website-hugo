@@ -1,0 +1,225 @@
+{
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.framework.startCommand": "hugo server -D -F --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0",
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "Pages",
+      "path": "[[workspace]]/content",
+      "excludeSubdir": true
+    },
+    {
+      "title": "Authors",
+      "path": "[[workspace]]/content/en/author"
+    },
+    {
+      "title": "Blog",
+      "path": "[[workspace]]/content/en/blog"
+    },
+    {
+      "title": "Working Groups",
+      "path": "[[workspace]]/content/en/working-group"
+    },
+    {
+      "title": "Docs",
+      "path": "[[workspace]]/content/en/docs"
+    }
+  ],
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "blog",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Created date",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Published Date",
+          "name": "publishDate",
+          "type": "datetime"
+        },
+        {
+          "title": "Last Modified Date",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "Featured Image",
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Author(s)",
+          "name": "author",
+          "type": "choice",
+          "choices": [
+            {
+              "id": "bryan_klein",
+              "title": "Bryan Klein"
+            },
+            {
+              "id": "ryan_macklin",
+              "title": "Ryan Macklin"
+            },
+            {
+              "id": "felicity_brand",
+              "title": "Felicity Brand"
+            }
+          ],
+          "multiple": true
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Allow Comments?",
+          "name": "comments",
+          "type": "boolean"
+        },
+        {
+          "title": "Custom Copyright",
+          "name": "custom_copyright",
+          "type": "string"
+        },
+        {
+          "title": "Custom License",
+          "name": "custom_license",
+          "type": "string"
+        },
+        {
+          "title": "Content Type",
+          "name": "type",
+          "type": "string",
+          "default": "blog",
+          "hidden": true
+        }
+      ]
+    },
+    {
+      "name": "author",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "draft"
+        },
+        {
+          "title": "Full Name",
+          "name": "title",
+          "type": "string",
+          "single": true
+        },
+        {
+          "title": "Created",
+          "name": "date",
+          "type": "datetime"
+        },
+        {
+          "title": "Last Modified",
+          "name": "lastmod",
+          "type": "datetime"
+        },
+        {
+          "title": "Image",
+          "name": "image",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Byline",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "Follow Text",
+          "name": "follow",
+          "type": "string"
+        },
+        {
+          "title": "Website",
+          "name": "web",
+          "type": "string"
+        },
+        {
+          "title": "Email",
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "title": "Social IDs",
+          "type": "fields",
+          "name": "social",
+          "fields": [
+            {
+              "title": "GitHub",
+              "name": "github",
+              "type": "string",
+              "single": true
+            },
+            {
+              "title": "GitLab",
+              "name": "gitlab",
+              "type": "string",
+              "single": true
+            },
+            {
+              "title": "LinkedIn",
+              "name": "linkedin",
+              "type": "string",
+              "single": true
+            },
+            {
+              "title": "Medium",
+              "name": "medium",
+              "type": "string",
+              "single": true
+            },
+            {
+              "title": "Twitter",
+              "name": "twitter",
+              "type": "string",
+              "single": true
+            },
+            {
+              "title": "Instagram",
+              "name": "instagram",
+              "type": "string",
+              "single": true
+            }
+          ]
+        },
+        {
+          "title": "Content Type",
+          "name": "type",
+          "type": "string",
+          "default": "author",
+          "hidden": true
+        }
+      ]
+    }
+  ],
+  "frontMatter.taxonomy.tags": [
+    "sunset",
+    "sunshine",
+    "moonlight"
+  ]
+}

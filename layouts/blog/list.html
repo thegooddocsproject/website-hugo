@@ -1,0 +1,43 @@
+{{ define "header"}}
+    {{- partial "_shared/navbar.html" . -}}
+{{ end }}
+
+{{ define "main" }}
+    {{- partial "_shared/title.html" . -}}
+    <div class="main-content">
+        <section>
+            {{.Content}}
+        </section>
+        <!-- Posts Index
+        ================================================== -->
+        <section class="recent-posts">            
+            <div class="section-title">                
+              <h2><span>Our Posts <small>({{ len .Pages }} total)</small></span></h2>                
+            </div>
+            <div class="row listrecent">
+              {{ $post_paginator := .Paginate (.Pages) 6 }}
+              {{ range $post_paginator.Pages }}
+                  {{- partial "list-partials/postbox.html" . -}}
+              {{end}}
+            </div>
+        </section>
+        {{- partial "list-partials/pagination.html" $post_paginator -}}
+        <section style="margin-top: 3em;">
+            {{ $authors := sort (where .Site.Pages "Type" "author") "Title" "asc" }}
+            <div class="section-title">
+                <h2><span>Our Authors <small>({{ len $authors }} total)</small></span></h2>
+            </div>
+            <div class="row listrecent listrecent listauthor card-deck">
+                {{ range $authors }}
+                    {{- partial "list-partials/authorbox.html" . -}}
+                {{end}}
+            </div>
+        </section>
+    </div>
+    {{- partial "_shared/alertbar.html" . -}}
+{{ end }}
+
+{{ define "footer"}}
+    {{- partial "_shared/jumbotron.html" . -}}
+    {{- partial "_shared/footer.html" . -}}
+{{ end }}

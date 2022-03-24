@@ -1,0 +1,35 @@
+<div class="row post-top-meta">
+  <div class="col">
+    {{- if .Params.author -}}
+    <span>
+      {{- $post := . -}}
+      {{- $mult_authors := gt (len .Params.author) 1 -}}
+      {{- range $i, $e := .Params.author -}}
+        {{- $author_name := . -}}
+        {{- $author_url := add "/author/" $author_name -}}
+        {{- $author_page := $.Site.GetPage $author_url -}}
+        {{- if $i -}},&nbsp;{{- end -}}<span class="post-name"><a href="{{$author_url}}">{{ with $author_page }}{{ .Title }}{{ end }}</a></span>
+        {{- if not $mult_authors -}}<span class="d-none d-sm-inline">&nbsp;&mdash;</span>
+          <span class="author-description d-none d-sm-inline">
+            {{- with $author_page }}{{ .Description }}{{ end -}}
+          </span>
+        {{- end -}}
+      {{- end -}}
+    </span>
+    <br>
+    {{- end -}}
+    <span class="pr-4">
+      <span class="text-nowrap">
+        <i class="far fa-calendar pr-2"></i>
+        {{- dateFormat "Jan 2, 2006" .PublishDate -}}
+      </span>
+      {{- if .Lastmod -}}
+      , <span class="text-nowrap">updated {{ dateFormat "Jan 2, 2006" .Lastmod  -}}</span>
+      {{- end -}}
+    </span>
+    <span class="text-nowrap">
+      <i class="far fa-clock clock pr-2"></i>
+      {{- .WordCount }} words
+    </span>
+  </div>
+</div>
