@@ -1,19 +1,24 @@
 ---
-title: First
-date: 2018-10-07T09:17:14.000Z
-publishDate: 2018-10-07T09:17:14.000Z
-image: /uploads/1.jpg
-tags:
-  - interesting
-comments: false
+draft: false
+title: Eighth
+date: '2022-02-09T01:17:43.591Z'
+publishDate: '2022-02-09T01:17:28.000Z'
+lastmod: '2022-02-09T01:18:55.342Z'
+image: /uploads/8.jpg
 author:
-  - bryan_klein
-type: blog
-lastmod: '2022-02-09T01:08:25.170Z'
+    - felicity_brand
+    - ryan_macklin
+tags:
+    - sunset
+    - sunshine
+    - moonlight
+comments: false
 custom_copyright: ''
 custom_license: ''
+type: blog
+draft: true
 ---
 
-# This is the first post
+Some text to show that new content from a template works.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean semper libero quis dictum dapibus. Nulla egestas vitae augue eu rutrum. Duis ullamcorper dictum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse tortor dui, fermentum non dapibus id, volutpat non odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas fringilla tempus urna ac laoreet. Curabitur sed bibendum lectus. Vivamus gravida venenatis porttitor. Phasellus aliquet nibh vel accumsan malesuada. Nulla nibh enim, auctor nec rhoncus a, pulvinar at tortor. Donec sodales consequat dolor et condimentum. Praesent convallis massa sit amet ultrices porta. Sed commodo, odio et porttitor fringilla, mi tortor sodales nulla, a fermentum dolor mi pulvinar mi.
+This is some great test too.
