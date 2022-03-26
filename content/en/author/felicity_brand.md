@@ -2,7 +2,7 @@
 title: Felicity Brand
 image: /uploads/flicstar.jpg
 description: Felicity is a technical writer and editor who is passionate about open source.
-follow: null Slack.
+follow: null
 web: null
 email: felicitybrand@gmail.com
 social:
