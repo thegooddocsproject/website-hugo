@@ -1,7 +1,7 @@
 ---
-title: "The Good Docs Project"
-linkTitle: "Home"
-
+title: The Good Docs Project
+linkTitle: Home
+lastmod: 2022-04-13T23:08:59.310Z
 ---
 
 {{< blocks/cover title="The Good Docs Project" image_anchor="top" height="max" color="orange" >}}
@@ -10,7 +10,7 @@ linkTitle: "Home"
 	<a class="btn btn-lg btn-primary mr-3 mb-4" href="/about">
 		Learn More <i class="fas fa-arrow-alt-circle-right ml-2"></i>
 	</a>
-	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="/contribute">
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="/community">
 		Contribute <i class="fab fa-github ml-2 "></i>
 	</a>
 	<p class="lead mt-5">Best practice templates and writing instructions for documenting open source software.</p>
