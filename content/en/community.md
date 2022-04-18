@@ -27,7 +27,7 @@ For that reason, one of the best ways you can get started is to look at our [lis
 
 Once you find a group that is working on a project that interests you:
 
-* Join our [Slack workspace](https://join.slack.com/t/thegooddocs/shared_invite/enQtODkyNjI5MDc0NjE0LTUyNGFiZmU1MjIzNDMwN2E3NmQwODQwZmRkYWI5MDhlMzdjYzg4Nzg4YjM3ODA0NGE4MTgyYzdkMGViMTI2MDM) and add yourself to the channel for the working group you want to join.
+* Join our [Slack workspace](https://join.slack.com/t/thegooddocs/shared_invite/zt-be2gay0m-Ukq_5SI0MHp20IQP3auQjg) and add yourself to the channel for the working group you want to join.
 * Most working groups meet on a regular basis (either weekly, every other week, or monthly). Check the meeting times for that group and our Google calendar for meeting details.
 
 We also have general meetings where you can come and meet the project leaders and learn more about the project.
@@ -38,7 +38,7 @@ When engaging with members of our project, we ask that you follow our [Code of C
 
 ### Slack
 
-We often chat in Slack. You can join [our Slack workspace](https://join.slack.com/t/thegooddocs/shared_invite/enQtODkyNjI5MDc0NjE0LTUyNGFiZmU1MjIzNDMwN2E3NmQwODQwZmRkYWI5MDhlMzdjYzg4Nzg4YjM3ODA0NGE4MTgyYzdkMGViMTI2MDM).
+We often chat in Slack. You can join [our Slack workspace](https://join.slack.com/t/thegooddocs/shared_invite/zt-be2gay0m-Ukq_5SI0MHp20IQP3auQjg).
 
 The main channels are:
 
