@@ -1,27 +1,26 @@
 ---
 title: Ryan Macklin
 image: /uploads/ryan_macklin.jpg
-description: empathy evangelist, mentor
-follow: Need more Ryan? Visit [LinkedIn](https://www.linkedin.com)
-web: ""
+description: empathy evangelist, writing mentor
+follow: Ryan sometimes remembers to check
+  [LinkedIn](https://www.linkedin.com/in/ryanmacklin/) and  [@adocgeek
+  on  Twitter](https://twitter.com/adocgeek)
+web: https://macklin.cc/
 email: ""
 social:
   github: ""
   gitlab: ""
-  linkedin: ""
+  linkedin: https://www.linkedin.com/in/ryanmacklin/
   medium: ""
-  twitter: ""
+  twitter: https://twitter.com/adocgeek
   instagram: ""
 type: author
-lastmod: 2022-03-24T21:11:02.081Z
-draft: true
+lastmod: 2022-05-02T21:51:42.122Z
+draft: false
 ---
 
-A bit of history and a bio as needed. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
+
+Ryan Macklin (he/they) is one of the founders of Empathy Advocacy, a branch of UX focused on  how psychology and neurobiology are linked, with heavy respect for neurodiversity and trauma experiences.  
 {class="lead" }
 
-On big screens, paragraphs and headings should not take up the full container width, but we want tables, code blocks and similar to take the full width.
-
-## Header 2
-
-> This is a blockquote following a header. Bacon ipsum dolor sit amet t-bone doner shank drumstick, pork belly porchetta chuck sausage brisket ham hock rump pig. Chuck kielbasa leberkas, pork bresaola ham hock filet mignon cow shoulder short ribs biltong.
+Ryan joined The Good Docs Project in late 2020, and currently serves as one of the project's co-chairs. He can technically be found on [Twitter as @adocgeek](https://twitter.com/adocgeek) or on [LinkedIn](https://www.linkedin.com/in/ryanmacklin/), but he's as likely to be working on some new accessibility tech for his home or doing some woodworking or gardening. He'll also talk your ear off about game design and print  publishing, as old loves of his.  
