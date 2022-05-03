@@ -1,6 +1,6 @@
 ---
 title: Felicity Brand
-image: /uploads/flicstar.jpg
+image: /uploads/blog/authors/flicstar.jpg
 description: Felicity is a technical writer and editor who is passionate about open source.
 follow: null
 web: null
@@ -13,7 +13,7 @@ social:
   twitter: flicstar_
   instagram: ""
 type: author
-lastmod: 2022-03-26T01:59:33.798Z
+lastmod: 2022-05-03T04:17:06.371Z
 draft: true
 ---
 

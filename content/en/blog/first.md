@@ -1,10 +1,10 @@
 ---
 draft: false
-title: 3 ways to start writing your docs when you're  struggling
+title: 3 ways to start writing your docs when you're struggling
 date: 2022-05-03T16:00:00Z
 publishDate: 2022-05-03T16:00:00Z
-lastmod: 2022-05-02T21:38:28.459Z
-image: /uploads/8.jpg
+lastmod: 2022-05-03T04:33:10.704Z
+image: /uploads/blog/splash/jen-theodore-7Zyl18GzDPQ-unsplash.jpg
 author:
   - ryan_macklin
 tags:

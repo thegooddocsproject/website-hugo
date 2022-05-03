@@ -1,6 +1,6 @@
 ---
 title: Ryan Macklin
-image: /uploads/ryan_macklin.jpg
+image: /uploads/blog/authors/ryan_macklin.jpg
 description: empathy evangelist, writing mentor
 follow: Ryan sometimes remembers to check
   [LinkedIn](https://www.linkedin.com/in/ryanmacklin/) and  [@adocgeek
@@ -15,7 +15,7 @@ social:
   twitter: https://twitter.com/adocgeek
   instagram: ""
 type: author
-lastmod: 2022-05-02T21:51:42.122Z
+lastmod: 2022-05-03T04:16:43.860Z
 draft: false
 ---
 
