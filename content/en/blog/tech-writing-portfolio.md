@@ -41,7 +41,7 @@ Start by thinking about work that you’ve already done, then make a list of you
 * If you've decided that you want to move towards a different field, try to gather samples that highlight skills required for that field. 
 * If you’re applying for a specific job, then aim to showcase writing samples tailored for that job.
 
- If what you need doesn’t exist yet, get working to create that sample. <i class="fa-solid fa-arrow-right"></i> [How to get fodder for your portfolio](#how-to-get-fodder-for-your-portfolio)
+ If what you need doesn’t exist yet, get working to create that sample. <i class="fas fa-arrow-right"></i> [How to get fodder for your portfolio](#how-to-get-fodder-for-your-portfolio)
 
 
 ### Gathering materials
