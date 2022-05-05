@@ -7,6 +7,7 @@ lastmod: 2022-05-04T07:02:56.614Z
 image: /uploads/blog/splash/davisuko-5E5N49RWtbA-unsplash.jpg
 images: 
   - /uploads/blog/splash/davisuko-5E5N49RWtbA-unsplash.jpg
+description: "Whether private or public, it’s a good idea to have a portfolio of writing samples—to show what you can do and how you think".
 author:
   - felicity_brand
 tags:
