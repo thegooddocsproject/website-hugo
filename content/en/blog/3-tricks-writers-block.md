@@ -3,13 +3,14 @@ draft: false
 title: 3 tricks to overcome writer's block
 date: 2022-05-03T16:00:00Z
 publishDate: 2022-05-03T16:00:00Z
-lastmod: 2022-05-05T07:54:12.588Z
+lastmod: 2022-05-05T07:56:08.008Z
 image: /uploads/blog/splash/jen-theodore-7Zyl18GzDPQ-unsplash.jpg
 author:
   - ryan_macklin
 tags:
   - writing
   - writing-tips
+  - writers-block
 comments: true
 custom_copyright: ""
 custom_license: ""
