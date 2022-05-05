@@ -4,6 +4,7 @@ title: Marketing yourself - Why you need a tech writing portfolio
 date: 2022-05-04T05:53:22.126Z
 publishDate: 2022-05-04T05:53:22.126Z
 lastmod: 2022-05-04T07:02:56.614Z
+image: /uploads/blog/splash/davisuko-5E5N49RWtbA-unsplash.jpg
 images: 
   - /uploads/blog/splash/davisuko-5E5N49RWtbA-unsplash.jpg
 author:
