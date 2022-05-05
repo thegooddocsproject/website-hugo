@@ -88,7 +88,7 @@ Some quick and easy ways to host a collection of your samples:
 * A Google Doc with appropriate sharing permissions.
 * A Dropbox folder.
 * A markdown file in your personal repo (GitHub or GitLab).
-* A GitHub [Gist ](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)or GitLab [Snippet](https://docs.gitlab.com/ee/user/snippets.html).
+* A GitHub [Gist](https://docs.github.com/en/get-started/writing-on-github/editing-and-sharing-content-with-gists/creating-gists) or GitLab [Snippet](https://docs.gitlab.com/ee/user/snippets.html).
 * A dedicated page on your personal website or blog.
 
 
