@@ -1,9 +1,9 @@
 ---
 draft: false
-title: 3 hacks to overcome writer's block
+title: 3 tricks to overcome writer's block
 date: 2022-05-03T16:00:00Z
 publishDate: 2022-05-03T16:00:00Z
-lastmod: 2022-05-05T06:08:49.050Z
+lastmod: 2022-05-05T07:46:33.501Z
 image: /uploads/blog/splash/jen-theodore-7Zyl18GzDPQ-unsplash.jpg
 author:
   - ryan_macklin
@@ -16,9 +16,11 @@ custom_license: ""
 type: blog
 ---
 
-Often we struggle to write docs, especially when it's something that isn't explicitly part of our job or one of our passions. Like a chore, though, we know it still needs to be done.
+Often we struggle to write docs, especially when it's something that isn't explicitly part of our job or one of our passions. Like a chore, though, we know it still needs to be done. Then "writer's block" hits, where we all struggle to get anything on a page in the first place.
 
-Let me start with the least helpful advice people give: "Just sit down and write." That's like saying "Oh, you should exercise more." or "You should eat better."—it's a sentiment, not a strategy. So let's talk strategy. I have three ways that could help you kickstart your writing.
+Let's start by throwing away the least helpful advice people give: "Just sit down and write." That's like saying "Oh, you should exercise more" or "You should eat better"—it's a sentiment, not a strategy.
+
+So let's talk strategy. I have three ways that could help you kickstart your writing.
 
 # Write in bullets, not full thoughts
 
