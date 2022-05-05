@@ -3,7 +3,7 @@ draft: false
 title: 3 tricks to overcome writer's block
 date: 2022-05-03T16:00:00Z
 publishDate: 2022-05-03T16:00:00Z
-lastmod: 2022-05-05T07:49:34.266Z
+lastmod: 2022-05-05T07:54:12.588Z
 image: /uploads/blog/splash/jen-theodore-7Zyl18GzDPQ-unsplash.jpg
 author:
   - ryan_macklin
@@ -39,7 +39,7 @@ Here's a sample from this post, before I started writing it in earnest:
   * Like "I should exercise"
 * Have a simple plan
   * 90 minutes x 3 times a week
-  * That includes just staring at a screen, if that's all you can do.
+  * That includes just staring at a screen, if that's all you can do
 * Or writing random bullet points
 
 When you feel enough momentum to write fuller statements and sections, stop the bullet points and get to that writing! Don't feel you need to finish your bullets—they're serving their purpose if they're getting you to produce content. Similarly, you don't need to write content based on what you captured in your bullets. You'll see I didn't in this post.
