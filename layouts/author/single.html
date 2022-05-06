@@ -6,7 +6,7 @@
 <div class="mainheading">
   <header class="text-center">
     {{ with .Params.image }}
-    <img src="{{ . }}" class="rounded-circle text-center index-image">
+    <img src="https://tgdp.imgix.net{{ . }}?w=400&auto=compress,format" class="rounded-circle text-center index-image">
     {{ end }}
     <h1 class="index-title">{{ .Title }}</h1>
   </header>
