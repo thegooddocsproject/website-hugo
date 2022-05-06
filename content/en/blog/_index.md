@@ -1,11 +1,11 @@
 ---
 title: The Good Docs Project blog
 linkTitle: Blog
-description: Contributing advice and experiences from tech writers around the globe
+description: Contributing advice and experiences from tech writers around the globe.
 menu:
   main:
     weight: 100
-lastmod: 2022-05-03T05:06:25.223Z
+lastmod: 2022-05-06T17:09:32.475Z
 type: page
 draft: false
 ---
