@@ -87,3 +87,7 @@ And of course, you can use this time management technique in conjunction with th
 You don't have to wait until you're stuck to integrate tips like these. In fact, they're easier to remember if you do them often—though not necessarily all the time. Can you find three times this week you could remind yourself to try these techniques?
 
 If any of these work for you, or you have some other tried-and-true ways you handle the struggle, let us know in the comments!
+
+---
+
+Image credits: Mug photo by [Jen Theodore](https://unsplash.com/photos/7Zyl18GzDPQ) on Unsplash.
