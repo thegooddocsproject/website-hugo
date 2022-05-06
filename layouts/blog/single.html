@@ -15,7 +15,7 @@
       <div class="col-md-9 flex-first flex-md-unordered">
         <div class="mainheading">
           <!-- Post Title -->
-          <h1 class="posttitle">{{ .Title }}</h1>
+          <h1 class="posttitle">{{ title .Title }}</h1>
           <!-- Author Box -->
           <div class="pb-4">
             {{ partial "_shared/author-info" . }}
@@ -66,11 +66,7 @@
       <!-- End Post -->
     </div>
   </div>
-  <!-- End Article
-        ================================================== -->
-  {{ if .Params.comments }}
-  {{ partial "single-partials/comments" . }}
-  {{ end }}
+  <!-- End Article -->
 </div>
 {{- partial "_shared/alertbar" . -}}
 {{ end }}

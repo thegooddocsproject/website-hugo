@@ -1,6 +1,6 @@
 ---
 title: Felicity Brand
-image: /uploads/flicstar.jpg
+image: /uploads/blog/authors/flicstar.jpg
 description: Tech editor. Tech writer. Web3 curious.
 follow: Find Felicity on [Twitter](https://twitter.com/flicstar_)
 web: null
@@ -13,7 +13,7 @@ social:
   twitter: flicstar_
   instagram: ""
 type: author
-lastmod: 2022-05-04T06:29:34.719Z
+lastmod: 2022-05-06T17:22:36.195Z
 draft: false
 ---
 
