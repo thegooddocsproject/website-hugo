@@ -24,13 +24,13 @@ A writing portfolio is a collection of samples of your own writing—basically, 
 A strong portfolio goes further and shows **how you think**.
 Whether it's private or public, it's a good idea to have one, and they're not as hard to create as you might think. 
 
-Let's dive in and explore this powerful tool that that will work for you, and be an asset whether you're job hunting or not.
+Let's dive in and explore this powerful tool that will work for you, and be an asset whether you're job hunting or not.
 
 ## Why you should create one
 
-Creating a tech writing portfolio requires a little work upfront, but pays off in many ways: 
+Creating a tech writing portfolio requires a little work upfront, but the effort pays off in many ways: 
 
-* **Employability** - When you're job-hunting, being able to show a collection of your own work is a great advertisement for your skills.
+* **Employability** - When you're job-hunting, being able to show a collection of your own work is an excellent advertisement for your skills.
 Even if you're comfortable where you are, collecting writing samples into a portfolio is like depositing savings for a rainy day.
 If a time comes when you need to demonstrate your ability, it will pay dividends.
 * **Demonstrate your skills** - Maybe you work by day as a tech writer, but you're aching to get into marketing communication.
@@ -51,15 +51,15 @@ Whenever you're feeling low, revisit your portfolio for a reminder of when you r
 ### What do you want to include?
 
 Start by thinking about work that you've already done, then make a list of your samples.
-Next think about a gap analysis - what's missing?
+Next, think about a gap analysis - what's missing?
 What would you like to be able to show?
 Try for coverage of different types of writing, or really narrow the focus.
 
 For example:
 
-* If you're a technical writer following the [Diátaxis Framework](https://diataxis.fr/), you might try for one example each of a tutorial, how-to guide, technical reference and explanation.
+* If you're a technical writer following the [Diátaxis Framework](https://diataxis.fr/), you might try for one example each of a tutorial, how-to guide, technical reference, and explanation.
 * If you've decided that you want to move towards a different field, try to gather samples that highlight skills required for that field.
-* If you're applying for a specific job, then aim to showcase writing samples tailored for that job.
+* If you're applying for a specific job, aim to showcase writing samples tailored for that job.
 
  If what you need doesn't exist yet, get working to create that sample.
  <i class="fas fa-arrow-right"></i> [How to get fodder for your portfolio](#how-to-get-fodder-for-your-portfolio)
@@ -90,7 +90,7 @@ This might touch on: what challenges you faced, what problems it solved, why you
 
 This way your portfolio is really going to bat for you, and will act as your billboard for any potential employers.
 It also adds a personal touch and shows that you're a three-dimensional human being.
-Don't be afraid to be vulnerable - admitting something was difficult to write, or even describing ways you might write something differently today shows that you're a critical thinker and that you're self-aware.
+Don't be afraid to be vulnerable - admitting something was difficult to write, or even describing ways you might write something differently today, shows that you're a critical thinker and that you're self-aware.
 
 Imagine someone has asked you questions like "Why have you included this sample?" or "What does this piece of work show?".
 You could call the reader's attention to specific areas of a piece, or describe the toolchain you used to build or publish it.
@@ -98,7 +98,7 @@ You could call the reader's attention to specific areas of a piece, or describe 
 For example:
 
 * "I'm particularly proud of this Help page because, through many iterations with SMEs, I reduced a lengthy explanation into a very concise article about how to use the software."
-* "This link is to a video tutorial. I did the storyboard, wrote the script and used Camtasia to create the video."
+* "This link is to a video tutorial. I did the storyboard, wrote the script, and used Camtasia to create the video."
 * "I co-wrote this in-app tutorial with my colleague. We user-tested this thoroughly to validate the terminology and user experience."
 * "I'm particularly proud of this Help page because I explain why and when to use the feature, rather than just how."
 
@@ -110,7 +110,7 @@ There are many ways to present this information, ranging from a one-page list of
 You can make it private or publicly available. 
 
 This is your chance to curate your writing samples.
-A really long one pager means you have less control over the impression you make.
+A really long one-pager means you have less control over the impression you make.
 A tailored PDF means you can customize your portfolio when applying for specific jobs. 
 
 Don't overthink it, and don't over-engineer it (unless you want to show off your ace development skills!). 
@@ -126,10 +126,10 @@ Some quick and easy ways to host a collection of your samples:
 
 ### Getting feedback 
 
-After you have created your portfolio, you might like to share it to get feedback.
+After creating your portfolio, you might like to share it to get feedback.
 You could choose a few friends or colleagues whose judgment you trust.
 Alternatively, you might prefer to approach people who don't know you—this gives you an opportunity to validate the impression you want your portfolio to make.
-You can ask reviewers to describe you and your skill set based on the writing samples in your portfolio. 
+You can ask reviewers to describe you and your skillset based on the writing samples in your portfolio. 
 
 If you're stuck finding a reviewer, try asking in the Write the Docs community slack channel [#career-advice](https://writethedocs.slack.com/archives/C6ADX1YVA), or reach out to someone here at The Good Docs Project.
 
@@ -144,7 +144,7 @@ For example:
 * The [Daily Conversation Design Challenge](https://dailyuxwriting.com/conversation-design-challenge) gives you two weeks of daily writing challenges.
 * Hackernoon has [writing prompts](https://help.hackernoon.com/writing-prompts) as well as running [writing contests](https://hackernoon.com/u/hackernooncontests) with prizes!! (Get paid while adding to your portfolio).
 
-Is all your stuff confidential or behind a paywall, login or NDA? Go open source!
+Is all your stuff confidential or behind a paywall, log in or NDA? Go open source!
 Look for opportunities to contribute to an open source project and start adding samples to your collection.
 
 > **Hot tip:** Work on a template for our project!
@@ -175,17 +175,17 @@ She includes a great section about how to identify your best work.
   * [My Technical Writing Portfolio (ft. GitHub and open source projects)](https://www.youtube.com/watch?v=68ddwfpXHrE).
   * [6 Inspiring Technical Writing Portfolios (+ my new portfolio)](https://www.youtube.com/watch?v=crePAmhdpww)
 
-[Sam Julien](https://developermicroskills.com/), developer advocate, covered some great tips in issue #47 of his Developer Microskills newsletter that is relevant to this conversation: ["All my work is private - how do I get a new job?"](https://ckarchive.com/b/xmuph6h575dx). 
+[Sam Julien](https://developermicroskills.com/), developer advocate, covered some great tips in issue #47 of his Developer Microskills newsletter that is relevant to this conversation: [All my work is private - how do I get a new job?](https://ckarchive.com/b/xmuph6h575dx). 
 
 Linda Ikechukwu from [Everything Technical Writing](https://www.everythingtechnicalwriting.com/) shares some great ideas in the piece, [How To Create A Technical Writing Portfolio](https://www.everythingtechnicalwriting.com/technical-writing-portfolio/).
 
 ## No excuses! Start today.
 
-Whether they are job hunting or not, all tech writers should have a writing portfolio.
+Whether job hunting or not, all tech writers should have a writing portfolio.
 There's no excuse not to gather your collection today.
 Come and ask in our friendly community if you need help. 
 
-**Show us what you got!** Add a link in the comments to your portfolio if you're happy to share and maybe inspire others with your ideas.
+**Show us what you got!** Add a link in the comments to your portfolio if you're happy to share and maybe you'll inspire others with your ideas.
 
 ---
 
