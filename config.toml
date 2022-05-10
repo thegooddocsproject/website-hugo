@@ -79,6 +79,8 @@ time_format_blog = "02.01.2006"
 [params]
 copyright = "The Good Docs Project"
 logo = "/images/logo.png"
+twitter_cards = true
+
 # privacy_policy = ""
 
 # First one is picked as the Twitter card image if not set on page.
