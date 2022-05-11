@@ -3,7 +3,7 @@ draft: false
 title: Marketing yourself - Why you need a tech writing portfolio
 date: 2022-05-04T05:53:22.126Z
 publishDate: 2022-05-04T05:53:22.126Z
-lastmod: 2022-05-06T17:37:18.113Z
+lastmod: 2022-05-11T00:02:40.464Z
 image: /uploads/blog/davisuko-5E5N49RWtbA-unsplash.jpg
 images:
   - /uploads/blog/davisuko-5E5N49RWtbA-unsplash.jpg
@@ -14,7 +14,6 @@ author:
 tags:
   - writing
   - job-hunting
-comments: true
 custom_copyright: ""
 custom_license: ""
 type: blog
