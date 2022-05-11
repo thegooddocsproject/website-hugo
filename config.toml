@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://thegooddocsproject.dev"
 title = "The Good Docs Project"
 enableRobotsTXT = true
 summaryLength = 25
