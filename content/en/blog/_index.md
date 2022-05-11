@@ -5,6 +5,8 @@ description: Contributing advice and experiences from tech writers around the gl
 menu:
   main:
     weight: 100
-lastmod: 2022-05-06T17:09:32.475Z
+lastmod: 2022-05-10T23:28:19.920Z
 type: page
+images:
+  - /uploads/doctopus-blog.png
 ---
