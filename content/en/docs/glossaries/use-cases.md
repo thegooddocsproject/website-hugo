@@ -1,18 +1,18 @@
 ---
-title: Sharable glossary use cases
+title: Shareable glossary use cases
 linkTitle: Use cases
 menu:
   glossaries:
     weight: 140
 draft: false
-lastmod: 2022-05-15T06:10:35.507Z
+lastmod: 2022-05-15T06:20:06.564Z
 ---
 
 This page lists the various use cases enabled by glossaries.
 
 ## Website toolkit
 
-Viral uptake of _sharable glossaries_ depends upon the realization of two key use cases:
+Viral uptake of _shareable glossaries_ depends upon the realization of two key use cases:
 
 * **Hover-over term popups:** As owner of a website with domain specific terms,
     * I want to add a glossary file into my website folder,

@@ -1,10 +1,11 @@
 ---
-title: "Contributing to the Sharable Glossaries project"
-linkTitle: "Contributing"
+title: Contributing to the Shareable Glossaries project
+linkTitle: Contributing
 menu:
   glossaries:
     weight: 200
 draft: false
+lastmod: 2022-05-15T06:21:08.781Z
 ---
 
 We’d love your help.
@@ -22,7 +23,7 @@ Please do reach out to us with your ideas, on list, or to one of our participant
 ## Participants
 
 Active participants, as at January 2022:
-* Cameron Shorter (Defacto coordinator)
+* Cameron Shorter (De facto coordinator)
 * Rob Atkinson
 * Ron Plews
 * Ronald Tse

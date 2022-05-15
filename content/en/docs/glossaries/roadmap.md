@@ -1,21 +1,22 @@
 ---
-title: "Sharable glossaries roadmap"
-linkTitle: "Roadmap"
+title: Shareable glossaries roadmap
+linkTitle: Roadmap
 menu:
   glossaries:
     weight: 120
 draft: false
+lastmod: 2022-05-15T06:26:30.133Z
 ---
 
 This roadmap describes steps planned by open source collaborators to realize the potential for large-scale sharing of glossary terms between disparate organizations and projects.  
 
 It is designed to help collaborators understand how they can join and benefit from the initiative.
 
-## How can we bootstrap sharable glossaries?
+## How can we bootstrap shareable glossaries?
 
-How can we push through existing hurdles and bootstrap a _sharable glossary_ framework, and achieve widespread adoption? It will involve a multi-phased approach, addressing key challenges which have hindered prior attempts:
+How can we push through existing hurdles and bootstrap a _shareable glossary_ framework, and achieve widespread adoption? It will involve a multiphased approach, addressing key challenges which have hindered prior attempts:
 
-+   Establish a core _sharable glossary_ format, with help from domain modelers from ISO and OGC standards communities.
++   Establish a core _shareable glossary_ format, with help from domain modelers from ISO and OGC standards communities.
 +   Publish prominent glossaries as a web service, starting initially with committed stakeholders from within the geospatial domain.
 +   Scale, by making it super-easy for projects to auto-generate a glossary file for their websites from authoritative glossaries.
 +   Incrementally add tooling to realize high value glossary use cases.
@@ -33,10 +34,10 @@ Define the problem and attract collaborators.
 +   Within this website, we describe the business, architecture, collaboration and technical challenges that require addressing.
 +   We have broken problems into modular components, engaged with domain experts to focus on their area, and coordinated contributions into a holistic solution.
 
-### Phase 2 Establish a defacto glossary standard
+### Phase 2 Establish a de facto glossary standard
 
 **Challenge**  
-Defining a glossary format is illusively difficult.
+Defining a glossary format is elusively difficult.
 
 +   It needs to be simple and easily understood by the masses for common use cases.
 +   It needs to expand to support edge use cases, including referencing source terms.
@@ -44,8 +45,8 @@ Defining a glossary format is illusively difficult.
 
 **How**
 
-+   We are working with domain modeling experts, from ISO and OGC standards organizations to define a _sharable glossary _schema format.
-+   This will extend to establishing a defacto web service API.
++   We are working with domain modeling experts, from ISO and OGC standards organizations to define a _shareable glossary _schema format.
++   This will extend to establishing a de facto web service API.
 +   We need to reconcile different sentence structure guidance for writing glossary definitions.
 
 **Further information**
@@ -57,14 +58,14 @@ Defining a glossary format is illusively difficult.
 ### Phase 3 Publish prominent glossaries
 
 **Challenge**  
-To bootstrap a sharable glossary network, we want to stand up large, authoritative glossaries behind a web service using the _common glossary_ format. This will enable downstream projects to build derived, project-specific glossaries.
+To bootstrap a shareable glossary network, we want to stand up large, authoritative glossaries behind a web service using the _common glossary_ format. This will enable downstream projects to build derived, project-specific glossaries.
 
 **How**  
 The authors of the open source [Paneron](https://github.com/paneron/paneron) glossary have committed to publishing glossaries via the _common glossary_ format, once developed.  
 
 This software is used by large glossary publishers, such as:
 
-+   The 180,000+ entries in the [IEC Electropedia](https://www.electropedia.org/),  the world's authoritative electrotechnical terminology-set.
++   The 180,000+ entries in the [IEC Electropedia](https://www.electropedia.org/), the world's authoritative electrotechnical terminology-set.
 +   The glossary of spatial terms from the Open Geospatial Consortium and ISO TC211.
 
 We will reach out to other glossary publishers and encourage their participation. If you own a glossary you'd like to publish, then please connect with us.
@@ -79,7 +80,7 @@ We will reach out to other glossary publishers and encourage their participation
 Provide a compelling reason for all technical websites to create a glossary for their website, and make it very easy to do so.
 
 **Challenge**  
-Building and maintaining a non-trivial glossary is difficult. It typically requires rallying and continued engagement from many stakeholders. However, if we have a sharable glossary framework, and access to an authoritative glossary, we can search our website for glossary terms.
+Building and maintaining a non-trivial glossary is difficult. It typically requires rallying and continued engagement from many stakeholders. However, if we have a shareable glossary framework, and access to an authoritative glossary, we can search our website for glossary terms.
 
 Example use of a script to build a glossary:
 
@@ -93,7 +94,7 @@ build-glossary
 
 For the simple use case, the created glossary need only be stored as a file in the root directory of the website and viewed as a table, or as in-line popup help.
 
-![Glossary stored in a machine readable .json file in website.](../images/glossaries-machine-readable.svg "Glossary stored in a machine readable .json file in website.")
+![Glossary stored in a machine-readable .json file in website.](../images/glossaries-machine-readable.svg "Glossary stored in a machine readable .json file in website.")
 
 **How**
 
@@ -103,7 +104,7 @@ For the simple use case, the created glossary need only be stored as a file in t
 
 ### Phase 5 Tooling to address high value use cases
 
-Once a sharable glossary framework is established, and a critical mass of websites starts to build, there will a compelling business case to integrate tools with glossaries, such as:
+Once a shareable glossary framework is established, and a critical mass of websites starts to build, there will a compelling business case to integrate tools with glossaries, such as:
 
 +   Web-hosting platforms including hover-over popups for terms.
 +   Spell and grammar check tools to source glossary terms.
