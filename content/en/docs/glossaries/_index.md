@@ -1,10 +1,11 @@
 ---
-title: "Sharable glossaries"
-linkTitle: "Glossaries"
+title: Sharable glossaries
+linkTitle: Glossaries
 menu:
   main:
     weight: 100
 draft: false
+lastmod: 2022-05-15T05:56:34.960Z
 ---
 
 The _sharable glossaries project_ is developing standards, tools and processes to help establish interoperable glossaries between organizations and projects.
@@ -32,11 +33,10 @@ More details in the [modeling primer](primer).
 
 ## Use cases
 
-Initial high value use cases to target include:
+Viral uptake of _sharable glossaries_ depends upon the realization of two key use cases:
 
-+   Auto-generate your glossary by passing your documents against an authoritative source.
-+   Enable popup descriptions for your project's acronyms.
-+   Personalize spell checking tooling.
+* Hover-over term popups in webpages, sourced from a glossary file.
+* A tool which builds a glossary f technical terms in my website, as sourced from authoritative glossaries.
 
 Refer to [glossary use cases](use-cases) for more use cases and more details.
 
