@@ -1,17 +1,18 @@
 ---
-title: "Sharable glossaries"
-linkTitle: "Glossaries"
+title: Shareable glossaries
+linkTitle: Glossaries
 menu:
   main:
     weight: 100
 draft: false
+lastmod: 2022-05-15T06:23:39.511Z
 ---
 
-The _sharable glossaries project_ is developing standards, tools and processes to help establish interoperable glossaries between organizations and projects.
+The _shareable glossaries project_ is developing standards, tools and processes to help establish interoperable glossaries between organizations and projects.
 
 ![Glossaries inheriting terms from authoritative glossaries, and suggesting terms to the source.](images/glossaries-inherited-terms.svg "Glossary inheriting terms.")
 
-## About sharable glossaries
+## About shareable glossaries
 
 Glossaries are easy to set up for simple examples but very hard to scale - especially when you try to scale across use cases, across domains and across different organizations.
 
@@ -20,7 +21,7 @@ Unfortunately, in 2022, the world is yet to:
 1. Agree on a common glossary format.
 2. See the format widely adopted.
 
-We aim to change this by breaking down technical barriers, raising awareness of solutions, and supporting widespread adoption of _sharable glossaries_.
+We aim to change this by breaking down technical barriers, raising awareness of solutions, and supporting widespread adoption of _shareable glossaries_.
 
 ### Why are glossaries hard?
 
@@ -32,11 +33,10 @@ More details in the [modeling primer](primer).
 
 ## Use cases
 
-Initial high value use cases to target include:
+Viral uptake of _shareable glossaries_ depends upon the realization of two key use cases:
 
-+   Auto-generate your glossary by passing your documents against an authoritative source.
-+   Enable popup descriptions for your project's acronyms.
-+   Personalize spell checking tooling.
+* Hover-over term popups in webpages, sourced from a glossary file.
+* A tool which builds a glossary f technical terms in my website, as sourced from authoritative glossaries.
 
 Refer to [glossary use cases](use-cases) for more use cases and more details.
 
@@ -93,7 +93,7 @@ td {
 <td class="style1"></td>
 </tr>
 <tr>
-<td class="style2">1 Non-sharable</td>
+<td class="style2">1 Non-shareable</td>
 <td class="style2">Help a reader understand locally defined terms.</td>
 </tr>
 <tr>
@@ -115,11 +115,11 @@ td {
 </tbody>
 </table>
 
-More details at [sharable glossary maturity levels](maturity-levels).
+More details at [shareable glossary maturity levels](maturity-levels).
 
-## Roadmap to sharable glossaries
+## Roadmap to shareable glossaries
 
-Some may think it optimistic to nudge the world toward adopting sharable glossaries. We believe it is achievable, within a few years, by: breaking the problem into solvable components, and collaborating with domain experts for each part of the problem.
+Some may think it optimistic to nudge the world toward adopting shareable glossaries. We believe it is achievable, within a few years, by: breaking the problem into solvable components, and collaborating with domain experts for each part of the problem.
 
 These components include:
 

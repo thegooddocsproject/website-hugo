@@ -1,13 +1,14 @@
 ---
-title: "Glossary maturity levels"
-linkTitle: "Maturity levels"
+title: Glossary maturity levels
+linkTitle: Maturity levels
 menu:
   glossaries:
     weight: 110
 draft: false
+lastmod: 2022-05-15T06:25:11.310Z
 ---
 
-This page proposes maturity levels for _sharable glossary_ use cases, along with expected fields for each level's schema profile.
+This page proposes maturity levels for _shareable glossary_ use cases, along with expected fields for each level's schema profile.
 
 **Last updated:** January 2022
 
@@ -67,7 +68,7 @@ td {
 <td class="style1"></td>
 </tr>
 <tr>
-<td class="style2">1 Non-sharable</td>
+<td class="style2">1 Non-shareable</td>
 <td class="style2">Help a reader understand locally defined terms.</td>
 </tr>
 <tr>
@@ -89,13 +90,13 @@ td {
 </tbody>
 </table>
 
-### Level 1: Non-sharable
+### Level 1: Non-shareable
 
 **What**
 
-A non-sharable glossary may be included as a table within a document or website.
+A non-shareable glossary may be included as a table within a document or website.
 
-![Non-sharable glossary table embedded in a document.](../images/glossaries-not-shared.svg "Non-sharable glossary.")
+![Non-shareable glossary table embedded in a document.](../images/glossaries-not-shared.svg "Non-shareable glossary.")
 
 **Value added**
 
@@ -126,9 +127,9 @@ Copy domain-specific terms from your documentation into a glossary table. Includ
 
 **What**
 
-* Store terms in a standard, machine readable format. Typically the glossary is stored as a static file, accessible via a URL, such as: [https://mywebsite.org/glossary.json](https://mywebsite.org/glossary.json).
+* Store terms in a standard, machine-readable format. Typically the glossary is stored as a static file, accessible via a URL, such as: [https://mywebsite.org/glossary.json](https://mywebsite.org/glossary.json).
 
-![Glossary stored in a machine readable .json file in website.](../images/glossaries-machine-readable.svg "Glossary stored in a machine readable .json file in website.")
+![Glossary stored in a machine-readable .json file in website.](../images/glossaries-machine-readable.svg "Glossary stored in a machine readable .json file in website.")
 
 **Value added**
 
@@ -173,7 +174,7 @@ Fields from higher maturity levels may optionally be included.
 * Source terms from upstream glossaries and retain hyperlink to the source.
 * Assign a license which allows repurposing of the glossary by downstream users, such as [Creative Commons By Attribution (CC-By)](https://creativecommons.org/licenses/by/4.0/). 
 
-![Machine readable glossary file referencing terms from source glossary.](../images/glossaries-ref-source.svg "Glossary terms referencing source.")
+![Machine-readable glossary file referencing terms from source glossary.](../images/glossaries-ref-source.svg "Glossary terms referencing source.")
 
 **Value added**
 

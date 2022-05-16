@@ -1,13 +1,14 @@
 ---
-title: "Sharable glossaries status"
-linkTitle: "Status"
+title: Shareable glossaries status
+linkTitle: Status
 menu:
   glossaries:
     weight: 130
 draft: false
+lastmod: 2022-05-15T06:19:54.312Z
 ---
 
-We kicked off the sharable glossary project in mid-2020, and by January 2022 we have:
+We kicked off the shareable glossary project in mid-2020, and by January 2022 we have:
 
 *   Early pilot implementations of core technology, with more work needed.
 *   An experienced team working on multiple aspects of the project.
@@ -64,8 +65,8 @@ Target pilot by 1st half 2022.</td>
 Target 2022.</td>
 </tr>
 <tr>
-<td>Build glossary software to publish the <em>sharable glossary format</em>.</td>
-<td>Open source implementation developed, but needs ruggedizing for mass market, and needs to integrate the sharable glossary format.<br>
+<td>Build glossary software to publish the <em>shareable glossary format</em>.</td>
+<td>Open source implementation developed, but needs ruggedizing for mass market, and needs to integrate the shareable glossary format.<br>
 Target pilot by 2022.</td>
 </tr>
 <tr>
