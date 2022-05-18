@@ -48,7 +48,7 @@ Our key target audiences are:
 * The [0.1 alpha straw-man release of templates](https://github.com/thegooddocsproject/templates/releases/tag/v0.1) was released at 2019 Write The Docs - Australia conference.
 
 ## 2022 Initiatives
-For a list of our current projects and initiatives, see our [2022 release goals](https://github.com/thegooddocsproject/governance/wiki/Write-The-Docs-Portland-2022-Release)
+For a list of our current projects and initiatives, see our [2022 release goals](https://github.com/thegooddocsproject/governance/wiki/Write-The-Docs-Portland-2022-Release).
 
 
 <div class="col-12 text-center">
