@@ -47,18 +47,9 @@ Our key target audiences are:
 * The latest development version of templates is available from the [github main branch](https://github.com/thegooddocsproject/templates).
 * The [0.1 alpha straw-man release of templates](https://github.com/thegooddocsproject/templates/releases/tag/v0.1) was released at 2019 Write The Docs - Australia conference.
 
-## 2021 Initiatives
-The following initiatives are being worked on in 2021:
-* Templates
-* Cross-domain management of glossaries 
-* How-to for style guides
-* Base template (template for templates)
+## 2022 Initiatives
+For a list of our current projects and initiatives, see our [2022 release goals](https://github.com/thegooddocsproject/governance/wiki/Write-The-Docs-Portland-2022-Release)
 
-And possibly:
-* Docs audit framework
-* Implementing a style guide in tools
-* Integrate doc tool chains
-* Doc format conversion tools
 
 <div class="col-12 text-center">
   <a href="https://www.netlify.com">
