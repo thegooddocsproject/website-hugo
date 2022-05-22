@@ -3,7 +3,7 @@ draft: false
 title: State of The Good Docs Project, May 2022
 date: 2022-05-21T16:00:00Z
 publishDate: 2022-05-21T16:00:00Z
-lastmod: 2022-05-21T23:17:55.948Z
+lastmod: 2022-05-22T01:09:23.375Z
 image: /uploads/blog/headers/state-of-project-2022-may.jpg
 images:
   - /uploads/blog/headers/state-of-project-2022-may.jpg
@@ -21,7 +21,7 @@ This has been an exciting past several months for [The Good Docs Project](/about
 
 Before we dive into accomplishments and aspirations, we want to take a moment to thank our amazing community of contributors. Without all of you, this blog post would be pretty sparse! Us in project leadership are really proud of the supportive, diverse, passionate, and fun-loving community continues to grow.
 
-![Graph of Good Docs membership activity in slack, showing a steady increase in activity from June 2019 to May 2022, with 28 members who posted in the last week, and 46 active members.](/uploads/inlines/slack-active-members-2022-may.png "Slack community activity for The Good Docs Project")
+![Graph of Good Docs membership activity in slack, showing a steady increase in activity from June 2019 to May 2022, with 28 members who posted in the last week, and 46 active members.](/uploads/blog/inlines/slack-active-members-2022-may.png "Slack community activity for The Good Docs Project")
 
 If you'd like to be a part of our growing group, fill out [**our welcome survey**](https://forms.gle/N2jFaRfg21t3TyJZ6) or come by [**our Slack**](https://thegooddocs.slack.com/)!
 
