@@ -1,8 +1,8 @@
 <div class="card post author text-center mt-5 mb-2">
   <div class="card-body">
     <a href="{{.Permalink}}">
-      <img alt="{{.Title}}" 
-        src="{{.Params.image}}" 
+      <img alt="{{title .Title}}" 
+        src="https://tgdp.imgix.net{{ .Params.image }}?w=90&auto=compress,format" 
         class="avatar avatar-90 photo"
         width="90"
       >

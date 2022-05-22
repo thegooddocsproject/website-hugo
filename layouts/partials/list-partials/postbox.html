@@ -4,13 +4,13 @@
       <div class="maxthumb">  
         {{if .Params.image}}
         <a href="{{ .Permalink }}">
-        <img class="img-fluid" src="{{ .Params.image }}" alt="A thumbnail image">
+        <img class="img-fluid" src="https://tgdp.imgix.net{{ .Params.image }}?w=508&auto=compress,format" alt="A thumbnail image">
         </a>
         {{end}}
       </div>
       <div class="card-body">
         <a href="{{ .Permalink }}">
-          <h2 class="card-title text-dark">{{ .Title }}</h2>
+          <h2 class="card-title text-dark">{{ title .Title }}</h2>
           <p class="card-text text-secondary">{{ .Summary }}</p>
         </a>      
       </div>
@@ -34,7 +34,7 @@
               {{- $author_name := $e -}}
               {{- $author_url := add "/author/" $author_name -}}
               {{- $author_page := $.Site.GetPage $author_url -}}
-              {{- if $i -}},&nbsp;{{- end -}}<span class="post-name"><a href="{{$author_url}}">{{ with $author_page }}{{ .Title }}{{ end }}</a></span>
+              {{- if $i -}},&nbsp;{{- end -}}<span class="post-name"><a href="{{$author_url}}">{{ with $author_page }}{{ title .Title }}{{ end }}</a></span>
             {{- end -}}
             <br />
             <span class="post-date">{{ dateFormat "Jan 2, 2006" .PublishDate }}&nbsp;&mdash;&nbsp;{{- .WordCount }} words </span>

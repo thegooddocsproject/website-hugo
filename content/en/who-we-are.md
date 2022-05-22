@@ -31,6 +31,7 @@ For more information about what these roles and responsibilities mean, see [Role
 -   Gayathri Krishnaswamy
 -   Morgan Craft
 -   Nelson Guya
+-   Tina Lüdtke
 -   Viraji Ogodapola
 
 Our thanks to previous PSC members:

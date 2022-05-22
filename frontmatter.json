@@ -90,11 +90,6 @@
           "type": "tags"
         },
         {
-          "title": "Allow Comments?",
-          "name": "comments",
-          "type": "boolean"
-        },
-        {
           "title": "Custom Copyright",
           "name": "custom_copyright",
           "type": "string"

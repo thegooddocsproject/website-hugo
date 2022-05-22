@@ -1,10 +1,11 @@
 ---
-title: "Modeling Primer"
-linkTitle: "Primer"
+title: Modeling Primer
+linkTitle: Primer
 menu:
   glossaries:
     weight: 150
 draft: false
+lastmod: 2022-05-15T06:19:31.867Z
 ---
 
 This page includes background information about data modeling, to help future implementers.
@@ -34,9 +35,9 @@ There are mature standards and supporting tools for publishing and maintaining c
 * [Web Ontology Language (OWL)](https://www.w3.org/TR/skos-primer/#OWL-REFERENCE)
 * [schema.org](https://schema.org/)
 
-Our _sharable glossary_ schema aggregates fields from these standards.
+Our _shareable glossary_ schema aggregates fields from these standards.
 
 More details at:
-* [Sharable glossary maturity levels](maturity-levels).
+* [Shareable glossary maturity levels](maturity-levels).
 * [Rules for making a vocabulary Findable Accessible Interoperable and Reusable (FAIR)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1009041).
 * [SKOS Primer](https://www.w3.org/TR/skos-primer/).
