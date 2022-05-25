@@ -184,6 +184,6 @@ enable = false
   desc = "Chat with other project members."
 [[params.links.developer]]
 	name = "Slack Join Link"
-	url = "https://join.slack.com/t/thegooddocs/shared_invite/zt-be2gay0m-Ukq_5SI0MHp20IQP3auQjg"
+	url = "https://join.slack.com/t/thegooddocs/shared_invite/zt-18gk5udo6-XSws8_DAfN2xQczPnEdNMw"
 	icon = "fab fa-slack"
   desc = "To join The Good Docs Project Slack Workspace."
