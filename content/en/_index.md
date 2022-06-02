@@ -1,7 +1,7 @@
 ---
 title: The Good Docs Project
 linkTitle: Home
-lastmod: 2022-04-13T23:08:59.310Z
+lastmod: 2022-06-02T21:14:31.739Z
 ---
 
 {{< blocks/cover title="The Good Docs Project" image_anchor="top" height="max" color="orange" >}}
@@ -45,7 +45,7 @@ Our key target audiences are:
 ## Download
 
 * The latest development version of templates is available from the [github main branch](https://github.com/thegooddocsproject/templates).
-* The [0.1 alpha straw-man release of templates](https://github.com/thegooddocsproject/templates/releases/tag/v0.1) was released at 2019 Write The Docs - Australia conference.
+* The [0.2 (Alamillo) template suite](https://github.com/thegooddocsproject/templates/releases/tag/v0.2.0) was released at the 2022 Write The Docs Portland conference.
 
 ## 2022 Initiatives
 For a list of our current projects and initiatives, see our [2022 release goals](https://github.com/thegooddocsproject/governance/wiki/Write-The-Docs-Portland-2022-Release).
