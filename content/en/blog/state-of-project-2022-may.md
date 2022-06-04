@@ -3,7 +3,7 @@ draft: false
 title: State of The Good Docs Project, May 2022
 date: 2022-05-21T16:00:00Z
 publishDate: 2022-05-21T16:00:00Z
-lastmod: 2022-05-22T01:09:23.375Z
+lastmod: 2022-05-24T16:31:38.478Z
 image: /uploads/blog/headers/state-of-project-2022-may.jpg
 images:
   - /uploads/blog/headers/state-of-project-2022-may.jpg
@@ -37,7 +37,7 @@ The "production" working groups focus on making tools and material for others to
 
 We started this project to help out open-source developers with their documentation efforts, namely by providing templates both easy to adopt and robust in use. That's a tall order! This working group concentrates efforts on a few core templates at a time, continually writing and peer-reviewing to provide something we're confident that hits both of those marks.
 
-We're proud to release v0.2 of our templates, and we're on track to keep adding and iterating on our templates in 2022 and beyond. If you're interested in contributing to our templates, say hello on our Slack's [#templates channel](https://thegooddocs.slack.com/). We have a few sub-groups, and are happy to connect you to a group that works for you!
+We're proud to release [**v0.2 of our templates**](https://github.com/thegooddocsproject/templates/releases/tag/v0.2.0), and we're on track to keep adding and iterating on our templates in 2022 and beyond. If you're interested in contributing to our templates, say hello on our Slack's [#templates channel](https://thegooddocs.slack.com/). We have a few sub-groups, and are happy to connect you to a group that works for you!
 
 One of our "templateers" is presenting at Write the Docs Portland 2022! Check out [Chris Ganta's talk](https://www.writethedocs.org/conf/portland/2022/speakers/#speaker-chris-ganta), where he shares our group's experience in peer writing.
 
@@ -102,9 +102,9 @@ This blog post and the tweet pointing to it are two examples of this group's suc
 
 Speaking of focus, we've mentioned "release cycles" in this article—but what does that mean for our project? Well, that's what this group is tasked to handle! Last year, we decided that we want to peg significant releases timed around Write the Docs conferences. They are useful deadlines since as many of us are actively engaged in that community.
 
-The release management group's first big public-facing achievement is this season's release! But they've had a lot of smaller milestones achieved over the last several months, which paved the way for our project to have a coherent release strategy. You can engage with that group in our [#general channel](https://thegooddocs.slack.com/).
+The release management group's first big public-facing achievement is [this season's release](https://github.com/thegooddocsproject/templates/releases/tag/v0.2.0)! But they've had a lot of smaller milestones achieved over the last several months, which paved the way for our project to have a coherent release strategy. You can engage with that group in our [#general channel](https://thegooddocs.slack.com/).
 
 # We'd love to welcome you!
 We have more groups than these, though these make up the bulk of our active initiatives and members. Some groups are aspirations from members who don't have the bandwidth to pursue them at the moment. Others are activated as needed (such as our code of conduct group).
 
-And of course, if this post makes you think "hey, maybe I could contribute," OMG we love you. We invite you to fill out [**our welcome survey**](https://forms.gle/N2jFaRfg21t3TyJZ6). Or say hello in [#welcome](https://thegooddocs.slack.com/), and feel free to message any of the co-chairs: Alyssa Rock (@Alyssa Rock), Carrie Crowe (@Carrie Crowe), or Ryan Macklin (@macklin).And of course, if this post makes you think "hey, maybe I could contribute," OMG we love you. We invite you to fill out [**our welcome survey**](https://forms.gle/N2jFaRfg21t3TyJZ6). Or say hello in [#welcome](https://thegooddocs.slack.com/), and feel free to message any of the co-chairs: Alyssa Rock (@Alyssa Rock), Carrie Crowe (@Carrie Crowe), or Ryan Macklin (@macklin).
+And of course, if this post makes you think "hey, maybe I could contribute," OMG we love you. We invite you to fill out [**our welcome survey**](https://forms.gle/N2jFaRfg21t3TyJZ6). Or say hello in [#welcome](https://thegooddocs.slack.com/), and feel free to message any of the co-chairs: Alyssa Rock (@Alyssa Rock), Carrie Crowe (@Carrie Crowe), or Ryan Macklin (@macklin).
