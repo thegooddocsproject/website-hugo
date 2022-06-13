@@ -70,10 +70,6 @@
           "type": "choice",
           "choices": [
             {
-              "id": "bryan_klein",
-              "title": "Bryan Klein"
-            },
-            {
               "id": "ryan_macklin",
               "title": "Ryan Macklin"
             },
