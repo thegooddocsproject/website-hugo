@@ -1,5 +1,6 @@
 ---
 title: Who We Are
+lastmod: 2022-06-23T22:51:08.419Z
 ---
 
 {{% blocks/lead color="primary" %}}
@@ -32,7 +33,6 @@ For more information about what these roles and responsibilities mean, see [Role
 -   Morgan Craft
 -   Nelson Guya
 -   Tina Lüdtke
--   Viraji Ogodapola
 
 Our thanks to previous PSC members:
 
@@ -42,15 +42,8 @@ Our thanks to previous PSC members:
 - Jared Morgan
 - Jennifer Rondeau
 - Jo Cook
+- Viraji Ogodapola
 
-## Committers
-
--   Chris Ward
--   Clarence Cromwell
--   Daniel Beck
--   Derek Ardolf
--   Jared Morgan
--   Lana Brindley
 
 PSC members may retire any time. If a PSC member becomes inactive, for multiple quarters, it may be time to retire. (Ex-members will typically be welcomed back if they become active again.) An inactive member may be invited to retire. If unresponsive they may be removed by the existing PSC.
 
