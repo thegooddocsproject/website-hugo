@@ -31,4 +31,4 @@ from = "/docs/glossaries/primer/maturity-levels"
 to = "/docs/glossaries/maturity-levels/"
 
 from = "/licences"
-to + "/licenses/"
+to = "/licenses/"
