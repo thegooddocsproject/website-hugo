@@ -26,11 +26,13 @@ HUGO_ENABLEGITINFO = "true"
 
 from = "/docs/glossaries/contributing/roadmap"
 to = "/docs/glossaries/roadmap/"
+
 [[redirects]]
 
 from = "/docs/glossaries/primer/maturity-levels"
 to = "/docs/glossaries/maturity-levels/"
 
 [[redirects]]
+
 from = "/licences"
 to = "/licenses/"
