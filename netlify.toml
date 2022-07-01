@@ -21,3 +21,14 @@ HUGO_VERSION = "0.81.0"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+
+from = "/docs/glossaries/contributing/roadmap"
+to = "/docs/glossaries/roadmap/"
+
+from = "/docs/glossaries/primer/maturity-levels"
+to = "/docs/glossaries/maturity-levels/"
+
+from = "/licences"
+to + "/licenses/"
