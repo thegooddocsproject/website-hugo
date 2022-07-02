@@ -32,7 +32,3 @@ to = "/docs/glossaries/roadmap/"
 from = "/docs/glossaries/primer/maturity-levels"
 to = "/docs/glossaries/maturity-levels/"
 
-[[redirects]]
-
-from = "/licences"
-to = "/licenses/"
