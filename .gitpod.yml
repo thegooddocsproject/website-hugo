@@ -1,3 +1,4 @@
+image: gitpod/workspace-node
 tasks:
   - name: Install Hugo and Dependencies
     before: brew install hugo && npm install && sudo apt install git-restore-mtime
