@@ -19,18 +19,18 @@ One of our fave conferences is over for another year, and we want to take a mome
 
 Conferences are always a good opportunity for us to mix with our peers, showcase what we’ve been working on, and entice new people to join our project. 
 
-Here at The Good Docs Project, we use the [Portland](https://www.writethedocs.org/conf/portland/2022/) and [Prague](https://www.writethedocs.org/conf/prague/2022/) Write the Docs conferences as milestones in our yearly planner. They are markers for our releases, as well as great reasons to get stuff done in our own project! We also love to attend them, and participate as much as we can. At the [Write the Docs Portland](https://www.writethedocs.org/conf/portland/2022/) conference, we had a presence at Writing day, speakers at the conference, and we hosted an unconference table.
+Here at The Good Docs Project, we use the Write the Docs international conferences as milestones in our yearly planner. They are markers for our releases, as well as great reasons to get stuff done in our own project! We also love to attend them, and participate as much as we can. At the [Write the Docs Portland](https://www.writethedocs.org/conf/portland/2022/) conference, we had a presence at Writing day, speakers at the conference, and we hosted an unconference table.
 
 We want to send a big thanks and shout-out to Write the Docs for organizing the conference for another year. Here’s a recap of (some of) what we did and our favorite bits. 
 
 
 ## Writing Day
-We scheduled a full day’s worth of activities for Writing Day. Each activity was an hour long, led by a different person and covered a different aspect of The Good Docs Project. Our aim was to increase the visibility of our project amongst tech writers, to build our user base and grow contributors. 
+We scheduled a [full day’s worth of activities](https://www.writethedocs.org/conf/portland/2022/writing-day/#the-good-docs-project) for Writing Day. Each activity was an hour long, led by a different person and covered a different aspect of The Good Docs Project. Our aims were to give tech writers hands-on experience contributing to various aspect of our project, to build our user base and to grow our community. 
 
 > “I liked that we were able to have different leaders for each session. Not only did it spread the load of organizing, it also demonstrated the depth of 
 > talent and commitment within our community.”—Cameron Shorter
 
-We had hoped to get more “real work” done to progress some of our tasks. However, we had many lively discussions and we took home some quality learnings to organize our sessions for next time.
+We had hoped to get more “real work” done to progress some of our tasks. However, we had many lively discussions and we took home some valuable feedback, and ideas to organize our sessions for next time.
 
 
 ## Conference Days
