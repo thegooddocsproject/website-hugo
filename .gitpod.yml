@@ -1,3 +1,4 @@
+image: gitpod/workspace-node
 tasks:
   - name: Install Hugo and Dependencies
     before: brew install hugo && npm install && sudo apt install git-restore-mtime
@@ -10,13 +11,13 @@ github:
   prebuilds:
     # enable for the master/default branch (defaults to true)
     master: true
-# enable for all branches in this repo (defaults to false)
+    # enable for all branches in this repo (defaults to false)
     branches: false
-# enable for pull requests coming from this repo (defaults to true)
+    # enable for pull requests coming from this repo (defaults to true)
     pullRequests: true
-# add a check to pull requests (defaults to true)
+    # add a check to pull requests (defaults to true)
     addCheck: true
-# add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
+    # add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
     addComment: true
 vscode:
   extensions:
