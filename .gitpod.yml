@@ -1,7 +1,7 @@
-image: gitpod/workspace-node
+image: klakegg/hugo:0.101.0-ext-ubuntu
 tasks:
-  - name: Install Hugo and Dependencies
-    init: wget https://github.com/gohugoio/hugo/releases/download/v0.101.0/hugo_extended_0.101.0_Linux-64bit.deb && sudo dpkg -i hugo_extended_0.101.0_Linux-64bit.deb && npm install && sudo apt install git-restore-mtime && git restore-mtime --force
+  - name: Install Dependencies
+    init: npm install && sudo apt install git-restore-mtime && git restore-mtime --force
     command: hugo server -D -F --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
 ports:
   - port: 1313
