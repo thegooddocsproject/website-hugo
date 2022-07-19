@@ -840,6 +840,8 @@ iframe {
 
 .card .img-fluid {
     width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
 }
 
 .sticky-top-80 {

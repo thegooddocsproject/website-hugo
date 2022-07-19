@@ -1,7 +1,7 @@
 ---
 title: The Good Docs Project
 linkTitle: Home
-lastmod: 2022-06-02T21:14:31.739Z
+lastmod: 2022-07-18T18:00:50.196Z
 ---
 
 {{< blocks/cover title="The Good Docs Project" image_anchor="top" height="max" color="orange" >}}
@@ -17,7 +17,7 @@ lastmod: 2022-06-02T21:14:31.739Z
   <h6>  
     Photo by <a href="https://unsplash.com/@patrickian4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Fore</a> on <a href="https://unsplash.com/s/photos/technical-writer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   </h6>
-	{{< blocks/link-down color="info" >}}
+	<span>{{< blocks/link-down color="info" >}}</span>
 </div>
 
 {{< /blocks/cover >}}
