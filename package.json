@@ -1,6 +1,6 @@
 {
   "name": "good-docs-project-website",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Website for the Good Docs Project.",
   "main": "",
   "scripts": {
@@ -18,8 +18,8 @@
   },
   "homepage": "https://github.com/thegooddocsproject/website-hugo#readme",
   "devDependencies": {
-    "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.0",
-    "postcss-cli": "^8.3.1"
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0"
   }
 }
