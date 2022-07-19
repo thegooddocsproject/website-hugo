@@ -30,7 +30,7 @@ We scheduled a [full day’s worth of activities](https://www.writethedocs.org/c
 > “I liked that we were able to have different leaders for each session. Not only did it spread the load of organizing, it also demonstrated the depth of 
 > talent and commitment within our community.”—Cameron Shorter
 
-We had hoped to get more “real work” done to progress some of our tasks. However, we had many lively discussions and we took home some valuable feedback, and ideas to organize our sessions for next time.
+We had hoped to get more “real work” done to progress some of our tasks but instead we had many lively discussions, and received a stack of valuable feedback we are now incorporating into our templates and processes.
 
 
 ## Conference Days
