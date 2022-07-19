@@ -1,26 +1,30 @@
 [build]
 publish = "public"
-command = "git submodule update --init --recursive && bash scripts/tweego_build.sh && hugo --gc --minify"
+command = "bash scripts/tweego_build.sh && hugo --gc --minify"
 
 [context.production.environment]
-HUGO_VERSION = "0.81.0"
+HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
+GO_VERSION = "1.18"
 
 [context.deploy-preview]
-command = "git submodule update --init --recursive && bash scripts/tweego_build.sh && hugo -D -F -b $DEPLOY_PRIME_URL"
+command = "bash scripts/tweego_build.sh && hugo -D -F -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.81.0"
+HUGO_VERSION = "0.101.0"
+HUGO_ENV = "development"
+HUGO_ENABLEGITINFO = "true"
+GO_VERSION = "1.18"
 
 [context.branch-deploy]
-command = "git submodule update --init --recursive && bash scripts/tweego_build.sh && hugo -D -F -b $DEPLOY_PRIME_URL"
+command = "bash scripts/tweego_build.sh && hugo -D -F -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.81.0"
-
-[context.next.environment]
+HUGO_VERSION = "0.101.0"
+HUGO_ENV = "development"
 HUGO_ENABLEGITINFO = "true"
+GO_VERSION = "1.18"
 
 [[redirects]]
 
@@ -31,4 +35,3 @@ to = "/docs/glossaries/roadmap/"
 
 from = "/docs/glossaries/primer/maturity-levels"
 to = "/docs/glossaries/maturity-levels/"
-
