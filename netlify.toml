@@ -7,6 +7,7 @@ HUGO_VERSION = "0.101.0"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 GO_VERSION = "1.18"
+NODE_VERSION = "18"
 
 [context.deploy-preview]
 command = "bash scripts/tweego_build.sh && hugo -D -F -b $DEPLOY_PRIME_URL"
@@ -16,6 +17,7 @@ HUGO_VERSION = "0.101.0"
 HUGO_ENV = "development"
 HUGO_ENABLEGITINFO = "true"
 GO_VERSION = "1.18"
+NODE_VERSION = "18"
 
 [context.branch-deploy]
 command = "bash scripts/tweego_build.sh && hugo -D -F -b $DEPLOY_PRIME_URL"
@@ -25,6 +27,7 @@ HUGO_VERSION = "0.101.0"
 HUGO_ENV = "development"
 HUGO_ENABLEGITINFO = "true"
 GO_VERSION = "1.18"
+NODE_VERSION = "18"
 
 [[redirects]]
 
