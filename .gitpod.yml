@@ -1,23 +1,11 @@
+image: klakegg/hugo:0.101.0-ext-ubuntu
 tasks:
-  - name: Install Hugo and Dependencies
-    before: brew install hugo && npm install && sudo apt install git-restore-mtime
-    init: git restore-mtime --force
+  - name: Install Dependencies
+    init: npm install && sudo apt install git-restore-mtime && git restore-mtime --force
     command: hugo server -D -F --baseUrl $(gp url 1313) --liveReloadPort=443 --appendPort=false --bind=0.0.0.0
 ports:
   - port: 1313
     onOpen: open-browser
-github:
-  prebuilds:
-    # enable for the master/default branch (defaults to true)
-    master: true
-# enable for all branches in this repo (defaults to false)
-    branches: false
-# enable for pull requests coming from this repo (defaults to true)
-    pullRequests: true
-# add a check to pull requests (defaults to true)
-    addCheck: true
-# add a "Review in Gitpod" button as a comment to pull requests (defaults to false)
-    addComment: true
 vscode:
   extensions:
     - bungcip.better-toml
