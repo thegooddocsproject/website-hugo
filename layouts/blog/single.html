@@ -23,7 +23,11 @@
         </div>
         <!-- Post Featured Image -->
         {{with .Params.image}}
-        <img class="featured-image img-fluid" src="https://tgdp.imgix.net{{ . }}?w=802&auto=compress,format" alt="Thumbnail for this post">
+          {{if hugo.IsProduction}}
+            <img class="featured-image img-fluid" src="https://tgdp.imgix.net{{ . }}?w=802&auto=compress,format" alt="Thumbnail for this post">
+          {{else}}
+            <img class="featured-image img-fluid" src="{{ . }}" alt="Thumbnail for this post">
+          {{end}}
         {{end}}
         <!-- End Featured Image -->
 
