@@ -6,7 +6,7 @@ navigateToChanged = true
 enableEmoji = true
 
 # Hugo allows theme composition (and inheritance). The precedence is from left to right.
-theme = ["docsy"]
+# theme = ["docsy"]
 
 # Will give values to .Lastmod etc.
 enableGitInfo = true
@@ -194,7 +194,7 @@ enable = false
   # replacements = "github.com/google/docsy -> ../../docsy"
   [module.hugoVersion]
     extended = true
-    min = "0.73.0"
+    min = "0.75.0"
   [[module.imports]]
     path = "github.com/google/docsy"
     disable = false
