@@ -16,7 +16,7 @@ custom_copyright: " "
 custom_license: " "
 type: blog
 ---
-Do you find yourself in the shoes of someone who has to write documentation for the first time ever? The closer you look, the more you will find that technical writing - the craft of documenting things - is actually quite a broad discipline. Upon the tons of resources, it can be hard to figure out what you need to know to get started. 
+Do you find yourself in the shoes of someone who has to write documentation for the first time ever? The closer you look, the more you will find that technical writing - the craft of documenting things - is actually quite a broad discipline. Amidst the tons of resources, it can be hard to figure out what you need to know to get started. 
 
 In this post, I want to empower you to make informed decisions about your first set of software documentation!  
 
