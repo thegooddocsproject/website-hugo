@@ -3,7 +3,7 @@ draft: true
 title: 6 resources for starting your journey into docs!
 date: 2022-07-16T21:58:42.336Z
 publishDate: 2022-07-19T21:58:42.336Z
-lastmod: 2022-07-22T00:53:21.636Z
+lastmod: 2022-07-22T01:04:27.799Z
 image: /uploads/blog/headers/spongebob_writes.jpeg
 images:
   - /uploads/blog/headers/spongebob_writes.jpeg
@@ -46,6 +46,6 @@ When I am learning something new, my mind is buzzing and I want to bounce around
 
 ## Tip of the iceberg
 
-The technical writing discipline is dynamic and growing, and more knowledge is being shared every day.  What helpful resources have you discovered during your tech writing journey? Share them with us in the comments! 
+The technical writing discipline is dynamic and growing, and more knowledge is being shared every day.  What helpful resources have you discovered during your tech writing journey? Share them in the comments or [@ us on Twitter](https://twitter.com/thegooddocs)! 
 
 Happy writing!
