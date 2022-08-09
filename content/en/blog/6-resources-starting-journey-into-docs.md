@@ -3,7 +3,7 @@ draft: true
 title: 6 resources for starting your journey into docs!
 date: 2022-07-16T21:58:42.336Z
 publishDate: 2022-07-19T21:58:42.336Z
-lastmod: 2022-08-09T09:33:23.063Z
+lastmod: 2022-08-09T09:39:58.694Z
 image: /uploads/blog/headers/Matthew-Sleeper.jpg
 images:
   - /uploads/blog/headers/Matthew-Sleeper.jpg
@@ -13,8 +13,10 @@ tags:
   - writing-tips
   - learn-tech-writing
 custom_copyright: ""
-custom_license: "Photo by <a href="https://unsplash.com/@mjsleeper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matthew Sleeper</a> on <a href="https://unsplash.com/s/photos/begin-idea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-   "
+custom_license: Photo by [Matthew
+  Sleeper](https://unsplash.com/@mjsleeper?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/begin-idea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
 type: blog
 ---
 Do you find yourself in the shoes of someone who has to write documentation for the first time ever? The closer you look, the more you will find that technical writing is actually quite a broad discipline. Amidst the tons of resources, it can be hard to figure out what you need to know to get started. So here are six resources to narrow that space for you.
