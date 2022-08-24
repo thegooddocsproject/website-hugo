@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: 6 resources for starting your journey into docs!
 date: 2022-07-16T21:58:42.336Z
 publishDate: 2022-07-19T21:58:42.336Z
